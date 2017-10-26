@@ -5,324 +5,346 @@
     -webkit-margin-after: 0;
 }
 
-body {
-    background-color: rgba(0, 0, 0, .0);
-}
-
-h1 {
-    padding: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, .2);
-    border-top: 5px solid #0070c9;
-    font-family: 'Archivo Black', sans-serif;
-    letter-spacing: 2px;
-    font-size: 36px;
-}
-
-a {
-    font-family: 'Cabin', sans-serif;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: rgba(0, 0, 0, .75);
-}
-
-.navbar {
-    top: 75vh;
-    width: 100vw;
-    display: inline-flex;
-    justify-content: space-around;
+.headerBox {
+    display: flex;
+    min-height: 100px;
+    height: 20vh;
     align-items: center;
+    justify-content: space-between;
 }
 
-.navbar a {
-    font-size: 24px;
+.headerText {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 44px;
+    margin-left: 5vw;
+
+}
+
+.navbarBox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbarBox a {
+    font-family: 'Georgia', serif;
     text-decoration: none;
-    color: rgba(0, 0, 0, .65);
-    letter-spacing: 1px;
-    padding: 40px 0;
+    color: rgba(0, 0, 0, .5);
+    font-size: 22px;
+    margin-right: 7.5vw;
+    cursor: pointer;
 }
 
-.imageBoard {
-    width: 99.5vw;
-    margin-left: .25vw;
-    margin-right: .25vw;
-}
-
-.imgContainer {
-    width: 32.666vw;
-    margin-left: .25vw;
-    margin-right: .25vw;
-    display: inline-block;
-}
-
-.imageBoardImage{
+img {
     width: 100%;
-    margin-bottom: calc(.5vw - 5px);
 }
 
-.thumbnail {
-    width: 100%;
+.faceImg {
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.homeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    height: 80vh;
+    max-height: 1000px;
+}
+
+.aboutBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: 200px;
 }
 
-a.newAlbumLink {
-    display: flex;
-    font-family: 'Archivo', sans-serif;
-    letter-spacing: 1px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    margin: 0 auto 40px auto;
-    font-size: 32px;
-    width: calc(100% - (100% - 640px) / 1.5);
-    color: white;
-    background-color: #0070c9;
-    background: -webkit-linear-gradient(#42a1ec,#0070c9);
-    background: -o-linear-gradient(#42a1ec,#0070c9);
-    background: -moz-linear-gradient(#42a1ec,#0070c9);
-    background: linear-gradient(#42a1ec,#0070c9);;
-    border-radius: 3px;
-    text-decoration: none;
+.bio {
+    padding: 20px 40px;
 }
 
-.albumThumbnail {
-webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.2);
--moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.2);
-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.2);
+p.bio {
+    line-height: 1.5
 }
 
-.thumbnailContainer {
-    width: 240px;
-    height: 400px;
-    margin-bottom: 40px;
-    background-color: rgba(0, 0, 0, .1);
-    display: inline-block;
-    padding: 40px;
-    margin-left: calc((100% - 640px) / 3)
-}
-
-.albumThumbnailContainer{
-    position: relative;
-}
-
-.album1{
-    position: absolute;
-    z-index: 3;
-    top: 40px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-}
-
-.album2{
-    position: absolute;
-    z-index: 2;
-    top: 20px;
-    left: 20px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-}
-
-.album3{
-    position: absolute;
-    z-index: 1;
-    left: 40px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-}
-
-.albumsName {
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    margin-bottom: 20px;
-    width: 240px;
-    overflow-x: scroll;
-}
-
-a.albumsLink {
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 300px 0 20px 0;
-    height: 50px;
-    font-size: 20px;
-    width: 100%;
-    color: white;
-    background-color: #0070c9;
-    background: -webkit-linear-gradient(#42a1ec,#0070c9);
-    background: -o-linear-gradient(#42a1ec,#0070c9);
-    background: -moz-linear-gradient(#42a1ec,#0070c9);
-    background: linear-gradient(#42a1ec,#0070c9);;
-    border-radius: 3px;
-    text-decoration: none;
-}
-
-.albumsDescription {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-
-.albumImageBoard {
-    float: left;
-    width: 60vw;
-}
-
-.albumPage {
+h1.aboutText {
     margin-top: 40px;
+    font-family: 'Archivo', sans-serif;
+
 }
 
-.img {
-    width: 59vw;
-    margin-left: .5vw;
-    margin-right: .5vw;
-    margin-bottom: calc(.5vw - 5px);
+.typedText {
+    font-family: 'Georgia', serif;
+    color: rgba(0, 0, 0, .5);
 }
 
-.mapRelative {
-    position: relative !important;
-    float: right !important;
+.typed-cursor {
+        opacity: 0 !important;
 }
 
-.mapFixed {
-    position: fixed !important;
-    left: 60vw !important;
-    top: 0 !important;
-}
-
-h2 {
+.pageHeader {
+    padding: 60px;
+    margin: 0 auto;
     text-align: center;
-    font-size: 32px;
-    margin: 20px auto;
-}
-
-.dropZone {
-    background-color: rgba(0, 0, 0, .1);
-    width: 60%;
-    margin: 5vw auto;
-    height: calc(200px + 100vw * .1);
-    border: 2px dashed #1a98ff;
-    border-radius: 3px;
-}
-
-input[type=text] {
-    padding-left: 10px;
-    font-size: 16px;
+    font-size: 60px;
+    font-family: 'Archivo', sans-serif;
 
 }
 
-.inputBox {
-    display: block;
-    width: 60%;
-    margin: .5vw auto;
-    height: 50px;
+.portfolioBody {
+    margin: 20px auto 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolioInner {
+    background-color: rgba(0, 0, 0, .025);
+    padding: 15px;
+}
+
+.portfolioText{
+    width: 50%;
+}
+
+.portfolioImg {
+    width: 45%;
+    padding: 0 2.5% 0 2.5%;
+}
+
+.portfolioImg img {
+    width: 100%;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+
+img.screenshotImg {
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    border-radius: 2px;
+}
+
+.cameraCircle {
+    width: 10px;
+	height: 10px;
+	background: black;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.ipadBody {
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 25px 12.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 10px 10px 50px 20px rgba(0, 0, 0, .1)
+}
+
+.clickCircle {
+    width: 30px;
+	height: 30px;
+	background: white;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-top: 20px;
+}
+
+.portfolioInner h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 28px;
+    padding: 10px 0;
+}
+
+.portfolioInner p {
+    font-family: 'Georgia', serif;
     font-size: 20px;
-    border-radius: 3px;
-    border: 1.5px solid #1a98ff;
+    line-height: 1.5;
 }
 
-p.pNote {
-    font-size: 12px;
-    color: rgba(0, 0, 0, .6);
-    width: 60%;
-    margin: .5vw auto;
-    font-family: 'Cabin', sans-serif;
+h2.sectionHeader {
+    font-family: 'Archivo', sans-serif;
+    /*padding: 0 30px;*/
+    margin: 60px 0 10px 10%
 }
 
-.btn {
-    display: block;
-    width: 60.5%;
-    color: white;
-    background-color: #0070c9;
-    background: -webkit-linear-gradient(#42a1ec,#0070c9);
-    background: -o-linear-gradient(#42a1ec,#0070c9);
-    background: -moz-linear-gradient(#42a1ec,#0070c9);
-    background: linear-gradient(#42a1ec,#0070c9);;
-    border-radius: 3px;
-    height: 50px;
-    border: none;
-    margin: 2.5vw auto;
-    height: 100px;
-    font-size: 30px;
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
 }
 
-.newAlbumImage img {
-    display: block;
-    width: 60vw;
-    margin: 1vw auto
+a {
+    font-size: 18px;
 }
 
-@media screen and (min-width: 1001px) {
-
-
-    a.newAlbumLink {
-        width: 270px;
-        height: 430px;
-        float: right;
-        border-radius: 0px;
-        margin: 0 0;
-        margin-right: calc((100% - 960px) / 4);
-        text-align: center;
-        border-spacing: 20px;
-        padding: 25px;
-        background-color: #2274A5;
-    }
-
-    .thumbnailContainer {
-        width: 240px;
-        height: 400px;
-        margin-bottom: 60px;
-        display: inline-block;
-        background-color: lightgray;
-        padding: 40px;
-        margin-left: calc((100% - 960px) / 4)
-    }
-
-    .svgIcon {
-        width: 12.5vw;
-    }
-
-    .mapStyleWidth {
-        width: 50vw !important;
-    }
-
-    .mapStyle {
-        height: calc(100vh - 100vw * .125) !important;
-        left: 50vw !important;
-    }
-
-    .mapFixed {
-        position: fixed !important;
-        left: 50vw !important;
-        top: 0 !important;
-    }
-
-    .albumImageBoard {
-        width: 50vw !important;
-    }
-
-    .img {
-        width: 49vw;
-        margin-left: .5vw;
-        margin-left: .5vw;
-    }
+.greyBox {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .05);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
-@media screen and (max-width: 665px) {
+.iconItems {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex: 2.25 1 110px;
+}
 
-    /*.headerDiv h1 {
-        font-size: 24px;
-        letter-spacing: 1px;
+.labelItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 80px;
+    justify-content: space-around;
+    margin-right: 10px;
+    flex: 0.25 1 80px;
+}
+
+.linkItems {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-around;
+    flex: 2 1 300px;
+}
+
+.iconItemsEdu {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex: 1.5 5 30px;
+}
+
+.labelItemsEdu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    justify-content: space-around;
+    flex: 0 0 200px;
+}
+
+.statsItemsEdu {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-around;
+    flex: 1.5 0 100px;
+}
+
+.greyBoxWork {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.titleItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.titleItemsA {
+    flex: 2 1;
+}
+
+.titleItemsB {
+    flex: .5 0 200px;
+}
+
+.titleItemsC {
+    flex: 1 0 100px;
+}
+
+.workItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.workItems i {
+    flex: 0 0 50px;
+}
+
+.workItems p {
+    flex: 1 1;
+}
+
+.pResume {
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+i {
+    margin-right: 5px !important;
+}
+
+img.github {
+    width: 19px;
+    margin-right: 5px !important;
+}
+
+img.linkedin {
+    width: 20px;
+    margin-right: 5px !important;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .homeBox {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
-    .navbar a {
-        font-size: 18px;
-        padding: 10px;
-    }*/
+    .aboutBox {
+        width: 50vw;
+    }
 
+    .portfolioBody {
+        width: 90%;
+    }
+
+    .portfolioImg {
+        width: 40%;
+        padding: 0 5% 0 5%;
+    }
+
+    .portfolioImg img {
+        width: 100%;
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    }
+
+    .resumeBody {
+        width: 90%;
+        padding: 0 5%;
+    }
 }

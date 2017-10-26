@@ -10,8 +10,6 @@ var sessions = require('client-sessions')
 require('dotenv').config()
 
 var index = require('../routes/index');
-var api = require('../routes/api');
-var account = require('../routes/account');
 
 var app = express();
 
@@ -47,12 +45,10 @@ app.use(sessions({
 app.use('/static', express.static(path.join(__dirname, '../dist')));
 
 app.use('/', index);
-app.use('/api', api);
-app.use('/account', account);
 
 // run server
-app.listen(3000, function () {
-  console.log('Listening on port 3000!')
+app.listen(3001, function () {
+  console.log('Listening on port 3001!')
 })
 
 // catch 404 and forward to error handler

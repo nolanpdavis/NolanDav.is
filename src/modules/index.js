@@ -1,9 +1,5 @@
-import Header from './Header'
-import ImageBoard from './ImageBoard'
-import AlbumBoard from './AlbumBoard'
+import Navbar from './Navbar'
 
 export {
-    Header,
-    ImageBoard,
-    AlbumBoard
+    Navbar
 }
