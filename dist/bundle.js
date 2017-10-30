@@ -28575,7 +28575,7 @@ var Home = function (_Component) {
                         _react2.default.createElement(
                             'p',
                             { className: 'bio' },
-                            'After graduating and working as a GIS technician for a large corporation, I realized I wanted more out of my career. I am now pursuing a software development position because it allows me to combine two things I love into one career; problem solving and learning new things. As a self-taught developer I have been focusing on building applications using React, Node, Express and MongoDB. I am currently learning React Native and am excited to start branching out into mobile software development as well. I am a very quick learner and can\'t wait to be part of a team where I can build applications while learning new skills and technologies. Currently based in beautiful Los Angeles, California.'
+                            'After working as a GIS technician for a large corporation, I realized I wanted to take my career in a new direction. I am now pursuing a software design and development position because it allows me to combine two things I love into one career; problem solving and learning new things. As a self-taught developer, I have been focusing on building applications using React, Node, Express and MongoDB. I am currently learning React Native and am excited to start branching out into mobile software development. I am a quick learner and look forward to being part of a team where I can build applications while learning new skills and technologies. Currently based in beautiful Los Angeles, California.'
                         )
                     )
                 ),
