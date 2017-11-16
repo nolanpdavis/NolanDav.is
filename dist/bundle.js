@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 108);
+/******/ 	return __webpack_require__(__webpack_require__.s = 109);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -867,7 +867,7 @@ if (process.env.NODE_ENV !== 'production') {
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(211)();
+  module.exports = __webpack_require__(212)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -1318,7 +1318,7 @@ module.exports = emptyFunction;
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(134);
+  var ReactDebugTool = __webpack_require__(135);
   debugTool = ReactDebugTool;
 }
 
@@ -2638,14 +2638,14 @@ module.exports = PooledClass;
 var _assign = __webpack_require__(5);
 
 var ReactBaseClasses = __webpack_require__(66);
-var ReactChildren = __webpack_require__(109);
-var ReactDOMFactories = __webpack_require__(113);
+var ReactChildren = __webpack_require__(110);
+var ReactDOMFactories = __webpack_require__(114);
 var ReactElement = __webpack_require__(18);
-var ReactPropTypes = __webpack_require__(117);
-var ReactVersion = __webpack_require__(119);
+var ReactPropTypes = __webpack_require__(118);
+var ReactVersion = __webpack_require__(120);
 
-var createReactClass = __webpack_require__(120);
-var onlyChild = __webpack_require__(122);
+var createReactClass = __webpack_require__(121);
+var onlyChild = __webpack_require__(123);
 
 var createElement = ReactElement.createElement;
 var createFactory = ReactElement.createFactory;
@@ -2813,7 +2813,7 @@ module.exports = reactProdInvariant;
 
 
 
-var ReactRef = __webpack_require__(132);
+var ReactRef = __webpack_require__(133);
 var ReactInstrumentation = __webpack_require__(12);
 
 var warning = __webpack_require__(2);
@@ -4616,10 +4616,10 @@ module.exports = escapeTextContentForBrowser;
 var _assign = __webpack_require__(5);
 
 var EventPluginRegistry = __webpack_require__(32);
-var ReactEventEmitterMixin = __webpack_require__(158);
+var ReactEventEmitterMixin = __webpack_require__(159);
 var ViewportMetrics = __webpack_require__(81);
 
-var getVendorPrefixedEventName = __webpack_require__(159);
+var getVendorPrefixedEventName = __webpack_require__(160);
 var isEventSupported = __webpack_require__(46);
 
 /**
@@ -5115,7 +5115,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Navbar = undefined;
 
-var _Navbar = __webpack_require__(225);
+var _Navbar = __webpack_require__(226);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
@@ -5762,7 +5762,7 @@ module.exports = getEventModifierState;
 
 
 var DOMLazyTree = __webpack_require__(23);
-var Danger = __webpack_require__(143);
+var Danger = __webpack_require__(144);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(12);
 
@@ -7086,7 +7086,7 @@ var slice = [].slice,
 (function(root, factory) {
   var name, ref, results, value;
   if (true) {
-    return !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(212)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+    return !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(213)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -11604,7 +11604,7 @@ Router.childContextTypes = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(235);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_path_to_regexp__);
 
 
@@ -12100,7 +12100,7 @@ var ReactCurrentOwner = __webpack_require__(14);
 var ReactComponentTreeHook = __webpack_require__(10);
 var ReactElement = __webpack_require__(18);
 
-var checkReactTypeSpec = __webpack_require__(114);
+var checkReactTypeSpec = __webpack_require__(115);
 
 var canDefineProperty = __webpack_require__(30);
 var getIteratorFn = __webpack_require__(69);
@@ -12379,7 +12379,7 @@ var warning = __webpack_require__(2);
 var assign = __webpack_require__(5);
 
 var ReactPropTypesSecret = __webpack_require__(42);
-var checkPropTypes = __webpack_require__(118);
+var checkPropTypes = __webpack_require__(119);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -13680,7 +13680,7 @@ var DOMProperty = __webpack_require__(17);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(12);
 
-var quoteAttributeValueForBrowser = __webpack_require__(157);
+var quoteAttributeValueForBrowser = __webpack_require__(158);
 var warning = __webpack_require__(2);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -14142,11 +14142,11 @@ module.exports = ReactDOMSelect;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(5);
 
-var ReactCompositeComponent = __webpack_require__(165);
+var ReactCompositeComponent = __webpack_require__(166);
 var ReactEmptyComponent = __webpack_require__(90);
 var ReactHostComponent = __webpack_require__(91);
 
-var getNextDebugID = __webpack_require__(168);
+var getNextDebugID = __webpack_require__(169);
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
@@ -14424,9 +14424,9 @@ module.exports = ReactHostComponent;
 var _prodInvariant = __webpack_require__(3);
 
 var ReactCurrentOwner = __webpack_require__(14);
-var REACT_ELEMENT_TYPE = __webpack_require__(169);
+var REACT_ELEMENT_TYPE = __webpack_require__(170);
 
-var getIteratorFn = __webpack_require__(170);
+var getIteratorFn = __webpack_require__(171);
 var invariant = __webpack_require__(1);
 var KeyEscapeUtils = __webpack_require__(55);
 var warning = __webpack_require__(2);
@@ -14682,9 +14682,9 @@ module.exports = EventListener;
 
 
 
-var ReactDOMSelection = __webpack_require__(182);
+var ReactDOMSelection = __webpack_require__(183);
 
-var containsNode = __webpack_require__(184);
+var containsNode = __webpack_require__(185);
 var focusNode = __webpack_require__(83);
 var getActiveElement = __webpack_require__(95);
 
@@ -14858,12 +14858,12 @@ var React = __webpack_require__(20);
 var ReactBrowserEventEmitter = __webpack_require__(37);
 var ReactCurrentOwner = __webpack_require__(14);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactDOMContainerInfo = __webpack_require__(199);
-var ReactDOMFeatureFlags = __webpack_require__(200);
+var ReactDOMContainerInfo = __webpack_require__(200);
+var ReactDOMFeatureFlags = __webpack_require__(201);
 var ReactFeatureFlags = __webpack_require__(78);
 var ReactInstanceMap = __webpack_require__(27);
 var ReactInstrumentation = __webpack_require__(12);
-var ReactMarkupChecksum = __webpack_require__(201);
+var ReactMarkupChecksum = __webpack_require__(202);
 var ReactReconciler = __webpack_require__(22);
 var ReactUpdateQueue = __webpack_require__(56);
 var ReactUpdates = __webpack_require__(15);
@@ -15422,11 +15422,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Contact = exports.Portfolio = exports.Resume = exports.Home = undefined;
 
-var _Home = __webpack_require__(209);
+var _Home = __webpack_require__(210);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Resume = __webpack_require__(253);
+var _Resume = __webpack_require__(254);
 
 var _Resume2 = _interopRequireDefault(_Resume);
 
@@ -15461,19 +15461,19 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _CloudinaryContext = __webpack_require__(210);
+var _CloudinaryContext = __webpack_require__(211);
 
 var _CloudinaryContext2 = _interopRequireDefault(_CloudinaryContext);
 
-var _Image = __webpack_require__(215);
+var _Image = __webpack_require__(216);
 
 var _Image2 = _interopRequireDefault(_Image);
 
-var _Transformation = __webpack_require__(223);
+var _Transformation = __webpack_require__(224);
 
 var _Transformation2 = _interopRequireDefault(_Transformation);
 
-var _Video = __webpack_require__(224);
+var _Video = __webpack_require__(225);
 
 var _Video2 = _interopRequireDefault(_Video);
 
@@ -15490,31 +15490,31 @@ exports.Video = _Video2.default;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(227);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(229);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(104);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(231);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(234);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(237);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(239);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(105);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(62);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(245);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(247);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(249);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(250);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
 
 
@@ -16066,6 +16066,365 @@ var isExtraneousPopstateEvent = function isExtraneousPopstateEvent(event) {
 /* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
+var stylesInDom = {};
+
+var	memoize = function (fn) {
+	var memo;
+
+	return function () {
+		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+		return memo;
+	};
+};
+
+var isOldIE = memoize(function () {
+	// Test for IE <= 9 as proposed by Browserhacks
+	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+	// Tests for existence of standard globals is to allow style-loader
+	// to operate correctly into non-standard environments
+	// @see https://github.com/webpack-contrib/style-loader/issues/177
+	return window && document && document.all && !window.atob;
+});
+
+var getElement = (function (fn) {
+	var memo = {};
+
+	return function(selector) {
+		if (typeof memo[selector] === "undefined") {
+			memo[selector] = fn.call(this, selector);
+		}
+
+		return memo[selector]
+	};
+})(function (target) {
+	return document.querySelector(target)
+});
+
+var singleton = null;
+var	singletonCounter = 0;
+var	stylesInsertedAtTop = [];
+
+var	fixUrls = __webpack_require__(258);
+
+module.exports = function(list, options) {
+	if (typeof DEBUG !== "undefined" && DEBUG) {
+		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (!options.singleton) options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+	if (!options.insertInto) options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (!options.insertAt) options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+
+	addStylesToDom(styles, options);
+
+	return function update (newList) {
+		var mayRemove = [];
+
+		for (var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+
+		for (var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+
+			if(domStyle.refs === 0) {
+				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
+
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom (styles, options) {
+	for (var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+
+		if(domStyle) {
+			domStyle.refs++;
+
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles (list, options) {
+	var styles = [];
+	var newStyles = {};
+
+	for (var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+
+		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
+		else newStyles[id].parts.push(part);
+	}
+
+	return styles;
+}
+
+function insertStyleElement (options, style) {
+	var target = getElement(options.insertInto)
+
+	if (!target) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+
+	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
+
+	if (options.insertAt === "top") {
+		if (!lastStyleElementInsertedAtTop) {
+			target.insertBefore(style, target.firstChild);
+		} else if (lastStyleElementInsertedAtTop.nextSibling) {
+			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			target.appendChild(style);
+		}
+		stylesInsertedAtTop.push(style);
+	} else if (options.insertAt === "bottom") {
+		target.appendChild(style);
+	} else {
+		throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
+	}
+}
+
+function removeStyleElement (style) {
+	if (style.parentNode === null) return false;
+	style.parentNode.removeChild(style);
+
+	var idx = stylesInsertedAtTop.indexOf(style);
+	if(idx >= 0) {
+		stylesInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement (options) {
+	var style = document.createElement("style");
+
+	options.attrs.type = "text/css";
+
+	addAttrs(style, options.attrs);
+	insertStyleElement(options, style);
+
+	return style;
+}
+
+function createLinkElement (options) {
+	var link = document.createElement("link");
+
+	options.attrs.type = "text/css";
+	options.attrs.rel = "stylesheet";
+
+	addAttrs(link, options.attrs);
+	insertStyleElement(options, link);
+
+	return link;
+}
+
+function addAttrs (el, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		el.setAttribute(key, attrs[key]);
+	});
+}
+
+function addStyle (obj, options) {
+	var style, update, remove, result;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    result = options.transform(obj.css);
+
+	    if (result) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = result;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css.
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+
+		style = singleton || (singleton = createStyleElement(options));
+
+		update = applyToSingletonTag.bind(null, style, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+
+	} else if (
+		obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function"
+	) {
+		style = createLinkElement(options);
+		update = updateLink.bind(null, style, options);
+		remove = function () {
+			removeStyleElement(style);
+
+			if(style.href) URL.revokeObjectURL(style.href);
+		};
+	} else {
+		style = createStyleElement(options);
+		update = applyToTag.bind(null, style);
+		remove = function () {
+			removeStyleElement(style);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle (newObj) {
+		if (newObj) {
+			if (
+				newObj.css === obj.css &&
+				newObj.media === obj.media &&
+				newObj.sourceMap === obj.sourceMap
+			) {
+				return;
+			}
+
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag (style, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (style.styleSheet) {
+		style.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = style.childNodes;
+
+		if (childNodes[index]) style.removeChild(childNodes[index]);
+
+		if (childNodes.length) {
+			style.insertBefore(cssNode, childNodes[index]);
+		} else {
+			style.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag (style, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		style.setAttribute("media", media)
+	}
+
+	if(style.styleSheet) {
+		style.styleSheet.cssText = css;
+	} else {
+		while(style.firstChild) {
+			style.removeChild(style.firstChild);
+		}
+
+		style.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink (link, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/*
+		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+		and there is no publicPath defined then lets turn convertToAbsoluteUrls
+		on by default.  Otherwise default to the convertToAbsoluteUrls option
+		directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls) {
+		css = fixUrls(css);
+	}
+
+	if (sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = link.href;
+
+	link.href = URL.createObjectURL(blob);
+
+	if(oldSrc) URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+/* 109 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
@@ -16075,7 +16434,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(123);
+var _reactDom = __webpack_require__(124);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -16123,7 +16482,7 @@ var App = function (_Component) {
 _reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('root'));
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16137,11 +16496,11 @@ _reactDom2.default.render(_react2.default.createElement(App, null), document.get
 
 
 
-var PooledClass = __webpack_require__(110);
+var PooledClass = __webpack_require__(111);
 var ReactElement = __webpack_require__(18);
 
 var emptyFunction = __webpack_require__(11);
-var traverseAllChildren = __webpack_require__(111);
+var traverseAllChildren = __webpack_require__(112);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -16317,7 +16676,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16433,7 +16792,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16454,7 +16813,7 @@ var REACT_ELEMENT_TYPE = __webpack_require__(68);
 
 var getIteratorFn = __webpack_require__(69);
 var invariant = __webpack_require__(1);
-var KeyEscapeUtils = __webpack_require__(112);
+var KeyEscapeUtils = __webpack_require__(113);
 var warning = __webpack_require__(2);
 
 var SEPARATOR = '.';
@@ -16613,7 +16972,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16675,7 +17034,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16848,7 +17207,7 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16864,8 +17223,8 @@ module.exports = ReactDOMFactories;
 
 var _prodInvariant = __webpack_require__(21);
 
-var ReactPropTypeLocationNames = __webpack_require__(115);
-var ReactPropTypesSecret = __webpack_require__(116);
+var ReactPropTypeLocationNames = __webpack_require__(116);
+var ReactPropTypesSecret = __webpack_require__(117);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -16939,7 +17298,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16968,7 +17327,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16988,7 +17347,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17010,7 +17369,7 @@ var factory = __webpack_require__(71);
 module.exports = factory(isValidElement);
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17077,7 +17436,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17094,7 +17453,7 @@ module.exports = checkPropTypes;
 module.exports = '15.6.2';
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17115,12 +17474,12 @@ var _require2 = __webpack_require__(18),
     isValidElement = _require2.isValidElement;
 
 var ReactNoopUpdateQueue = __webpack_require__(67);
-var factory = __webpack_require__(121);
+var factory = __webpack_require__(122);
 
 module.exports = factory(Component, isValidElement, ReactNoopUpdateQueue);
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17998,7 +18357,7 @@ module.exports = factory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18040,17 +18399,17 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(124);
+module.exports = __webpack_require__(125);
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18067,15 +18426,15 @@ module.exports = __webpack_require__(124);
 
 
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactDefaultInjection = __webpack_require__(125);
+var ReactDefaultInjection = __webpack_require__(126);
 var ReactMount = __webpack_require__(96);
 var ReactReconciler = __webpack_require__(22);
 var ReactUpdates = __webpack_require__(15);
-var ReactVersion = __webpack_require__(203);
+var ReactVersion = __webpack_require__(204);
 
-var findDOMNode = __webpack_require__(204);
+var findDOMNode = __webpack_require__(205);
 var getHostComponentFromComposite = __webpack_require__(97);
-var renderSubtreeIntoContainer = __webpack_require__(205);
+var renderSubtreeIntoContainer = __webpack_require__(206);
 var warning = __webpack_require__(2);
 
 ReactDefaultInjection.inject();
@@ -18152,9 +18511,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(12);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(206);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(207);
-  var ReactDOMInvalidARIAHook = __webpack_require__(208);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(207);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(208);
+  var ReactDOMInvalidARIAHook = __webpack_require__(209);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -18165,7 +18524,7 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18179,25 +18538,25 @@ module.exports = ReactDOM;
 
 
 
-var ARIADOMPropertyConfig = __webpack_require__(126);
-var BeforeInputEventPlugin = __webpack_require__(127);
-var ChangeEventPlugin = __webpack_require__(131);
-var DefaultEventPluginOrder = __webpack_require__(139);
-var EnterLeaveEventPlugin = __webpack_require__(140);
-var HTMLDOMPropertyConfig = __webpack_require__(141);
-var ReactComponentBrowserEnvironment = __webpack_require__(142);
-var ReactDOMComponent = __webpack_require__(148);
+var ARIADOMPropertyConfig = __webpack_require__(127);
+var BeforeInputEventPlugin = __webpack_require__(128);
+var ChangeEventPlugin = __webpack_require__(132);
+var DefaultEventPluginOrder = __webpack_require__(140);
+var EnterLeaveEventPlugin = __webpack_require__(141);
+var HTMLDOMPropertyConfig = __webpack_require__(142);
+var ReactComponentBrowserEnvironment = __webpack_require__(143);
+var ReactDOMComponent = __webpack_require__(149);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactDOMEmptyComponent = __webpack_require__(174);
-var ReactDOMTreeTraversal = __webpack_require__(175);
-var ReactDOMTextComponent = __webpack_require__(176);
-var ReactDefaultBatchingStrategy = __webpack_require__(177);
-var ReactEventListener = __webpack_require__(178);
-var ReactInjection = __webpack_require__(180);
-var ReactReconcileTransaction = __webpack_require__(181);
-var SVGDOMPropertyConfig = __webpack_require__(187);
-var SelectEventPlugin = __webpack_require__(188);
-var SimpleEventPlugin = __webpack_require__(189);
+var ReactDOMEmptyComponent = __webpack_require__(175);
+var ReactDOMTreeTraversal = __webpack_require__(176);
+var ReactDOMTextComponent = __webpack_require__(177);
+var ReactDefaultBatchingStrategy = __webpack_require__(178);
+var ReactEventListener = __webpack_require__(179);
+var ReactInjection = __webpack_require__(181);
+var ReactReconcileTransaction = __webpack_require__(182);
+var SVGDOMPropertyConfig = __webpack_require__(188);
+var SelectEventPlugin = __webpack_require__(189);
+var SimpleEventPlugin = __webpack_require__(190);
 
 var alreadyInjected = false;
 
@@ -18254,7 +18613,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18331,7 +18690,7 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18347,9 +18706,9 @@ module.exports = ARIADOMPropertyConfig;
 
 var EventPropagators = __webpack_require__(24);
 var ExecutionEnvironment = __webpack_require__(7);
-var FallbackCompositionState = __webpack_require__(128);
-var SyntheticCompositionEvent = __webpack_require__(129);
-var SyntheticInputEvent = __webpack_require__(130);
+var FallbackCompositionState = __webpack_require__(129);
+var SyntheticCompositionEvent = __webpack_require__(130);
+var SyntheticInputEvent = __webpack_require__(131);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -18718,7 +19077,7 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18816,7 +19175,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18855,7 +19214,7 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18895,7 +19254,7 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19210,7 +19569,7 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19225,7 +19584,7 @@ module.exports = ChangeEventPlugin;
 
 
 
-var ReactOwner = __webpack_require__(133);
+var ReactOwner = __webpack_require__(134);
 
 var ReactRef = {};
 
@@ -19302,7 +19661,7 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19399,7 +19758,7 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19414,12 +19773,12 @@ module.exports = ReactOwner;
 
 
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(135);
-var ReactHostOperationHistoryHook = __webpack_require__(136);
+var ReactInvalidSetStateWarningHook = __webpack_require__(136);
+var ReactHostOperationHistoryHook = __webpack_require__(137);
 var ReactComponentTreeHook = __webpack_require__(10);
 var ExecutionEnvironment = __webpack_require__(7);
 
-var performanceNow = __webpack_require__(137);
+var performanceNow = __webpack_require__(138);
 var warning = __webpack_require__(2);
 
 var hooks = [];
@@ -19764,7 +20123,7 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19805,7 +20164,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19842,7 +20201,7 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19857,7 +20216,7 @@ module.exports = ReactHostOperationHistoryHook;
  * @typechecks
  */
 
-var performance = __webpack_require__(138);
+var performance = __webpack_require__(139);
 
 var performanceNow;
 
@@ -19879,7 +20238,7 @@ if (performance.now) {
 module.exports = performanceNow;
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19905,7 +20264,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = performance || {};
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19934,7 +20293,7 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20035,7 +20394,7 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20275,7 +20634,7 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20290,7 +20649,7 @@ module.exports = HTMLDOMPropertyConfig;
 
 
 var DOMChildrenOperations = __webpack_require__(48);
-var ReactDOMIDOperations = __webpack_require__(147);
+var ReactDOMIDOperations = __webpack_require__(148);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -20306,7 +20665,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20325,7 +20684,7 @@ var _prodInvariant = __webpack_require__(3);
 var DOMLazyTree = __webpack_require__(23);
 var ExecutionEnvironment = __webpack_require__(7);
 
-var createNodesFromMarkup = __webpack_require__(144);
+var createNodesFromMarkup = __webpack_require__(145);
 var emptyFunction = __webpack_require__(11);
 var invariant = __webpack_require__(1);
 
@@ -20356,7 +20715,7 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20375,8 +20734,8 @@ module.exports = Danger;
 
 var ExecutionEnvironment = __webpack_require__(7);
 
-var createArrayFromMixed = __webpack_require__(145);
-var getMarkupWrap = __webpack_require__(146);
+var createArrayFromMixed = __webpack_require__(146);
+var getMarkupWrap = __webpack_require__(147);
 var invariant = __webpack_require__(1);
 
 /**
@@ -20444,7 +20803,7 @@ module.exports = createNodesFromMarkup;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20575,7 +20934,7 @@ module.exports = createArrayFromMixed;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20674,7 +21033,7 @@ module.exports = getMarkupWrap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20710,7 +21069,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20729,8 +21088,8 @@ module.exports = ReactDOMIDOperations;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(5);
 
-var AutoFocusUtils = __webpack_require__(149);
-var CSSPropertyOperations = __webpack_require__(150);
+var AutoFocusUtils = __webpack_require__(150);
+var CSSPropertyOperations = __webpack_require__(151);
 var DOMLazyTree = __webpack_require__(23);
 var DOMNamespaces = __webpack_require__(49);
 var DOMProperty = __webpack_require__(17);
@@ -20740,13 +21099,13 @@ var EventPluginRegistry = __webpack_require__(32);
 var ReactBrowserEventEmitter = __webpack_require__(37);
 var ReactDOMComponentFlags = __webpack_require__(73);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactDOMInput = __webpack_require__(160);
-var ReactDOMOption = __webpack_require__(161);
+var ReactDOMInput = __webpack_require__(161);
+var ReactDOMOption = __webpack_require__(162);
 var ReactDOMSelect = __webpack_require__(87);
-var ReactDOMTextarea = __webpack_require__(162);
+var ReactDOMTextarea = __webpack_require__(163);
 var ReactInstrumentation = __webpack_require__(12);
-var ReactMultiChild = __webpack_require__(163);
-var ReactServerRenderingTransaction = __webpack_require__(172);
+var ReactMultiChild = __webpack_require__(164);
+var ReactServerRenderingTransaction = __webpack_require__(173);
 
 var emptyFunction = __webpack_require__(11);
 var escapeTextContentForBrowser = __webpack_require__(36);
@@ -21728,7 +22087,7 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21755,7 +22114,7 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21773,10 +22132,10 @@ var CSSProperty = __webpack_require__(84);
 var ExecutionEnvironment = __webpack_require__(7);
 var ReactInstrumentation = __webpack_require__(12);
 
-var camelizeStyleName = __webpack_require__(151);
-var dangerousStyleValue = __webpack_require__(153);
-var hyphenateStyleName = __webpack_require__(154);
-var memoizeStringOnly = __webpack_require__(156);
+var camelizeStyleName = __webpack_require__(152);
+var dangerousStyleValue = __webpack_require__(154);
+var hyphenateStyleName = __webpack_require__(155);
+var memoizeStringOnly = __webpack_require__(157);
 var warning = __webpack_require__(2);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -21974,7 +22333,7 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21989,7 +22348,7 @@ module.exports = CSSPropertyOperations;
 
 
 
-var camelize = __webpack_require__(152);
+var camelize = __webpack_require__(153);
 
 var msPattern = /^-ms-/;
 
@@ -22017,7 +22376,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22052,7 +22411,7 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22135,7 +22494,7 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22150,7 +22509,7 @@ module.exports = dangerousStyleValue;
 
 
 
-var hyphenate = __webpack_require__(155);
+var hyphenate = __webpack_require__(156);
 
 var msPattern = /^ms-/;
 
@@ -22177,7 +22536,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22213,7 +22572,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22246,7 +22605,7 @@ function memoizeStringOnly(callback) {
 module.exports = memoizeStringOnly;
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22275,7 +22634,7 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22310,7 +22669,7 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22414,7 +22773,7 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22705,7 +23064,7 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22831,7 +23190,7 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22995,7 +23354,7 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23017,10 +23376,10 @@ var ReactInstrumentation = __webpack_require__(12);
 
 var ReactCurrentOwner = __webpack_require__(14);
 var ReactReconciler = __webpack_require__(22);
-var ReactChildReconciler = __webpack_require__(164);
+var ReactChildReconciler = __webpack_require__(165);
 
 var emptyFunction = __webpack_require__(11);
-var flattenChildren = __webpack_require__(171);
+var flattenChildren = __webpack_require__(172);
 var invariant = __webpack_require__(1);
 
 /**
@@ -23445,7 +23804,7 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23602,7 +23961,7 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23629,7 +23988,7 @@ var ReactNodeTypes = __webpack_require__(89);
 var ReactReconciler = __webpack_require__(22);
 
 if (process.env.NODE_ENV !== 'production') {
-  var checkReactTypeSpec = __webpack_require__(166);
+  var checkReactTypeSpec = __webpack_require__(167);
 }
 
 var emptyObject = __webpack_require__(31);
@@ -24506,7 +24865,7 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24522,7 +24881,7 @@ module.exports = ReactCompositeComponent;
 
 var _prodInvariant = __webpack_require__(3);
 
-var ReactPropTypeLocationNames = __webpack_require__(167);
+var ReactPropTypeLocationNames = __webpack_require__(168);
 var ReactPropTypesSecret = __webpack_require__(86);
 
 var invariant = __webpack_require__(1);
@@ -24597,7 +24956,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24626,7 +24985,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24650,7 +25009,7 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24673,7 +25032,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24717,7 +25076,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24797,7 +25156,7 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24816,7 +25175,7 @@ var _assign = __webpack_require__(5);
 var PooledClass = __webpack_require__(19);
 var Transaction = __webpack_require__(33);
 var ReactInstrumentation = __webpack_require__(12);
-var ReactServerUpdateQueue = __webpack_require__(173);
+var ReactServerUpdateQueue = __webpack_require__(174);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -24891,7 +25250,7 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25034,7 +25393,7 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25097,7 +25456,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25237,7 +25596,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25403,7 +25762,7 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25474,7 +25833,7 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25497,7 +25856,7 @@ var ReactDOMComponentTree = __webpack_require__(6);
 var ReactUpdates = __webpack_require__(15);
 
 var getEventTarget = __webpack_require__(45);
-var getUnboundedScrollPosition = __webpack_require__(179);
+var getUnboundedScrollPosition = __webpack_require__(180);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -25632,7 +25991,7 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25674,7 +26033,7 @@ function getUnboundedScrollPosition(scrollable) {
 module.exports = getUnboundedScrollPosition;
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25711,7 +26070,7 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25893,7 +26252,7 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25909,7 +26268,7 @@ module.exports = ReactReconcileTransaction;
 
 var ExecutionEnvironment = __webpack_require__(7);
 
-var getNodeForCharacterOffset = __webpack_require__(183);
+var getNodeForCharacterOffset = __webpack_require__(184);
 var getTextContentAccessor = __webpack_require__(76);
 
 /**
@@ -26108,7 +26467,7 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26185,7 +26544,7 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26200,7 +26559,7 @@ module.exports = getNodeForCharacterOffset;
  * 
  */
 
-var isTextNode = __webpack_require__(185);
+var isTextNode = __webpack_require__(186);
 
 /*eslint-disable no-bitwise */
 
@@ -26228,7 +26587,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26243,7 +26602,7 @@ module.exports = containsNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(186);
+var isNode = __webpack_require__(187);
 
 /**
  * @param {*} object The object to check.
@@ -26256,7 +26615,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26284,7 +26643,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26589,7 +26948,7 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26780,7 +27139,7 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26800,17 +27159,17 @@ var _prodInvariant = __webpack_require__(3);
 var EventListener = __webpack_require__(93);
 var EventPropagators = __webpack_require__(24);
 var ReactDOMComponentTree = __webpack_require__(6);
-var SyntheticAnimationEvent = __webpack_require__(190);
-var SyntheticClipboardEvent = __webpack_require__(191);
+var SyntheticAnimationEvent = __webpack_require__(191);
+var SyntheticClipboardEvent = __webpack_require__(192);
 var SyntheticEvent = __webpack_require__(16);
-var SyntheticFocusEvent = __webpack_require__(192);
-var SyntheticKeyboardEvent = __webpack_require__(193);
+var SyntheticFocusEvent = __webpack_require__(193);
+var SyntheticKeyboardEvent = __webpack_require__(194);
 var SyntheticMouseEvent = __webpack_require__(34);
-var SyntheticDragEvent = __webpack_require__(195);
-var SyntheticTouchEvent = __webpack_require__(196);
-var SyntheticTransitionEvent = __webpack_require__(197);
+var SyntheticDragEvent = __webpack_require__(196);
+var SyntheticTouchEvent = __webpack_require__(197);
+var SyntheticTransitionEvent = __webpack_require__(198);
 var SyntheticUIEvent = __webpack_require__(26);
-var SyntheticWheelEvent = __webpack_require__(198);
+var SyntheticWheelEvent = __webpack_require__(199);
 
 var emptyFunction = __webpack_require__(11);
 var getEventCharCode = __webpack_require__(58);
@@ -27010,7 +27369,7 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27052,7 +27411,7 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-/* 191 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27093,7 +27452,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-/* 192 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27132,7 +27491,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27149,7 +27508,7 @@ module.exports = SyntheticFocusEvent;
 var SyntheticUIEvent = __webpack_require__(26);
 
 var getEventCharCode = __webpack_require__(58);
-var getEventKey = __webpack_require__(194);
+var getEventKey = __webpack_require__(195);
 var getEventModifierState = __webpack_require__(47);
 
 /**
@@ -27219,7 +27578,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27334,7 +27693,7 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27373,7 +27732,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27421,7 +27780,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27463,7 +27822,7 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27517,7 +27876,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27554,7 +27913,7 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27576,7 +27935,7 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27590,7 +27949,7 @@ module.exports = ReactDOMFeatureFlags;
 
 
 
-var adler32 = __webpack_require__(202);
+var adler32 = __webpack_require__(203);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -27629,7 +27988,7 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27676,7 +28035,7 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27693,7 +28052,7 @@ module.exports = adler32;
 module.exports = '15.6.2';
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27757,7 +28116,7 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27776,7 +28135,7 @@ var ReactMount = __webpack_require__(96);
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27892,7 +28251,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27939,7 +28298,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28036,7 +28395,7 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28058,7 +28417,7 @@ var _modules = __webpack_require__(39);
 
 var _ = __webpack_require__(98);
 
-var _typed = __webpack_require__(252);
+var _typed = __webpack_require__(253);
 
 var _typed2 = _interopRequireDefault(_typed);
 
@@ -28131,7 +28490,7 @@ var Home = function (_Component) {
                         ),
                         _react2.default.createElement(
                             'div',
-                            null,
+                            { className: 'typed' },
                             _react2.default.createElement('span', { className: 'typedText', id: 'typed', ref: function ref(el) {
                                     _this2.el = el;
                                 } })
@@ -28139,7 +28498,7 @@ var Home = function (_Component) {
                         _react2.default.createElement(
                             'p',
                             { className: 'bio' },
-                            'After working as a GIS technician for a large corporation, I realized I wanted to take my career in a new direction. I am now pursuing a software design and development position because it allows me to combine two things I love into one career; problem solving and learning new things. As a self-taught developer, I have been focusing on building applications using React, Node, Express and MongoDB. I am currently learning React Native and am excited to start branching out into mobile software development. I am a quick learner and look forward to being part of a team where I can build applications while learning new skills and technologies. Currently based in beautiful Los Angeles, California.'
+                            'After working as a GIS technician for a large corporation, I realized I wanted to take my career in a new direction. I am now pursuing a software design and development position because it allows me to combine two things I love into one career; problem solving and learning new things. As a self-taught developer, I have been focusing on building applications using React, Node, Express and MongoDB.I am a quick learner and look forward to being part of a team where I can build applications while learning new skills and technologies.'
                         )
                     )
                 ),
@@ -28156,7 +28515,7 @@ var Home = function (_Component) {
 exports.default = Home;
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28241,7 +28600,7 @@ CloudinaryContext.childContextTypes = _CloudinaryComponent3.default.contextTypes
 exports.default = CloudinaryContext;
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28306,7 +28665,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -45395,10 +45754,10 @@ module.exports = function() {
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(213), __webpack_require__(214)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(214), __webpack_require__(215)(module)))
 
 /***/ }),
-/* 213 */
+/* 214 */
 /***/ (function(module, exports) {
 
 var g;
@@ -45425,7 +45784,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 214 */
+/* 215 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -45453,7 +45812,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 215 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45479,7 +45838,7 @@ var _CloudinaryComponent2 = __webpack_require__(38);
 
 var _CloudinaryComponent3 = _interopRequireDefault(_CloudinaryComponent2);
 
-var _Util = __webpack_require__(216);
+var _Util = __webpack_require__(217);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -45759,7 +46118,7 @@ Image.propTypes = _CloudinaryComponent3.default.propTypes;
 exports.default = Image;
 
 /***/ }),
-/* 216 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45770,7 +46129,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.isElement = exports.equals = exports.cancelAnimationFrame = exports.requestAnimationFrame = exports.closestAbove = exports.firstDefined = exports.debounce = undefined;
 
-var _requestAnimationFrame = __webpack_require__(217);
+var _requestAnimationFrame = __webpack_require__(218);
 
 Object.defineProperty(exports, 'requestAnimationFrame', {
   enumerable: true,
@@ -45785,23 +46144,23 @@ Object.defineProperty(exports, 'cancelAnimationFrame', {
   }
 });
 
-var _debounce2 = __webpack_require__(218);
+var _debounce2 = __webpack_require__(219);
 
 var _debounce3 = _interopRequireDefault(_debounce2);
 
-var _firstDefined2 = __webpack_require__(219);
+var _firstDefined2 = __webpack_require__(220);
 
 var _firstDefined3 = _interopRequireDefault(_firstDefined2);
 
-var _closestAbove2 = __webpack_require__(220);
+var _closestAbove2 = __webpack_require__(221);
 
 var _closestAbove3 = _interopRequireDefault(_closestAbove2);
 
-var _equals2 = __webpack_require__(221);
+var _equals2 = __webpack_require__(222);
 
 var _equals3 = _interopRequireDefault(_equals2);
 
-var _isElement2 = __webpack_require__(222);
+var _isElement2 = __webpack_require__(223);
 
 var _isElement3 = _interopRequireDefault(_isElement2);
 
@@ -45814,7 +46173,7 @@ exports.equals = _equals3.default;
 exports.isElement = _isElement3.default;
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45861,7 +46220,7 @@ exports.requestAnimationFrame = requestAnimationFrame;
 exports.cancelAnimationFrame = cancelAnimationFrame;
 
 /***/ }),
-/* 218 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45912,7 +46271,7 @@ function debounce(func, wait, immediate) {
 }
 
 /***/ }),
-/* 219 */
+/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45940,7 +46299,7 @@ function firstDefined() {
 }
 
 /***/ }),
-/* 220 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45964,7 +46323,7 @@ function closestAbove(list, value) {
 }
 
 /***/ }),
-/* 221 */
+/* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46170,7 +46529,7 @@ function equals(a, b, enforce_properties_order, cyclic) {
 } // equals()
 
 /***/ }),
-/* 222 */
+/* 223 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46211,7 +46570,7 @@ function isObjectLike(value) {
 }
 
 /***/ }),
-/* 223 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46269,7 +46628,7 @@ Transformation.exposesProps = true;
 exports.default = Transformation;
 
 /***/ }),
-/* 224 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46384,7 +46743,7 @@ Video.contextTypes = _CloudinaryComponent3.default.contextTypes;
 exports.default = Video;
 
 /***/ }),
-/* 225 */
+/* 226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46475,7 +46834,7 @@ var Navbar = function (_Component) {
 exports.default = Navbar;
 
 /***/ }),
-/* 226 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46485,7 +46844,7 @@ exports.default = Navbar;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__ = __webpack_require__(228);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(62);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -46542,7 +46901,7 @@ BrowserRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (BrowserRouter);
 
 /***/ }),
-/* 227 */
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46855,7 +47214,7 @@ var createBrowserHistory = function createBrowserHistory() {
 exports.default = createBrowserHistory;
 
 /***/ }),
-/* 228 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46865,7 +47224,7 @@ exports.default = createBrowserHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__ = __webpack_require__(230);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(62);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -46921,7 +47280,7 @@ HashRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (HashRouter);
 
 /***/ }),
-/* 229 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47251,18 +47610,18 @@ var createHashHistory = function createHashHistory() {
 exports.default = createHashHistory;
 
 /***/ }),
-/* 230 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(232);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__["a" /* default */]);
 
 /***/ }),
-/* 231 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47272,7 +47631,7 @@ exports.default = createHashHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__ = __webpack_require__(233);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(63);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -47329,7 +47688,7 @@ MemoryRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (MemoryRouter);
 
 /***/ }),
-/* 232 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47505,7 +47864,7 @@ var createMemoryHistory = function createMemoryHistory() {
 exports.default = createMemoryHistory;
 
 /***/ }),
-/* 233 */
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47586,10 +47945,10 @@ NavLink.defaultProps = {
 /* harmony default export */ __webpack_exports__["a"] = (NavLink);
 
 /***/ }),
-/* 234 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isarray = __webpack_require__(235)
+var isarray = __webpack_require__(236)
 
 /**
  * Expose `pathToRegexp`.
@@ -48018,7 +48377,7 @@ function pathToRegexp (path, keys, options) {
 
 
 /***/ }),
-/* 235 */
+/* 236 */
 /***/ (function(module, exports) {
 
 module.exports = Array.isArray || function (arr) {
@@ -48027,18 +48386,18 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 236 */
+/* 237 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(238);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__["a" /* default */]);
 
 /***/ }),
-/* 237 */
+/* 238 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48129,18 +48488,18 @@ Prompt.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Prompt);
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(240);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__["a" /* default */]);
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48152,7 +48511,7 @@ Prompt.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(241);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -48248,15 +48607,15 @@ Redirect.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Redirect);
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createBrowserHistory__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createBrowserHistory__ = __webpack_require__(242);
 /* unused harmony reexport createBrowserHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createHashHistory__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createHashHistory__ = __webpack_require__(243);
 /* unused harmony reexport createHashHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(244);
 /* unused harmony reexport createMemoryHistory */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__LocationUtils__ = __webpack_require__(40);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__LocationUtils__["a"]; });
@@ -48275,7 +48634,7 @@ Redirect.contextTypes = {
 
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48579,7 +48938,7 @@ var createBrowserHistory = function createBrowserHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createBrowserHistory);
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48900,7 +49259,7 @@ var createHashHistory = function createHashHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createHashHistory);
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49068,18 +49427,18 @@ var createMemoryHistory = function createMemoryHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createMemoryHistory);
 
 /***/ }),
-/* 244 */
+/* 245 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(246);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__["a" /* default */]);
 
 /***/ }),
-/* 245 */
+/* 246 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49262,18 +49621,18 @@ StaticRouter.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (StaticRouter);
 
 /***/ }),
-/* 246 */
+/* 247 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(248);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__["a" /* default */]);
 
 /***/ }),
-/* 247 */
+/* 248 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49367,7 +49726,7 @@ Switch.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Switch);
 
 /***/ }),
-/* 248 */
+/* 249 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49378,18 +49737,18 @@ Switch.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__["a" /* default */]);
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(251);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__["a" /* default */]);
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49397,7 +49756,7 @@ Switch.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Route__ = __webpack_require__(106);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -49434,7 +49793,7 @@ var withRouter = function withRouter(Component) {
 /* harmony default export */ __webpack_exports__["a"] = (withRouter);
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49506,7 +49865,7 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -50547,7 +50906,7 @@ return /******/ (function(modules) { // webpackBootstrap
 ;
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50563,7 +50922,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _modules = __webpack_require__(39);
+var _cloudinaryReact = __webpack_require__(99);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50572,10 +50931,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var emoji = __webpack_require__(254);
-var github = __webpack_require__(259);
-var linkedin = __webpack_require__(260);
 
 var Resume = function (_Component) {
     _inherits(Resume, _Component);
@@ -50595,177 +50950,14 @@ var Resume = function (_Component) {
 
             return _react2.default.createElement(
                 'div',
-                null,
+                { className: 'resume', id: 'resume' },
                 _react2.default.createElement(
-                    'h1',
-                    { id: 'resume', className: 'pageHeader' },
-                    'Resume'
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'resumeBody' },
+                    _cloudinaryReact.CloudinaryContext,
+                    { cloudName: 'djswgrool', fetchFormat: 'auto' },
                     _react2.default.createElement(
-                        'div',
-                        null,
-                        _react2.default.createElement(
-                            'h2',
-                            { className: 'sectionHeader' },
-                            'Contact:'
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'greyBox' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'iconItems' },
-                                _react2.default.createElement('i', { className: 'twa twa-lg twa-mailbox-with-mail' }),
-                                _react2.default.createElement('img', { className: 'linkedin', src: linkedin }),
-                                _react2.default.createElement('img', { className: 'github', src: github })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'labelItems' },
-                                _react2.default.createElement(
-                                    'p',
-                                    null,
-                                    'Email:'
-                                ),
-                                _react2.default.createElement(
-                                    'p',
-                                    null,
-                                    'LinkedIn:'
-                                ),
-                                _react2.default.createElement(
-                                    'p',
-                                    null,
-                                    'Github:'
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'linkItems' },
-                                _react2.default.createElement(
-                                    'a',
-                                    { href: 'mailto:nolanpdavis@gmail.com' },
-                                    'nolanpdavis@gmail.com'
-                                ),
-                                _react2.default.createElement(
-                                    'a',
-                                    { href: 'www.linkedin.com/in/nolandavis404/' },
-                                    'www.linkedin.com/in/nolandavis404/'
-                                ),
-                                _react2.default.createElement(
-                                    'a',
-                                    { href: 'github.com/nolanpdavis' },
-                                    'github.com/nolanpdavis'
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'h2',
-                            { className: 'sectionHeader' },
-                            'Education:'
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'greyBox' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'iconItemsEdu' },
-                                _react2.default.createElement('i', { className: 'twa twa-lg twa-peach' }),
-                                _react2.default.createElement('i', { className: 'twa twa-lg twa-earth-americas' })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'labelItemsEdu' },
-                                _react2.default.createElement(
-                                    'p',
-                                    null,
-                                    'Georgia State University'
-                                ),
-                                _react2.default.createElement(
-                                    'p',
-                                    null,
-                                    'B.A. in Geosciences, GIS'
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'statsItemsEdu' },
-                                _react2.default.createElement(
-                                    'p',
-                                    null,
-                                    '2014 \u2013 2016'
-                                ),
-                                _react2.default.createElement(
-                                    'p',
-                                    null,
-                                    'GPA: 3.9'
-                                )
-                            )
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        null,
-                        _react2.default.createElement(
-                            'h2',
-                            { className: 'sectionHeader' },
-                            'Experience:'
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'greyBoxWork' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'titleItems' },
-                                _react2.default.createElement('i', { className: 'titleItemsA twa twa-lg twa-laptop-computer' }),
-                                _react2.default.createElement(
-                                    'p',
-                                    { className: 'titleItemsB' },
-                                    'AECOM, GIS Specialist I'
-                                ),
-                                _react2.default.createElement(
-                                    'p',
-                                    { className: 'titleItemsC' },
-                                    '2016 - 2017'
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'workItems' },
-                                _react2.default.createElement('i', { className: 'twa twa-lg twa-sparkles' }),
-                                _react2.default.createElement(
-                                    'p',
-                                    { className: 'pResume' },
-                                    'Creation of county flood maps and databases using ArcMap, ArcCatalog & ArcSDE software. Compiling relevant map data layers for county databases according to FEMA and state specifications. Verifying data for completion and accuracy before project deadlines.'
-                                ),
-                                _react2.default.createElement('i', { className: 'twa twa-lg twa-sparkles' })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'workItems' },
-                                _react2.default.createElement('i', { className: 'twa twa-lg twa-sparkles' }),
-                                _react2.default.createElement(
-                                    'p',
-                                    { className: 'pResume' },
-                                    'Using Python and JavaScript to create scripts and tools for automating and speeding up workflows. Examples include creating a script for rounding float integers to desired length, a script for renaming and converting documents to desired specifications and a JavaScript template for automatically formatting map text.'
-                                ),
-                                _react2.default.createElement('i', { className: 'twa twa-lg twa-sparkles' })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'workItems' },
-                                _react2.default.createElement('i', { className: 'twa twa-lg twa-sparkles' }),
-                                _react2.default.createElement(
-                                    'p',
-                                    { className: 'pResume' },
-                                    'Attending county flooding and emergency management meetings and gathering local input on company projects. Conversing with FEMA and EPA officials regarding project areas of interests. Coordinating with different offices and departments to meet deadlines and specifications.'
-                                ),
-                                _react2.default.createElement('i', { className: 'twa twa-lg twa-sparkles' })
-                            )
-                        ),
-                        _react2.default.createElement('h2', { className: 'sectionHeader' })
+                        'a',
+                        { href: 'http://res.cloudinary.com/djswgrool/image/upload/v1510810549/NolanDavisResume2017_v7dfuo.jpg' },
+                        _react2.default.createElement(_cloudinaryReact.Image, { publicId: 'NolanDavisResume2017_v7dfuo', className: 'resumeImg', responsive: true })
                     )
                 )
             );
@@ -50778,52 +50970,9 @@ var Resume = function (_Component) {
 exports.default = Resume;
 
 /***/ }),
-/* 254 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(255);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(257)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!./twemoji-awesome.css", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!./twemoji-awesome.css");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 255 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(256)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "@charset \"UTF-8\";\n.twa {\n  display: inline-block;\n  height: 1em;\n  width: 1em;\n  margin: 0 .05em 0 .1em;\n  vertical-align: -0.1em;\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: 1em 1em; }\n\n.twa-lg {\n  height: 1.33em;\n  width: 1.33em;\n  margin: 0 0.0665em 0 0.133em;\n  vertical-align: -0.133em;\n  background-size: 1.33em 1.33em; }\n\n.twa-2x {\n  height: 2em;\n  width: 2em;\n  margin: 0 0.1em 0 0.2em;\n  vertical-align: -0.2em;\n  background-size: 2em 2em; }\n\n.twa-3x {\n  height: 3em;\n  width: 3em;\n  margin: 0 0.15em 0 0.3em;\n  vertical-align: -0.3em;\n  background-size: 3em 3em; }\n\n.twa-4x {\n  height: 4em;\n  width: 4em;\n  margin: 0 0.2em 0 0.4em;\n  vertical-align: -0.4em;\n  background-size: 4em 4em; }\n\n.twa-5x {\n  height: 5em;\n  width: 5em;\n  margin: 0 0.25em 0 0.5em;\n  vertical-align: -0.5em;\n  background-size: 5em 5em; }\n\n.twa-mahjong-red-dragon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f004.svg\"); }\n\n.twa-mahjong {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f004.svg\"); }\n\n.twa-joker {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f0cf.svg\"); }\n\n.twa-black-joker {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f0cf.svg\"); }\n\n.twa-a-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f170.svg\"); }\n\n.twa-a {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f170.svg\"); }\n\n.twa-b-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f171.svg\"); }\n\n.twa-b {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f171.svg\"); }\n\n.twa-o-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f17e.svg\"); }\n\n.twa-o2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f17e.svg\"); }\n\n.twa-p-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f17f.svg\"); }\n\n.twa-parking {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f17f.svg\"); }\n\n.twa-ab-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f18e.svg\"); }\n\n.twa-ab {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f18e.svg\"); }\n\n.twa-squared-cl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f191.svg\"); }\n\n.twa-cl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f191.svg\"); }\n\n.twa-squared-cool {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f192.svg\"); }\n\n.twa-cool {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f192.svg\"); }\n\n.twa-squared-free {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f193.svg\"); }\n\n.twa-free {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f193.svg\"); }\n\n.twa-squared-id {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f194.svg\"); }\n\n.twa-id {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f194.svg\"); }\n\n.twa-squared-new {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f195.svg\"); }\n\n.twa-new {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f195.svg\"); }\n\n.twa-squared-ng {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f196.svg\"); }\n\n.twa-ng {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f196.svg\"); }\n\n.twa-squared-ok {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f197.svg\"); }\n\n.twa-ok {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f197.svg\"); }\n\n.twa-squared-sos {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f198.svg\"); }\n\n.twa-sos {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f198.svg\"); }\n\n.twa-upexc-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f199.svg\"); }\n\n.twa-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f199.svg\"); }\n\n.twa-squared-vs {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f19a.svg\"); }\n\n.twa-vs {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f19a.svg\"); }\n\n.twa-ascension-island-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1e8.svg\"); }\n\n.twa-andorra-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1e9.svg\"); }\n\n.twa-emirates-uae-united-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1ea.svg\"); }\n\n.twa-afghanistan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1eb.svg\"); }\n\n.twa-antigua-barbuda-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1ec.svg\"); }\n\n.twa-anguilla-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1ee.svg\"); }\n\n.twa-albania-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f1.svg\"); }\n\n.twa-armenia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f2.svg\"); }\n\n.twa-angola-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f4.svg\"); }\n\n.twa-antarctica-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f6.svg\"); }\n\n.twa-argentina-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f7.svg\"); }\n\n.twa-american-samoa-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f8.svg\"); }\n\n.twa-austria-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f9.svg\"); }\n\n.twa-australia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1fa.svg\"); }\n\n.twa-aruba-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1fc.svg\"); }\n\n.twa-aland-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1fd.svg\"); }\n\n.twa-azerbaijan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1ff.svg\"); }\n\n.twa-aa {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6.svg\"); }\n\n.twa-squared-a {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e6.svg\"); }\n\n.twa-bosnia-herzegovina-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1e6.svg\"); }\n\n.twa-barbados-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1e7.svg\"); }\n\n.twa-bangladesh-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1e9.svg\"); }\n\n.twa-belgium-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1ea.svg\"); }\n\n.twa-burkina-faso-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1eb.svg\"); }\n\n.twa-bulgaria-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1ec.svg\"); }\n\n.twa-bahrain-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1ed.svg\"); }\n\n.twa-burundi-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1ee.svg\"); }\n\n.twa-benin-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1ef.svg\"); }\n\n.twa-barthelemy-barthelemy-saint-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f1.svg\"); }\n\n.twa-bermuda-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f2.svg\"); }\n\n.twa-brunei-darussalam-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f3.svg\"); }\n\n.twa-bolivia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f4.svg\"); }\n\n.twa-bonaire-caribbean-eustatius-netherlands-saba-sint-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f6.svg\"); }\n\n.twa-brazil-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f7.svg\"); }\n\n.twa-bahamas-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f8.svg\"); }\n\n.twa-bhutan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f9.svg\"); }\n\n.twa-bouvet-island-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1fb.svg\"); }\n\n.twa-botswana-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1fc.svg\"); }\n\n.twa-belarus-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1fe.svg\"); }\n\n.twa-belize-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7-1f1ff.svg\"); }\n\n.twa-bb {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7.svg\"); }\n\n.twa-squared-b {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e7.svg\"); }\n\n.twa-canada-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1e6.svg\"); }\n\n.twa-cocos-island-keeling-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1e8.svg\"); }\n\n.twa-congo-congo-kinshasa-democratic-republic-of-congo-drc-kinshasa-republic-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1e9.svg\"); }\n\n.twa-central-african-republic-republic-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1eb.svg\"); }\n\n.twa-brazzaville-congo-congo-republic-congo-brazzaville-republic-republic-of-the-congo-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1ec.svg\"); }\n\n.twa-switzerland-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1ed.svg\"); }\n\n.twa-cote-ivoire-cote-ivoire-ivory-coast-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1ee.svg\"); }\n\n.twa-cook-island-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f0.svg\"); }\n\n.twa-chile-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f1.svg\"); }\n\n.twa-cameroon-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f2.svg\"); }\n\n.twa-china-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f3.svg\"); }\n\n.twa-cn {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f3.svg\"); }\n\n.twa-colombia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f4.svg\"); }\n\n.twa-clipperton-island-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f5.svg\"); }\n\n.twa-costa-rica-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f7.svg\"); }\n\n.twa-cuba-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1fa.svg\"); }\n\n.twa-cabo-cape-verde-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1fb.svg\"); }\n\n.twa-antilles-curacao-curaçao-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1fc.svg\"); }\n\n.twa-christmas-island-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1fd.svg\"); }\n\n.twa-cyprus-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1fe.svg\"); }\n\n.twa-czech-republic-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8-1f1ff.svg\"); }\n\n.twa-cc {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8.svg\"); }\n\n.twa-squared-c {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e8.svg\"); }\n\n.twa-germany-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9-1f1ea.svg\"); }\n\n.twa-de {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9-1f1ea.svg\"); }\n\n.twa-diego-garcia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9-1f1ec.svg\"); }\n\n.twa-djibouti-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9-1f1ef.svg\"); }\n\n.twa-denmark-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9-1f1f0.svg\"); }\n\n.twa-dominica-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9-1f1f2.svg\"); }\n\n.twa-dominican-republic-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9-1f1f4.svg\"); }\n\n.twa-algeria-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9-1f1ff.svg\"); }\n\n.twa-dd {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9.svg\"); }\n\n.twa-squared-d {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1e9.svg\"); }\n\n.twa-ceuta-melilla-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1e6.svg\"); }\n\n.twa-ecuador-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1e8.svg\"); }\n\n.twa-estonia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1ea.svg\"); }\n\n.twa-egypt-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1ec.svg\"); }\n\n.twa-sahara-west-western-sahara-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1ed.svg\"); }\n\n.twa-eritrea-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1f7.svg\"); }\n\n.twa-spain-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1f8.svg\"); }\n\n.twa-es {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1f8.svg\"); }\n\n.twa-ethiopia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1f9.svg\"); }\n\n.twa-european-union-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea-1f1fa.svg\"); }\n\n.twa-ee {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea.svg\"); }\n\n.twa-squared-e {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ea.svg\"); }\n\n.twa-finland-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1eb-1f1ee.svg\"); }\n\n.twa-fiji-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1eb-1f1ef.svg\"); }\n\n.twa-falkland-falklands-island-islas-malvinas-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1eb-1f1f0.svg\"); }\n\n.twa-micronesia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1eb-1f1f2.svg\"); }\n\n.twa-faroe-island-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1eb-1f1f4.svg\"); }\n\n.twa-france-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1eb-1f1f7.svg\"); }\n\n.twa-fr {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1eb-1f1f7.svg\"); }\n\n.twa-ff {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1eb.svg\"); }\n\n.twa-squared-f {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1eb.svg\"); }\n\n.twa-gabon-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e6.svg\"); }\n\n.twa-britain-british-cornwall-england-great-britain-ireland-northern-ireland-scotland-uk-union-jack-united-united-kingdom-wales-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg\"); }\n\n.twa-gb {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg\"); }\n\n.twa-grenada-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e9.svg\"); }\n\n.twa-georgia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1ea.svg\"); }\n\n.twa-french-guiana-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1eb.svg\"); }\n\n.twa-guernsey-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1ec.svg\"); }\n\n.twa-ghana-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1ed.svg\"); }\n\n.twa-gibraltar-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1ee.svg\"); }\n\n.twa-greenland-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1f1.svg\"); }\n\n.twa-gambia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1f2.svg\"); }\n\n.twa-guinea-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1f3.svg\"); }\n\n.twa-guadeloupe-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1f5.svg\"); }\n\n.twa-equatorial-guinea-guinea-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1f6.svg\"); }\n\n.twa-greece-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1f7.svg\"); }\n\n.twa-georgia-island-south-south-georgia-south-sandwich-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1f8.svg\"); }\n\n.twa-guatemala-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1f9.svg\"); }\n\n.twa-guam-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1fa.svg\"); }\n\n.twa-bissau-guinea-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1fc.svg\"); }\n\n.twa-guyana-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec-1f1fe.svg\"); }\n\n.twa-gg {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec.svg\"); }\n\n.twa-squared-g {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ec.svg\"); }\n\n.twa-china-hong-kong-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ed-1f1f0.svg\"); }\n\n.twa-heard-island-mcdonald-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ed-1f1f2.svg\"); }\n\n.twa-honduras-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ed-1f1f3.svg\"); }\n\n.twa-croatia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ed-1f1f7.svg\"); }\n\n.twa-haiti-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ed-1f1f9.svg\"); }\n\n.twa-hungary-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ed-1f1fa.svg\"); }\n\n.twa-hh {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ed.svg\"); }\n\n.twa-squared-h {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ed.svg\"); }\n\n.twa-canary-island-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1e8.svg\"); }\n\n.twa-indonesia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1e9.svg\"); }\n\n.twa-ireland-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1ea.svg\"); }\n\n.twa-israel-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f1.svg\"); }\n\n.twa-isle-of-man-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f2.svg\"); }\n\n.twa-india-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f3.svg\"); }\n\n.twa-british-chagos-indian-ocean-island-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f4.svg\"); }\n\n.twa-iraq-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f6.svg\"); }\n\n.twa-iran-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f7.svg\"); }\n\n.twa-iceland-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f8.svg\"); }\n\n.twa-italy-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f9.svg\"); }\n\n.twa-it {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f9.svg\"); }\n\n.twa-ii {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee.svg\"); }\n\n.twa-squared-i {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ee.svg\"); }\n\n.twa-jersey-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ef-1f1ea.svg\"); }\n\n.twa-jamaica-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ef-1f1f2.svg\"); }\n\n.twa-jordan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ef-1f1f4.svg\"); }\n\n.twa-japan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ef-1f1f5.svg\"); }\n\n.twa-jp {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ef-1f1f5.svg\"); }\n\n.twa-jj {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ef.svg\"); }\n\n.twa-squared-j {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ef.svg\"); }\n\n.twa-kenya-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1ea.svg\"); }\n\n.twa-kyrgyzstan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1ec.svg\"); }\n\n.twa-cambodia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1ed.svg\"); }\n\n.twa-kiribati-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1ee.svg\"); }\n\n.twa-comoros-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1f2.svg\"); }\n\n.twa-kitts-nevis-saint-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1f3.svg\"); }\n\n.twa-korea-north-north-korea-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1f5.svg\"); }\n\n.twa-korea-south-south-korea-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1f7.svg\"); }\n\n.twa-kr {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1f7.svg\"); }\n\n.twa-kuwait-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1fc.svg\"); }\n\n.twa-cayman-island-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1fe.svg\"); }\n\n.twa-kazakhstan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0-1f1ff.svg\"); }\n\n.twa-kk {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0.svg\"); }\n\n.twa-squared-k {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f0.svg\"); }\n\n.twa-laos-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1e6.svg\"); }\n\n.twa-lebanon-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1e7.svg\"); }\n\n.twa-lucia-saint-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1e8.svg\"); }\n\n.twa-liechtenstein-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1ee.svg\"); }\n\n.twa-sri-lanka-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1f0.svg\"); }\n\n.twa-liberia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1f7.svg\"); }\n\n.twa-lesotho-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1f8.svg\"); }\n\n.twa-lithuania-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1f9.svg\"); }\n\n.twa-luxembourg-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1fa.svg\"); }\n\n.twa-latvia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1fb.svg\"); }\n\n.twa-libya-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1-1f1fe.svg\"); }\n\n.twa-ll {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1.svg\"); }\n\n.twa-squared-l {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f1.svg\"); }\n\n.twa-morocco-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1e6.svg\"); }\n\n.twa-monaco-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1e8.svg\"); }\n\n.twa-moldova-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1e9.svg\"); }\n\n.twa-montenegro-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1ea.svg\"); }\n\n.twa-french-martin-saint-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1eb.svg\"); }\n\n.twa-madagascar-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1ec.svg\"); }\n\n.twa-island-marshall-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1ed.svg\"); }\n\n.twa-macedonia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f0.svg\"); }\n\n.twa-mali-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f1.svg\"); }\n\n.twa-burma-myanmar-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f2.svg\"); }\n\n.twa-mongolia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f3.svg\"); }\n\n.twa-china-macao-macau-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f4.svg\"); }\n\n.twa-island-mariana-north-northern-mariana-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f5.svg\"); }\n\n.twa-martinique-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f6.svg\"); }\n\n.twa-mauritania-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f7.svg\"); }\n\n.twa-montserrat-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f8.svg\"); }\n\n.twa-malta-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f9.svg\"); }\n\n.twa-mauritius-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1fa.svg\"); }\n\n.twa-maldives-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1fb.svg\"); }\n\n.twa-malawi-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1fc.svg\"); }\n\n.twa-mexico-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1fd.svg\"); }\n\n.twa-malaysia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1fe.svg\"); }\n\n.twa-mozambique-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2-1f1ff.svg\"); }\n\n.twa-mm {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2.svg\"); }\n\n.twa-squared-m {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f2.svg\"); }\n\n.twa-namibia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1e6.svg\"); }\n\n.twa-new-new-caledonia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1e8.svg\"); }\n\n.twa-niger-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1ea.svg\"); }\n\n.twa-island-norfolk-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1eb.svg\"); }\n\n.twa-nigeria-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1ec.svg\"); }\n\n.twa-nicaragua-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1ee.svg\"); }\n\n.twa-netherlands-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1f1.svg\"); }\n\n.twa-norway-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1f4.svg\"); }\n\n.twa-nepal-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1f5.svg\"); }\n\n.twa-nauru-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1f7.svg\"); }\n\n.twa-niue-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1fa.svg\"); }\n\n.twa-new-new-zealand-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3-1f1ff.svg\"); }\n\n.twa-nn {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3.svg\"); }\n\n.twa-squared-n {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f3.svg\"); }\n\n.twa-oman-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f4-1f1f2.svg\"); }\n\n.twa-oo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f4.svg\"); }\n\n.twa-squared-o {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f4.svg\"); }\n\n.twa-panama-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1e6.svg\"); }\n\n.twa-peru-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1ea.svg\"); }\n\n.twa-french-polynesia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1eb.svg\"); }\n\n.twa-guinea-new-papua-new-guinea-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1ec.svg\"); }\n\n.twa-philippines-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1ed.svg\"); }\n\n.twa-pakistan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1f0.svg\"); }\n\n.twa-poland-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1f1.svg\"); }\n\n.twa-miquelon-pierre-saint-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1f2.svg\"); }\n\n.twa-island-pitcairn-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1f3.svg\"); }\n\n.twa-puerto-rico-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1f7.svg\"); }\n\n.twa-palestine-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1f8.svg\"); }\n\n.twa-portugal-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1f9.svg\"); }\n\n.twa-palau-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1fc.svg\"); }\n\n.twa-paraguay-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5-1f1fe.svg\"); }\n\n.twa-pp {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5.svg\"); }\n\n.twa-squared-p {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f5.svg\"); }\n\n.twa-qatar-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f6-1f1e6.svg\"); }\n\n.twa-qq {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f6.svg\"); }\n\n.twa-squared-q {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f6.svg\"); }\n\n.twa-reunion-reunion-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f7-1f1ea.svg\"); }\n\n.twa-romania-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f7-1f1f4.svg\"); }\n\n.twa-serbia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f7-1f1f8.svg\"); }\n\n.twa-russia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f7-1f1fa.svg\"); }\n\n.twa-ru {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f7-1f1fa.svg\"); }\n\n.twa-rwanda-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f7-1f1fc.svg\"); }\n\n.twa-rr {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f7.svg\"); }\n\n.twa-squared-r {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f7.svg\"); }\n\n.twa-saudi-arabia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1e6.svg\"); }\n\n.twa-island-solomon-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1e7.svg\"); }\n\n.twa-seychelles-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1e8.svg\"); }\n\n.twa-sudan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1e9.svg\"); }\n\n.twa-sweden-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1ea.svg\"); }\n\n.twa-singapore-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1ec.svg\"); }\n\n.twa-helena-saint-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1ed.svg\"); }\n\n.twa-slovenia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1ee.svg\"); }\n\n.twa-jan-mayen-svalbard-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1ef.svg\"); }\n\n.twa-slovakia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f0.svg\"); }\n\n.twa-sierra-leone-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f1.svg\"); }\n\n.twa-san-marino-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f2.svg\"); }\n\n.twa-senegal-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f3.svg\"); }\n\n.twa-somalia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f4.svg\"); }\n\n.twa-suriname-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f7.svg\"); }\n\n.twa-south-south-sudan-sudan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f8.svg\"); }\n\n.twa-principe-principe-sao-tome-sao-tome-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f9.svg\"); }\n\n.twa-el-salvador-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1fb.svg\"); }\n\n.twa-maarten-sint-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1fd.svg\"); }\n\n.twa-syria-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1fe.svg\"); }\n\n.twa-swaziland-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8-1f1ff.svg\"); }\n\n.twa-ss {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8.svg\"); }\n\n.twa-squared-s {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f8.svg\"); }\n\n.twa-tristan-da-cunha-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1e6.svg\"); }\n\n.twa-caicos-island-turks-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1e8.svg\"); }\n\n.twa-chad-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1e9.svg\"); }\n\n.twa-antarctic-french-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1eb.svg\"); }\n\n.twa-togo-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1ec.svg\"); }\n\n.twa-thailand-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1ed.svg\"); }\n\n.twa-tajikistan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1ef.svg\"); }\n\n.twa-tokelau-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f0.svg\"); }\n\n.twa-east-east-timor-timor-leste-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f1.svg\"); }\n\n.twa-turkmenistan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f2.svg\"); }\n\n.twa-tunisia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f3.svg\"); }\n\n.twa-tonga-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f4.svg\"); }\n\n.twa-turkey-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f7.svg\"); }\n\n.twa-tobago-trinidad-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f9.svg\"); }\n\n.twa-tuvalu-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1fb.svg\"); }\n\n.twa-china-taiwan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1fc.svg\"); }\n\n.twa-tanzania-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9-1f1ff.svg\"); }\n\n.twa-tt {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9.svg\"); }\n\n.twa-squared-t {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1f9.svg\"); }\n\n.twa-ukraine-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fa-1f1e6.svg\"); }\n\n.twa-uganda-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fa-1f1ec.svg\"); }\n\n.twa-america-island-minor-outlying-united-united-states-us-usa-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fa-1f1f2.svg\"); }\n\n.twa-america-stars-and-stripes-united-united-states-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fa-1f1f8.svg\"); }\n\n.twa-us {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fa-1f1f8.svg\"); }\n\n.twa-uruguay-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fa-1f1fe.svg\"); }\n\n.twa-uzbekistan-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fa-1f1ff.svg\"); }\n\n.twa-uu {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fa.svg\"); }\n\n.twa-squared-u {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fa.svg\"); }\n\n.twa-vatican-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fb-1f1e6.svg\"); }\n\n.twa-grenadines-saint-vincent-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fb-1f1e8.svg\"); }\n\n.twa-venezuela-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fb-1f1ea.svg\"); }\n\n.twa-british-island-virgin-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fb-1f1ec.svg\"); }\n\n.twa-america-american-island-united-united-states-us-usa-virgin-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fb-1f1ee.svg\"); }\n\n.twa-viet-nam-vietnam-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fb-1f1f3.svg\"); }\n\n.twa-vanuatu-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fb-1f1fa.svg\"); }\n\n.twa-vv {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fb.svg\"); }\n\n.twa-squared-v {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fb.svg\"); }\n\n.twa-futuna-wallis-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fc-1f1eb.svg\"); }\n\n.twa-samoa-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fc-1f1f8.svg\"); }\n\n.twa-ww {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fc.svg\"); }\n\n.twa-squared-w {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fc.svg\"); }\n\n.twa-kosovo-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fd-1f1f0.svg\"); }\n\n.twa-xx {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fd.svg\"); }\n\n.twa-squared-x {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fd.svg\"); }\n\n.twa-yemen-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fe-1f1ea.svg\"); }\n\n.twa-mayotte-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fe-1f1f9.svg\"); }\n\n.twa-yy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fe.svg\"); }\n\n.twa-squared-y {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1fe.svg\"); }\n\n.twa-south-south-africa-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ff-1f1e6.svg\"); }\n\n.twa-zambia-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ff-1f1f2.svg\"); }\n\n.twa-zimbabwe-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ff-1f1fc.svg\"); }\n\n.twa-zz {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ff.svg\"); }\n\n.twa-squared-z {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f1ff.svg\"); }\n\n.twa-squared-katakana-koko {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f201.svg\"); }\n\n.twa-koko {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f201.svg\"); }\n\n.twa-squared-katakana-sa {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f202.svg\"); }\n\n.twa-sa {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f202.svg\"); }\n\n.twa-squared-negation-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f21a.svg\"); }\n\n.twa-u7121 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f21a.svg\"); }\n\n.twa-squared-finger-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f22f.svg\"); }\n\n.twa-u6307 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f22f.svg\"); }\n\n.twa-squared-prohibit-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f232.svg\"); }\n\n.twa-u7981 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f232.svg\"); }\n\n.twa-squared-empty-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f233.svg\"); }\n\n.twa-u7a7a {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f233.svg\"); }\n\n.twa-squared-together-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f234.svg\"); }\n\n.twa-u5408 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f234.svg\"); }\n\n.twa-squared-fullness-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f235.svg\"); }\n\n.twa-u6e80 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f235.svg\"); }\n\n.twa-squared-exist-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f236.svg\"); }\n\n.twa-u6709 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f236.svg\"); }\n\n.twa-squared-moon-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f237.svg\"); }\n\n.twa-u6708 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f237.svg\"); }\n\n.twa-squared-apply-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f238.svg\"); }\n\n.twa-u7533 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f238.svg\"); }\n\n.twa-squared-divide-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f239.svg\"); }\n\n.twa-u5272 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f239.svg\"); }\n\n.twa-squared-operating-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f23a.svg\"); }\n\n.twa-u55b6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f23a.svg\"); }\n\n.twa-circled-advantage-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f250.svg\"); }\n\n.twa-ideograph-advantage {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f250.svg\"); }\n\n.twa-circled-accept-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f251.svg\"); }\n\n.twa-accept {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f251.svg\"); }\n\n.twa-cyclone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f300.svg\"); }\n\n.twa-foggy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f301.svg\"); }\n\n.twa-closed-umbrella {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f302.svg\"); }\n\n.twa-night-with-stars {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f303.svg\"); }\n\n.twa-stars {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f303.svg\"); }\n\n.twa-sunrise-over-mountains {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f304.svg\"); }\n\n.twa-sunrise {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f305.svg\"); }\n\n.twa-cityscape-at-dusk {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f306.svg\"); }\n\n.twa-city-sunset {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f306.svg\"); }\n\n.twa-sunset {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f307.svg\"); }\n\n.twa-city-sunrise {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f307.svg\"); }\n\n.twa-rainbow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f308.svg\"); }\n\n.twa-bridge-at-night {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f309.svg\"); }\n\n.twa-water-wave {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30a.svg\"); }\n\n.twa-ocean {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30a.svg\"); }\n\n.twa-volcano {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30b.svg\"); }\n\n.twa-milky-way {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30c.svg\"); }\n\n.twa-globe-showing-europe-africa {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30d.svg\"); }\n\n.twa-earth-africa {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30d.svg\"); }\n\n.twa-globe-showing-americas {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30e.svg\"); }\n\n.twa-earth-americas {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30e.svg\"); }\n\n.twa-globe-showing-asia-australia {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30f.svg\"); }\n\n.twa-earth-asia {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f30f.svg\"); }\n\n.twa-globe-with-meridians {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f310.svg\"); }\n\n.twa-new-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f311.svg\"); }\n\n.twa-waxing-crescent-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f312.svg\"); }\n\n.twa-first-quarter-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f313.svg\"); }\n\n.twa-waxing-gibbous-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f314.svg\"); }\n\n.twa-full-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f315.svg\"); }\n\n.twa-waning-gibbous-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f316.svg\"); }\n\n.twa-last-quarter-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f317.svg\"); }\n\n.twa-waning-crescent-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f318.svg\"); }\n\n.twa-crescent-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f319.svg\"); }\n\n.twa-moon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f319.svg\"); }\n\n.twa-new-moon-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f31a.svg\"); }\n\n.twa-new-moon-with-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f31a.svg\"); }\n\n.twa-first-quarter-moon-with-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f31b.svg\"); }\n\n.twa-last-quarter-moon-with-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f31c.svg\"); }\n\n.twa-full-moon-with-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f31d.svg\"); }\n\n.twa-sun-with-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f31e.svg\"); }\n\n.twa-glowing-star {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f31f.svg\"); }\n\n.twa-star2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f31f.svg\"); }\n\n.twa-shooting-star {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f320.svg\"); }\n\n.twa-thermometer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f321.svg\"); }\n\n.twa-sun-behind-small-cloud {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f324.svg\"); }\n\n.twa-sun-behind-large-cloud {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f325.svg\"); }\n\n.twa-sun-behind-cloud-with-rain {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f326.svg\"); }\n\n.twa-cloud-with-rain {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f327.svg\"); }\n\n.twa-cloud-with-snow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f328.svg\"); }\n\n.twa-cloud-with-lightning {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f329.svg\"); }\n\n.twa-tornado {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f32a.svg\"); }\n\n.twa-fog {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f32b.svg\"); }\n\n.twa-wind-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f32c.svg\"); }\n\n.twa-hot-dog {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f32d.svg\"); }\n\n.twa-taco {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f32e.svg\"); }\n\n.twa-burrito {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f32f.svg\"); }\n\n.twa-chestnut {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f330.svg\"); }\n\n.twa-seedling {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f331.svg\"); }\n\n.twa-evergreen {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f332.svg\"); }\n\n.twa-evergreen-tree {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f332.svg\"); }\n\n.twa-deciduous-tree {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f333.svg\"); }\n\n.twa-palm-tree {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f334.svg\"); }\n\n.twa-cactus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f335.svg\"); }\n\n.twa-hot-pepper {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f336.svg\"); }\n\n.twa-tulip {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f337.svg\"); }\n\n.twa-cherry-blossom {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f338.svg\"); }\n\n.twa-rose {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f339.svg\"); }\n\n.twa-hibiscus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f33a.svg\"); }\n\n.twa-sunflower {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f33b.svg\"); }\n\n.twa-blossom {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f33c.svg\"); }\n\n.twa-ear-of-corn {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f33d.svg\"); }\n\n.twa-corn {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f33d.svg\"); }\n\n.twa-sheaf-of-rice {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f33e.svg\"); }\n\n.twa-ear-of-rice {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f33e.svg\"); }\n\n.twa-herb {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f33f.svg\"); }\n\n.twa-four-leaf-clover {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f340.svg\"); }\n\n.twa-maple-leaf {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f341.svg\"); }\n\n.twa-fallen-leaf {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f342.svg\"); }\n\n.twa-leaf-fluttering-in-wind {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f343.svg\"); }\n\n.twa-leaves {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f343.svg\"); }\n\n.twa-mushroom {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f344.svg\"); }\n\n.twa-tomato {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f345.svg\"); }\n\n.twa-eggplant {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f346.svg\"); }\n\n.twa-grapes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f347.svg\"); }\n\n.twa-melon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f348.svg\"); }\n\n.twa-watermelon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f349.svg\"); }\n\n.twa-tangerine {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f34a.svg\"); }\n\n.twa-lemon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f34b.svg\"); }\n\n.twa-banana {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f34c.svg\"); }\n\n.twa-pineapple {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f34d.svg\"); }\n\n.twa-red-apple {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f34e.svg\"); }\n\n.twa-apple {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f34e.svg\"); }\n\n.twa-green-apple {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f34f.svg\"); }\n\n.twa-pear {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f350.svg\"); }\n\n.twa-peach {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f351.svg\"); }\n\n.twa-cherries {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f352.svg\"); }\n\n.twa-strawberry {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f353.svg\"); }\n\n.twa-hamburger {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f354.svg\"); }\n\n.twa-pizza {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f355.svg\"); }\n\n.twa-meat-on-bone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f356.svg\"); }\n\n.twa-poultry-leg {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f357.svg\"); }\n\n.twa-rice-cracker {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f358.svg\"); }\n\n.twa-rice-ball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f359.svg\"); }\n\n.twa-cooked-rice {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35a.svg\"); }\n\n.twa-rice {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35a.svg\"); }\n\n.twa-curry-rice {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35b.svg\"); }\n\n.twa-curry {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35b.svg\"); }\n\n.twa-steaming-bowl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35c.svg\"); }\n\n.twa-ramen {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35c.svg\"); }\n\n.twa-spaghetti {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35d.svg\"); }\n\n.twa-bread {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35e.svg\"); }\n\n.twa-french-fries {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35f.svg\"); }\n\n.twa-fries {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f35f.svg\"); }\n\n.twa-roasted-sweet-potato {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f360.svg\"); }\n\n.twa-sweet-potato {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f360.svg\"); }\n\n.twa-dango {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f361.svg\"); }\n\n.twa-oden {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f362.svg\"); }\n\n.twa-sushi {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f363.svg\"); }\n\n.twa-fried-shrimp {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f364.svg\"); }\n\n.twa-fish-cake-with-swirl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f365.svg\"); }\n\n.twa-fish-cake {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f365.svg\"); }\n\n.twa-soft-ice-cream {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f366.svg\"); }\n\n.twa-icecream {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f366.svg\"); }\n\n.twa-shaved-ice {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f367.svg\"); }\n\n.twa-ice-cream {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f368.svg\"); }\n\n.twa-doughnut {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f369.svg\"); }\n\n.twa-cookie {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f36a.svg\"); }\n\n.twa-chocolate-bar {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f36b.svg\"); }\n\n.twa-candy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f36c.svg\"); }\n\n.twa-lollipop {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f36d.svg\"); }\n\n.twa-custard {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f36e.svg\"); }\n\n.twa-honey-pot {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f36f.svg\"); }\n\n.twa-shortcake {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f370.svg\"); }\n\n.twa-cake {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f370.svg\"); }\n\n.twa-bento-box {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f371.svg\"); }\n\n.twa-bento {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f371.svg\"); }\n\n.twa-pot-of-food {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f372.svg\"); }\n\n.twa-stew {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f372.svg\"); }\n\n.twa-cooking {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f373.svg\"); }\n\n.twa-fork-and-knife {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f374.svg\"); }\n\n.twa-teacup-without-handle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f375.svg\"); }\n\n.twa-tea {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f375.svg\"); }\n\n.twa-sake {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f376.svg\"); }\n\n.twa-wine-glass {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f377.svg\"); }\n\n.twa-cocktail-glass {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f378.svg\"); }\n\n.twa-cocktail {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f378.svg\"); }\n\n.twa-tropical-drink {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f379.svg\"); }\n\n.twa-beer-mug {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f37a.svg\"); }\n\n.twa-beer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f37a.svg\"); }\n\n.twa-clinking-beer-mugs {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f37b.svg\"); }\n\n.twa-beers {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f37b.svg\"); }\n\n.twa-baby-bottle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f37c.svg\"); }\n\n.twa-fork-and-knife-with-plate {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f37d.svg\"); }\n\n.twa-bottle-with-popping-cork {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f37e.svg\"); }\n\n.twa-popcorn {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f37f.svg\"); }\n\n.twa-ribbon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f380.svg\"); }\n\n.twa-wrapped-present {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f381.svg\"); }\n\n.twa-gift {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f381.svg\"); }\n\n.twa-birthday-cake {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f382.svg\"); }\n\n.twa-birthday {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f382.svg\"); }\n\n.twa-jack-o-lantern {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f383.svg\"); }\n\n.twa-christmas-tree {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f384.svg\"); }\n\n.twa-father-christmas-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f385-1f3fb.svg\"); }\n\n.twa-father-christmas-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f385-1f3fc.svg\"); }\n\n.twa-father-christmas-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f385-1f3fd.svg\"); }\n\n.twa-father-christmas-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f385-1f3fe.svg\"); }\n\n.twa-father-christmas-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f385-1f3ff.svg\"); }\n\n.twa-santa-claus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f385.svg\"); }\n\n.twa-santa {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f385.svg\"); }\n\n.twa-fireworks {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f386.svg\"); }\n\n.twa-sparkler {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f387.svg\"); }\n\n.twa-balloon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f388.svg\"); }\n\n.twa-party-popper {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f389.svg\"); }\n\n.twa-tada {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f389.svg\"); }\n\n.twa-confetti-ball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f38a.svg\"); }\n\n.twa-tanabata-tree {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f38b.svg\"); }\n\n.twa-crossed-flags {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f38c.svg\"); }\n\n.twa-pine-decoration {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f38d.svg\"); }\n\n.twa-bamboo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f38d.svg\"); }\n\n.twa-japanese-dolls {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f38e.svg\"); }\n\n.twa-dolls {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f38e.svg\"); }\n\n.twa-carp-streamer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f38f.svg\"); }\n\n.twa-flags {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f38f.svg\"); }\n\n.twa-wind-chime {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f390.svg\"); }\n\n.twa-moon-ceremony {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f391.svg\"); }\n\n.twa-rice-scene {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f391.svg\"); }\n\n.twa-school-backpack {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f392.svg\"); }\n\n.twa-school-satchel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f392.svg\"); }\n\n.twa-graduation-cap {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f393.svg\"); }\n\n.twa-mortar-board {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f393.svg\"); }\n\n.twa-military-medal {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f396.svg\"); }\n\n.twa-reminder-ribbon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f397.svg\"); }\n\n.twa-studio-microphone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f399.svg\"); }\n\n.twa-level-slider {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f39a.svg\"); }\n\n.twa-control-knobs {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f39b.svg\"); }\n\n.twa-film-frames {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f39e.svg\"); }\n\n.twa-admission-tickets {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f39f.svg\"); }\n\n.twa-carousel-horse {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a0.svg\"); }\n\n.twa-ferris-wheel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a1.svg\"); }\n\n.twa-roller-coaster {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a2.svg\"); }\n\n.twa-fishing-pole {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a3.svg\"); }\n\n.twa-fishing-pole-and-fish {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a3.svg\"); }\n\n.twa-microphone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a4.svg\"); }\n\n.twa-movie-camera {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a5.svg\"); }\n\n.twa-cinema {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a6.svg\"); }\n\n.twa-headphone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a7.svg\"); }\n\n.twa-headphones {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a7.svg\"); }\n\n.twa-artist-palette {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a8.svg\"); }\n\n.twa-art {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a8.svg\"); }\n\n.twa-top-hat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a9.svg\"); }\n\n.twa-tophat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3a9.svg\"); }\n\n.twa-circus-tent {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3aa.svg\"); }\n\n.twa-ticket {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ab.svg\"); }\n\n.twa-clapper-board {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ac.svg\"); }\n\n.twa-clapper {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ac.svg\"); }\n\n.twa-performing-arts {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ad.svg\"); }\n\n.twa-video-game {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ae.svg\"); }\n\n.twa-direct-hit {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3af.svg\"); }\n\n.twa-dart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3af.svg\"); }\n\n.twa-slot-machine {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b0.svg\"); }\n\n.twa-billiards {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b1.svg\"); }\n\n.twa-8ball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b1.svg\"); }\n\n.twa-game-die {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b2.svg\"); }\n\n.twa-bowling {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b3.svg\"); }\n\n.twa-flower-playing-cards {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b4.svg\"); }\n\n.twa-musical-note {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b5.svg\"); }\n\n.twa-musical-notes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b6.svg\"); }\n\n.twa-notes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b6.svg\"); }\n\n.twa-saxophone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b7.svg\"); }\n\n.twa-guitar {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b8.svg\"); }\n\n.twa-musical-keyboard {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3b9.svg\"); }\n\n.twa-trumpet {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ba.svg\"); }\n\n.twa-violin {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3bb.svg\"); }\n\n.twa-musical-score {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3bc.svg\"); }\n\n.twa-running-shirt {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3bd.svg\"); }\n\n.twa-running-shirt-with-sash {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3bd.svg\"); }\n\n.twa-tennis {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3be.svg\"); }\n\n.twa-skis {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3bf.svg\"); }\n\n.twa-ski {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3bf.svg\"); }\n\n.twa-basketball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c0.svg\"); }\n\n.twa-chequered-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c1.svg\"); }\n\n.twa-checkered-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c1.svg\"); }\n\n.twa-snowboarder-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c2-1f3fb.svg\"); }\n\n.twa-snowboarder-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c2-1f3fc.svg\"); }\n\n.twa-snowboarder-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c2-1f3fd.svg\"); }\n\n.twa-snowboarder-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c2-1f3fe.svg\"); }\n\n.twa-snowboarder-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c2-1f3ff.svg\"); }\n\n.twa-snowboarder {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c2.svg\"); }\n\n.twa-runner-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c3-1f3fb.svg\"); }\n\n.twa-runner-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c3-1f3fc.svg\"); }\n\n.twa-runner-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c3-1f3fd.svg\"); }\n\n.twa-runner-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c3-1f3fe.svg\"); }\n\n.twa-runner-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c3-1f3ff.svg\"); }\n\n.twa-runner {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c3.svg\"); }\n\n.twa-surfer-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c4-1f3fb.svg\"); }\n\n.twa-surfer-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c4-1f3fc.svg\"); }\n\n.twa-surfer-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c4-1f3fd.svg\"); }\n\n.twa-surfer-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c4-1f3fe.svg\"); }\n\n.twa-surfer-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c4-1f3ff.svg\"); }\n\n.twa-surfer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c4.svg\"); }\n\n.twa-sports-medal {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c5.svg\"); }\n\n.twa-trophy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c6.svg\"); }\n\n.twa-horse-racing-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c7-1f3fb.svg\"); }\n\n.twa-horse-racing-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c7-1f3fc.svg\"); }\n\n.twa-horse-racing-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c7-1f3fd.svg\"); }\n\n.twa-horse-racing-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c7-1f3fe.svg\"); }\n\n.twa-horse-racing-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c7-1f3ff.svg\"); }\n\n.twa-horse-racing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c7.svg\"); }\n\n.twa-american-football {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c8.svg\"); }\n\n.twa-football {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c8.svg\"); }\n\n.twa-rugby-football {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3c9.svg\"); }\n\n.twa-swimmer-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ca-1f3fb.svg\"); }\n\n.twa-swimmer-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ca-1f3fc.svg\"); }\n\n.twa-swimmer-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ca-1f3fd.svg\"); }\n\n.twa-swimmer-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ca-1f3fe.svg\"); }\n\n.twa-swimmer-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ca-1f3ff.svg\"); }\n\n.twa-swimmer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ca.svg\"); }\n\n.twa-weight-lifter-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3cb-1f3fb.svg\"); }\n\n.twa-weight-lifter-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3cb-1f3fc.svg\"); }\n\n.twa-weight-lifter-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3cb-1f3fd.svg\"); }\n\n.twa-weight-lifter-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3cb-1f3fe.svg\"); }\n\n.twa-weight-lifter-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3cb-1f3ff.svg\"); }\n\n.twa-weight-lifter {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3cb.svg\"); }\n\n.twa-golfer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3cc.svg\"); }\n\n.twa-motorcycle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3cd.svg\"); }\n\n.twa-racing-car {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ce.svg\"); }\n\n.twa-cricket {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3cf.svg\"); }\n\n.twa-volleyball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d0.svg\"); }\n\n.twa-field-hockey {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d1.svg\"); }\n\n.twa-ice-hockey-stick-and-puck {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d2.svg\"); }\n\n.twa-ping-pong {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d3.svg\"); }\n\n.twa-snow-capped-mountain {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d4.svg\"); }\n\n.twa-camping {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d5.svg\"); }\n\n.twa-beach-with-umbrella {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d6.svg\"); }\n\n.twa-building-construction {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d7.svg\"); }\n\n.twa-house-buildings {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d8.svg\"); }\n\n.twa-cityscape {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3d9.svg\"); }\n\n.twa-derelict-house-building {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3da.svg\"); }\n\n.twa-classical-building {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3db.svg\"); }\n\n.twa-desert {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3dc.svg\"); }\n\n.twa-desert-island {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3dd.svg\"); }\n\n.twa-national-park {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3de.svg\"); }\n\n.twa-stadium {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3df.svg\"); }\n\n.twa-house-building {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e0.svg\"); }\n\n.twa-house {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e0.svg\"); }\n\n.twa-house-with-garden {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e1.svg\"); }\n\n.twa-office-building {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e2.svg\"); }\n\n.twa-office {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e2.svg\"); }\n\n.twa-japanese-post-office {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e3.svg\"); }\n\n.twa-post-office {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e4.svg\"); }\n\n.twa-european-post-office {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e4.svg\"); }\n\n.twa-hospital {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e5.svg\"); }\n\n.twa-bank {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e6.svg\"); }\n\n.twa-atm-sign {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e7.svg\"); }\n\n.twa-atm {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e7.svg\"); }\n\n.twa-hotel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e8.svg\"); }\n\n.twa-love-hotel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3e9.svg\"); }\n\n.twa-convenience-store {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ea.svg\"); }\n\n.twa-school {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3eb.svg\"); }\n\n.twa-department-store {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ec.svg\"); }\n\n.twa-factory {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ed.svg\"); }\n\n.twa-red-paper-lantern {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ee.svg\"); }\n\n.twa-japanese-castle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ef.svg\"); }\n\n.twa-castle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f0.svg\"); }\n\n.twa-european-castle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f0.svg\"); }\n\n.twa-rainbow-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f3-fe0f-200d-1f308.svg\"); }\n\n.twa-pride {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f3-fe0f-200d-1f308.svg\"); }\n\n.twa-waving-white-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f3.svg\"); }\n\n.twa-pirate-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f4-200d-2620-fe0f.svg\"); }\n\n.twa-jolly-roger {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f4-200d-2620-fe0f.svg\"); }\n\n.twa-waving-black-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f4.svg\"); }\n\n.twa-rosette {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f5.svg\"); }\n\n.twa-label {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f7.svg\"); }\n\n.twa-badminton {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f8.svg\"); }\n\n.twa-bow-and-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3f9.svg\"); }\n\n.twa-amphora {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3fa.svg\"); }\n\n.twa-skin-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3fb.svg\"); }\n\n.twa-skin-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3fc.svg\"); }\n\n.twa-skin-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3fd.svg\"); }\n\n.twa-skin-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3fe.svg\"); }\n\n.twa-skin-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f3ff.svg\"); }\n\n.twa-rat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f400.svg\"); }\n\n.twa-mouse {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f401.svg\"); }\n\n.twa-mouse2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f401.svg\"); }\n\n.twa-ox {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f402.svg\"); }\n\n.twa-water-buffalo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f403.svg\"); }\n\n.twa-cow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f404.svg\"); }\n\n.twa-cow2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f404.svg\"); }\n\n.twa-tiger {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f405.svg\"); }\n\n.twa-tiger2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f405.svg\"); }\n\n.twa-leopard {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f406.svg\"); }\n\n.twa-rabbit {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f407.svg\"); }\n\n.twa-rabbit2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f407.svg\"); }\n\n.twa-cat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f408.svg\"); }\n\n.twa-cat2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f408.svg\"); }\n\n.twa-dragon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f409.svg\"); }\n\n.twa-crocodile {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f40a.svg\"); }\n\n.twa-whale {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f40b.svg\"); }\n\n.twa-whale2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f40b.svg\"); }\n\n.twa-snail {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f40c.svg\"); }\n\n.twa-snake {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f40d.svg\"); }\n\n.twa-horse {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f40e.svg\"); }\n\n.twa-racehorse {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f40e.svg\"); }\n\n.twa-ram {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f40f.svg\"); }\n\n.twa-goat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f410.svg\"); }\n\n.twa-sheep {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f411.svg\"); }\n\n.twa-monkey {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f412.svg\"); }\n\n.twa-rooster {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f413.svg\"); }\n\n.twa-chicken {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f414.svg\"); }\n\n.twa-dog {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f415.svg\"); }\n\n.twa-dog2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f415.svg\"); }\n\n.twa-pig {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f416.svg\"); }\n\n.twa-pig2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f416.svg\"); }\n\n.twa-boar {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f417.svg\"); }\n\n.twa-elephant {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f418.svg\"); }\n\n.twa-octopus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f419.svg\"); }\n\n.twa-spiral-shell {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f41a.svg\"); }\n\n.twa-shell {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f41a.svg\"); }\n\n.twa-bug {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f41b.svg\"); }\n\n.twa-ant {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f41c.svg\"); }\n\n.twa-honeybee {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f41d.svg\"); }\n\n.twa-lady-beetle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f41e.svg\"); }\n\n.twa-beetle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f41e.svg\"); }\n\n.twa-fish {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f41f.svg\"); }\n\n.twa-tropical-fish {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f420.svg\"); }\n\n.twa-blowfish {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f421.svg\"); }\n\n.twa-turtle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f422.svg\"); }\n\n.twa-hatching-chick {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f423.svg\"); }\n\n.twa-baby-chick {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f424.svg\"); }\n\n.twa-front-facing-baby-chick {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f425.svg\"); }\n\n.twa-hatched-chick {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f425.svg\"); }\n\n.twa-bird {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f426.svg\"); }\n\n.twa-penguin {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f427.svg\"); }\n\n.twa-koala {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f428.svg\"); }\n\n.twa-poodle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f429.svg\"); }\n\n.twa-camel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f42a.svg\"); }\n\n.twa-dromedary-camel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f42a.svg\"); }\n\n.twa-two-hump-camel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f42b.svg\"); }\n\n.twa-dolphin {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f42c.svg\"); }\n\n.twa-mouse-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f42d.svg\"); }\n\n.twa-cow-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f42e.svg\"); }\n\n.twa-tiger-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f42f.svg\"); }\n\n.twa-rabbit-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f430.svg\"); }\n\n.twa-cat-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f431.svg\"); }\n\n.twa-dragon-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f432.svg\"); }\n\n.twa-spouting-whale {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f433.svg\"); }\n\n.twa-horse-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f434.svg\"); }\n\n.twa-monkey-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f435.svg\"); }\n\n.twa-dog-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f436.svg\"); }\n\n.twa-pig-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f437.svg\"); }\n\n.twa-frog-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f438.svg\"); }\n\n.twa-frog {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f438.svg\"); }\n\n.twa-hamster-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f439.svg\"); }\n\n.twa-hamster {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f439.svg\"); }\n\n.twa-wolf-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f43a.svg\"); }\n\n.twa-wolf {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f43a.svg\"); }\n\n.twa-bear-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f43b.svg\"); }\n\n.twa-bear {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f43b.svg\"); }\n\n.twa-panda-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f43c.svg\"); }\n\n.twa-pig-nose {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f43d.svg\"); }\n\n.twa-paw-prints {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f43e.svg\"); }\n\n.twa-chipmunk {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f43f.svg\"); }\n\n.twa-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f440.svg\"); }\n\n.twa-eye-in-speech-bubble {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f441-200d-1f5e8.svg\"); }\n\n.twa-eye {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f441.svg\"); }\n\n.twa-ear-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f442-1f3fb.svg\"); }\n\n.twa-ear-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f442-1f3fc.svg\"); }\n\n.twa-ear-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f442-1f3fd.svg\"); }\n\n.twa-ear-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f442-1f3fe.svg\"); }\n\n.twa-ear-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f442-1f3ff.svg\"); }\n\n.twa-ear {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f442.svg\"); }\n\n.twa-nose-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f443-1f3fb.svg\"); }\n\n.twa-nose-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f443-1f3fc.svg\"); }\n\n.twa-nose-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f443-1f3fd.svg\"); }\n\n.twa-nose-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f443-1f3fe.svg\"); }\n\n.twa-nose-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f443-1f3ff.svg\"); }\n\n.twa-nose {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f443.svg\"); }\n\n.twa-mouth {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f444.svg\"); }\n\n.twa-lips {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f444.svg\"); }\n\n.twa-tongue {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f445.svg\"); }\n\n.twa-white-up-pointing-backhand-index-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f446-1f3fb.svg\"); }\n\n.twa-white-up-pointing-backhand-index-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f446-1f3fc.svg\"); }\n\n.twa-white-up-pointing-backhand-index-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f446-1f3fd.svg\"); }\n\n.twa-white-up-pointing-backhand-index-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f446-1f3fe.svg\"); }\n\n.twa-white-up-pointing-backhand-index-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f446-1f3ff.svg\"); }\n\n.twa-backhand-index-pointing-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f446.svg\"); }\n\n.twa-point-up-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f446.svg\"); }\n\n.twa-white-down-pointing-backhand-index-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f447-1f3fb.svg\"); }\n\n.twa-white-down-pointing-backhand-index-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f447-1f3fc.svg\"); }\n\n.twa-white-down-pointing-backhand-index-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f447-1f3fd.svg\"); }\n\n.twa-white-down-pointing-backhand-index-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f447-1f3fe.svg\"); }\n\n.twa-white-down-pointing-backhand-index-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f447-1f3ff.svg\"); }\n\n.twa-backhand-index-pointing-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f447.svg\"); }\n\n.twa-point-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f447.svg\"); }\n\n.twa-white-left-pointing-backhand-index-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f448-1f3fb.svg\"); }\n\n.twa-white-left-pointing-backhand-index-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f448-1f3fc.svg\"); }\n\n.twa-white-left-pointing-backhand-index-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f448-1f3fd.svg\"); }\n\n.twa-white-left-pointing-backhand-index-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f448-1f3fe.svg\"); }\n\n.twa-white-left-pointing-backhand-index-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f448-1f3ff.svg\"); }\n\n.twa-backhand-index-pointing-left {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f448.svg\"); }\n\n.twa-point-left {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f448.svg\"); }\n\n.twa-white-right-pointing-backhand-index-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f449-1f3fb.svg\"); }\n\n.twa-white-right-pointing-backhand-index-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f449-1f3fc.svg\"); }\n\n.twa-white-right-pointing-backhand-index-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f449-1f3fd.svg\"); }\n\n.twa-white-right-pointing-backhand-index-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f449-1f3fe.svg\"); }\n\n.twa-white-right-pointing-backhand-index-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f449-1f3ff.svg\"); }\n\n.twa-backhand-index-pointing-right {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f449.svg\"); }\n\n.twa-point-right {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f449.svg\"); }\n\n.twa-fisted-hand-sign-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44a-1f3fb.svg\"); }\n\n.twa-fisted-hand-sign-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44a-1f3fc.svg\"); }\n\n.twa-fisted-hand-sign-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44a-1f3fd.svg\"); }\n\n.twa-fisted-hand-sign-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44a-1f3fe.svg\"); }\n\n.twa-fisted-hand-sign-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44a-1f3ff.svg\"); }\n\n.twa-oncoming-fist {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44a.svg\"); }\n\n.twa-punch {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44a.svg\"); }\n\n.twa-waving-hand-sign-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44b-1f3fb.svg\"); }\n\n.twa-waving-hand-sign-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44b-1f3fc.svg\"); }\n\n.twa-waving-hand-sign-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44b-1f3fd.svg\"); }\n\n.twa-waving-hand-sign-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44b-1f3fe.svg\"); }\n\n.twa-waving-hand-sign-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44b-1f3ff.svg\"); }\n\n.twa-waving-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44b.svg\"); }\n\n.twa-wave {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44b.svg\"); }\n\n.twa-ok-hand-sign-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44c-1f3fb.svg\"); }\n\n.twa-ok-hand-sign-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44c-1f3fc.svg\"); }\n\n.twa-ok-hand-sign-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44c-1f3fd.svg\"); }\n\n.twa-ok-hand-sign-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44c-1f3fe.svg\"); }\n\n.twa-ok-hand-sign-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44c-1f3ff.svg\"); }\n\n.twa-ok-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44c.svg\"); }\n\n.twa-thumbs-up-sign-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44d-1f3fb.svg\"); }\n\n.twa-thumbs-up-sign-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44d-1f3fc.svg\"); }\n\n.twa-thumbs-up-sign-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44d-1f3fd.svg\"); }\n\n.twa-thumbs-up-sign-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44d-1f3fe.svg\"); }\n\n.twa-thumbs-up-sign-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44d-1f3ff.svg\"); }\n\n.twa-thumbs-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44d.svg\"); }\n\n.twa-thumbsup {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44d.svg\"); }\n\n.twa-thumbs-down-sign-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44e-1f3fb.svg\"); }\n\n.twa-thumbs-down-sign-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44e-1f3fc.svg\"); }\n\n.twa-thumbs-down-sign-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44e-1f3fd.svg\"); }\n\n.twa-thumbs-down-sign-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44e-1f3fe.svg\"); }\n\n.twa-thumbs-down-sign-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44e-1f3ff.svg\"); }\n\n.twa-thumbs-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44e.svg\"); }\n\n.twa-thumbsdown {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44e.svg\"); }\n\n.twa-clapping-hands-sign-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44f-1f3fb.svg\"); }\n\n.twa-clapping-hands-sign-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44f-1f3fc.svg\"); }\n\n.twa-clapping-hands-sign-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44f-1f3fd.svg\"); }\n\n.twa-clapping-hands-sign-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44f-1f3fe.svg\"); }\n\n.twa-clapping-hands-sign-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44f-1f3ff.svg\"); }\n\n.twa-clapping-hands {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44f.svg\"); }\n\n.twa-clap {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f44f.svg\"); }\n\n.twa-open-hands-sign-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f450-1f3fb.svg\"); }\n\n.twa-open-hands-sign-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f450-1f3fc.svg\"); }\n\n.twa-open-hands-sign-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f450-1f3fd.svg\"); }\n\n.twa-open-hands-sign-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f450-1f3fe.svg\"); }\n\n.twa-open-hands-sign-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f450-1f3ff.svg\"); }\n\n.twa-open-hands {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f450.svg\"); }\n\n.twa-crown {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f451.svg\"); }\n\n.twa-womans-hat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f452.svg\"); }\n\n.twa-glasses {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f453.svg\"); }\n\n.twa-eyeglasses {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f453.svg\"); }\n\n.twa-necktie {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f454.svg\"); }\n\n.twa-t-shirt {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f455.svg\"); }\n\n.twa-shirt {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f455.svg\"); }\n\n.twa-jeans {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f456.svg\"); }\n\n.twa-dress {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f457.svg\"); }\n\n.twa-kimono {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f458.svg\"); }\n\n.twa-bikini {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f459.svg\"); }\n\n.twa-womans-clothes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f45a.svg\"); }\n\n.twa-purse {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f45b.svg\"); }\n\n.twa-handbag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f45c.svg\"); }\n\n.twa-pouch {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f45d.svg\"); }\n\n.twa-mans-shoe {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f45e.svg\"); }\n\n.twa-running-shoe {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f45f.svg\"); }\n\n.twa-high-heeled-shoe {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f460.svg\"); }\n\n.twa-high-heel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f460.svg\"); }\n\n.twa-womans-sandal {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f461.svg\"); }\n\n.twa-sandal {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f461.svg\"); }\n\n.twa-womans-boot {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f462.svg\"); }\n\n.twa-boot {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f462.svg\"); }\n\n.twa-footprints {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f463.svg\"); }\n\n.twa-feet {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f463.svg\"); }\n\n.twa-bust-in-silhouette {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f464.svg\"); }\n\n.twa-busts-in-silhouette {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f465.svg\"); }\n\n.twa-boy-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f466-1f3fb.svg\"); }\n\n.twa-boy-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f466-1f3fc.svg\"); }\n\n.twa-boy-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f466-1f3fd.svg\"); }\n\n.twa-boy-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f466-1f3fe.svg\"); }\n\n.twa-boy-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f466-1f3ff.svg\"); }\n\n.twa-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f466.svg\"); }\n\n.twa-girl-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f467-1f3fb.svg\"); }\n\n.twa-girl-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f467-1f3fc.svg\"); }\n\n.twa-girl-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f467-1f3fd.svg\"); }\n\n.twa-girl-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f467-1f3fe.svg\"); }\n\n.twa-girl-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f467-1f3ff.svg\"); }\n\n.twa-girl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f467.svg\"); }\n\n.twa-man-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-1f3fb.svg\"); }\n\n.twa-man-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-1f3fc.svg\"); }\n\n.twa-man-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-1f3fd.svg\"); }\n\n.twa-man-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-1f3fe.svg\"); }\n\n.twa-man-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-1f3ff.svg\"); }\n\n.twa-family-man-man-boy-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f468-200d-1f466-200d-1f466.svg\"); }\n\n.twa-family-man-man-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f468-200d-1f466.svg\"); }\n\n.twa-family-man-man-girl-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f468-200d-1f467-200d-1f466.svg\"); }\n\n.twa-family-man-man-girl-girl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f468-200d-1f467-200d-1f467.svg\"); }\n\n.twa-family-man-man-girl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f468-200d-1f467.svg\"); }\n\n.twa-family-man-woman-boy-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f469-200d-1f466-200d-1f466.svg\"); }\n\n.twa-family-man-woman-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f469-200d-1f466.svg\"); }\n\n.twa-family-man-woman-girl-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f469-200d-1f467-200d-1f466.svg\"); }\n\n.twa-family-man-woman-girl-girl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f469-200d-1f467-200d-1f467.svg\"); }\n\n.twa-family-man-woman-girl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-1f469-200d-1f467.svg\"); }\n\n.twa-couple-with-heart-man-man {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-2764-fe0f-200d-1f468.svg\"); }\n\n.twa-kiss-man-man {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468-200d-2764-fe0f-200d-1f48b-200d-1f468.svg\"); }\n\n.twa-man {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f468.svg\"); }\n\n.twa-woman-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-1f3fb.svg\"); }\n\n.twa-woman-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-1f3fc.svg\"); }\n\n.twa-woman-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-1f3fd.svg\"); }\n\n.twa-woman-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-1f3fe.svg\"); }\n\n.twa-woman-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-1f3ff.svg\"); }\n\n.twa-family-woman-woman-boy-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-200d-1f469-200d-1f466-200d-1f466.svg\"); }\n\n.twa-family-woman-woman-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-200d-1f469-200d-1f466.svg\"); }\n\n.twa-family-woman-woman-girl-boy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-200d-1f469-200d-1f467-200d-1f466.svg\"); }\n\n.twa-family-woman-woman-girl-girl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-200d-1f469-200d-1f467-200d-1f467.svg\"); }\n\n.twa-family-woman-woman-girl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-200d-1f469-200d-1f467.svg\"); }\n\n.twa-couple-with-heart-woman-man {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-200d-2764-fe0f-200d-1f468.svg\"); }\n\n.twa-couple-with-heart-woman-woman {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-200d-2764-fe0f-200d-1f469.svg\"); }\n\n.twa-kiss-woman-man {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-200d-2764-fe0f-200d-1f48b-200d-1f468.svg\"); }\n\n.twa-kiss-woman-woman {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469-200d-2764-fe0f-200d-1f48b-200d-1f469.svg\"); }\n\n.twa-woman {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f469.svg\"); }\n\n.twa-family {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46a.svg\"); }\n\n.twa-man-and-woman-holding-hands {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46b.svg\"); }\n\n.twa-couple {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46b.svg\"); }\n\n.twa-two-men-holding-hands {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46c.svg\"); }\n\n.twa-two-women-holding-hands {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46d.svg\"); }\n\n.twa-police-officer-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46e-1f3fb.svg\"); }\n\n.twa-police-officer-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46e-1f3fc.svg\"); }\n\n.twa-police-officer-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46e-1f3fd.svg\"); }\n\n.twa-police-officer-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46e-1f3fe.svg\"); }\n\n.twa-police-officer-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46e-1f3ff.svg\"); }\n\n.twa-police-officer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46e.svg\"); }\n\n.twa-cop {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46e.svg\"); }\n\n.twa-women-partying {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46f.svg\"); }\n\n.twa-dancers {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f46f.svg\"); }\n\n.twa-bride-with-veil-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f470-1f3fb.svg\"); }\n\n.twa-bride-with-veil-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f470-1f3fc.svg\"); }\n\n.twa-bride-with-veil-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f470-1f3fd.svg\"); }\n\n.twa-bride-with-veil-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f470-1f3fe.svg\"); }\n\n.twa-bride-with-veil-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f470-1f3ff.svg\"); }\n\n.twa-bride-with-veil {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f470.svg\"); }\n\n.twa-person-with-blond-hair-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f471-1f3fb.svg\"); }\n\n.twa-person-with-blond-hair-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f471-1f3fc.svg\"); }\n\n.twa-person-with-blond-hair-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f471-1f3fd.svg\"); }\n\n.twa-person-with-blond-hair-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f471-1f3fe.svg\"); }\n\n.twa-person-with-blond-hair-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f471-1f3ff.svg\"); }\n\n.twa-person-with-blond-hair {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f471.svg\"); }\n\n.twa-man-with-gua-pi-mao-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f472-1f3fb.svg\"); }\n\n.twa-man-with-gua-pi-mao-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f472-1f3fc.svg\"); }\n\n.twa-man-with-gua-pi-mao-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f472-1f3fd.svg\"); }\n\n.twa-man-with-gua-pi-mao-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f472-1f3fe.svg\"); }\n\n.twa-man-with-gua-pi-mao-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f472-1f3ff.svg\"); }\n\n.twa-man-with-chinese-cap {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f472.svg\"); }\n\n.twa-man-with-gua-pi-mao {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f472.svg\"); }\n\n.twa-man-with-turban-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f473-1f3fb.svg\"); }\n\n.twa-man-with-turban-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f473-1f3fc.svg\"); }\n\n.twa-man-with-turban-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f473-1f3fd.svg\"); }\n\n.twa-man-with-turban-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f473-1f3fe.svg\"); }\n\n.twa-man-with-turban-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f473-1f3ff.svg\"); }\n\n.twa-man-with-turban {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f473.svg\"); }\n\n.twa-older-man-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f474-1f3fb.svg\"); }\n\n.twa-older-man-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f474-1f3fc.svg\"); }\n\n.twa-older-man-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f474-1f3fd.svg\"); }\n\n.twa-older-man-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f474-1f3fe.svg\"); }\n\n.twa-older-man-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f474-1f3ff.svg\"); }\n\n.twa-old-man {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f474.svg\"); }\n\n.twa-older-man {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f474.svg\"); }\n\n.twa-older-woman-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f475-1f3fb.svg\"); }\n\n.twa-older-woman-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f475-1f3fc.svg\"); }\n\n.twa-older-woman-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f475-1f3fd.svg\"); }\n\n.twa-older-woman-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f475-1f3fe.svg\"); }\n\n.twa-older-woman-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f475-1f3ff.svg\"); }\n\n.twa-old-woman {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f475.svg\"); }\n\n.twa-older-woman {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f475.svg\"); }\n\n.twa-baby-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f476-1f3fb.svg\"); }\n\n.twa-baby-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f476-1f3fc.svg\"); }\n\n.twa-baby-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f476-1f3fd.svg\"); }\n\n.twa-baby-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f476-1f3fe.svg\"); }\n\n.twa-baby-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f476-1f3ff.svg\"); }\n\n.twa-baby {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f476.svg\"); }\n\n.twa-construction-worker-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f477-1f3fb.svg\"); }\n\n.twa-construction-worker-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f477-1f3fc.svg\"); }\n\n.twa-construction-worker-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f477-1f3fd.svg\"); }\n\n.twa-construction-worker-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f477-1f3fe.svg\"); }\n\n.twa-construction-worker-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f477-1f3ff.svg\"); }\n\n.twa-construction-worker {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f477.svg\"); }\n\n.twa-princess-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f478-1f3fb.svg\"); }\n\n.twa-princess-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f478-1f3fc.svg\"); }\n\n.twa-princess-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f478-1f3fd.svg\"); }\n\n.twa-princess-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f478-1f3fe.svg\"); }\n\n.twa-princess-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f478-1f3ff.svg\"); }\n\n.twa-princess {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f478.svg\"); }\n\n.twa-ogre {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f479.svg\"); }\n\n.twa-japanese-ogre {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f479.svg\"); }\n\n.twa-goblin {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47a.svg\"); }\n\n.twa-japanese-goblin {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47a.svg\"); }\n\n.twa-ghost {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47b.svg\"); }\n\n.twa-baby-angel-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47c-1f3fb.svg\"); }\n\n.twa-baby-angel-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47c-1f3fc.svg\"); }\n\n.twa-baby-angel-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47c-1f3fd.svg\"); }\n\n.twa-baby-angel-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47c-1f3fe.svg\"); }\n\n.twa-baby-angel-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47c-1f3ff.svg\"); }\n\n.twa-baby-angel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47c.svg\"); }\n\n.twa-angel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47c.svg\"); }\n\n.twa-alien {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47d.svg\"); }\n\n.twa-alien-monster {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47e.svg\"); }\n\n.twa-space-invader {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47e.svg\"); }\n\n.twa-imp {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f47f.svg\"); }\n\n.twa-skull {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f480.svg\"); }\n\n.twa-information-desk-person-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f481-1f3fb.svg\"); }\n\n.twa-information-desk-person-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f481-1f3fc.svg\"); }\n\n.twa-information-desk-person-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f481-1f3fd.svg\"); }\n\n.twa-information-desk-person-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f481-1f3fe.svg\"); }\n\n.twa-information-desk-person-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f481-1f3ff.svg\"); }\n\n.twa-information-desk-person {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f481.svg\"); }\n\n.twa-guardsman-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f482-1f3fb.svg\"); }\n\n.twa-guardsman-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f482-1f3fc.svg\"); }\n\n.twa-guardsman-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f482-1f3fd.svg\"); }\n\n.twa-guardsman-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f482-1f3fe.svg\"); }\n\n.twa-guardsman-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f482-1f3ff.svg\"); }\n\n.twa-guardsman {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f482.svg\"); }\n\n.twa-dancer-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f483-1f3fb.svg\"); }\n\n.twa-dancer-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f483-1f3fc.svg\"); }\n\n.twa-dancer-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f483-1f3fd.svg\"); }\n\n.twa-dancer-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f483-1f3fe.svg\"); }\n\n.twa-dancer-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f483-1f3ff.svg\"); }\n\n.twa-dancer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f483.svg\"); }\n\n.twa-lipstick {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f484.svg\"); }\n\n.twa-nail-polish-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f485-1f3fb.svg\"); }\n\n.twa-nail-polish-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f485-1f3fc.svg\"); }\n\n.twa-nail-polish-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f485-1f3fd.svg\"); }\n\n.twa-nail-polish-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f485-1f3fe.svg\"); }\n\n.twa-nail-polish-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f485-1f3ff.svg\"); }\n\n.twa-nail-polish {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f485.svg\"); }\n\n.twa-nail-care {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f485.svg\"); }\n\n.twa-face-massage-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f486-1f3fb.svg\"); }\n\n.twa-face-massage-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f486-1f3fc.svg\"); }\n\n.twa-face-massage-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f486-1f3fd.svg\"); }\n\n.twa-face-massage-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f486-1f3fe.svg\"); }\n\n.twa-face-massage-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f486-1f3ff.svg\"); }\n\n.twa-face-massage {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f486.svg\"); }\n\n.twa-massage {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f486.svg\"); }\n\n.twa-haircut-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f487-1f3fb.svg\"); }\n\n.twa-haircut-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f487-1f3fc.svg\"); }\n\n.twa-haircut-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f487-1f3fd.svg\"); }\n\n.twa-haircut-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f487-1f3fe.svg\"); }\n\n.twa-haircut-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f487-1f3ff.svg\"); }\n\n.twa-haircut {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f487.svg\"); }\n\n.twa-barber-pole {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f488.svg\"); }\n\n.twa-barber {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f488.svg\"); }\n\n.twa-syringe {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f489.svg\"); }\n\n.twa-pill {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f48a.svg\"); }\n\n.twa-kiss-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f48b.svg\"); }\n\n.twa-love-letter {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f48c.svg\"); }\n\n.twa-ring {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f48d.svg\"); }\n\n.twa-gem-stone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f48e.svg\"); }\n\n.twa-gem {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f48e.svg\"); }\n\n.twa-kiss {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f48f.svg\"); }\n\n.twa-couplekiss {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f48f.svg\"); }\n\n.twa-bouquet {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f490.svg\"); }\n\n.twa-couple-with-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f491.svg\"); }\n\n.twa-wedding {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f492.svg\"); }\n\n.twa-beating-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f493.svg\"); }\n\n.twa-heartbeat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f493.svg\"); }\n\n.twa-broken-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f494.svg\"); }\n\n.twa-two-hearts {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f495.svg\"); }\n\n.twa-sparkling-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f496.svg\"); }\n\n.twa-growing-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f497.svg\"); }\n\n.twa-heartpulse {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f497.svg\"); }\n\n.twa-heart-with-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f498.svg\"); }\n\n.twa-cupid {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f498.svg\"); }\n\n.twa-blue-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f499.svg\"); }\n\n.twa-green-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f49a.svg\"); }\n\n.twa-yellow-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f49b.svg\"); }\n\n.twa-purple-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f49c.svg\"); }\n\n.twa-heart-with-ribbon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f49d.svg\"); }\n\n.twa-gift-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f49d.svg\"); }\n\n.twa-revolving-hearts {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f49e.svg\"); }\n\n.twa-heart-decoration {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f49f.svg\"); }\n\n.twa-diamond-with-a-dot {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a0.svg\"); }\n\n.twa-diamond-shape-with-a-dot-inside {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a0.svg\"); }\n\n.twa-light-bulb {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a1.svg\"); }\n\n.twa-bulb {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a1.svg\"); }\n\n.twa-anger-symbol {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a2.svg\"); }\n\n.twa-anger {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a2.svg\"); }\n\n.twa-bomb {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a3.svg\"); }\n\n.twa-zzz {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a4.svg\"); }\n\n.twa-collision {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a5.svg\"); }\n\n.twa-boom {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a5.svg\"); }\n\n.twa-sweat-droplets {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a6.svg\"); }\n\n.twa-sweat-drops {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a6.svg\"); }\n\n.twa-droplet {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a7.svg\"); }\n\n.twa-dashing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a8.svg\"); }\n\n.twa-dash {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a8.svg\"); }\n\n.twa-pile-of-poo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a9.svg\"); }\n\n.twa-poop {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4a9.svg\"); }\n\n.twa-flexed-biceps-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4aa-1f3fb.svg\"); }\n\n.twa-flexed-biceps-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4aa-1f3fc.svg\"); }\n\n.twa-flexed-biceps-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4aa-1f3fd.svg\"); }\n\n.twa-flexed-biceps-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4aa-1f3fe.svg\"); }\n\n.twa-flexed-biceps-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4aa-1f3ff.svg\"); }\n\n.twa-flexed-biceps {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4aa.svg\"); }\n\n.twa-muscle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4aa.svg\"); }\n\n.twa-dizzy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ab.svg\"); }\n\n.twa-speech-balloon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ac.svg\"); }\n\n.twa-thought-balloon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ad.svg\"); }\n\n.twa-white-flower {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ae.svg\"); }\n\n.twa-hundred-points {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4af.svg\"); }\n\n.twa-100 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4af.svg\"); }\n\n.twa-money-bag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b0.svg\"); }\n\n.twa-moneybag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b0.svg\"); }\n\n.twa-currency-exchange {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b1.svg\"); }\n\n.twa-heavy-dollar-sign {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b2.svg\"); }\n\n.twa-credit-card {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b3.svg\"); }\n\n.twa-yen-banknote {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b4.svg\"); }\n\n.twa-yen {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b4.svg\"); }\n\n.twa-dollar-banknote {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b5.svg\"); }\n\n.twa-dollar {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b5.svg\"); }\n\n.twa-euro-banknote {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b6.svg\"); }\n\n.twa-euro {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b6.svg\"); }\n\n.twa-pound-banknote {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b7.svg\"); }\n\n.twa-pound {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b7.svg\"); }\n\n.twa-money-with-wings {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b8.svg\"); }\n\n.twa-chart-increasing-with-yen {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b9.svg\"); }\n\n.twa-chart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4b9.svg\"); }\n\n.twa-seat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ba.svg\"); }\n\n.twa-laptop-computer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4bb.svg\"); }\n\n.twa-computer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4bb.svg\"); }\n\n.twa-briefcase {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4bc.svg\"); }\n\n.twa-minidisc {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4bd.svg\"); }\n\n.twa-floppy-disk {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4be.svg\"); }\n\n.twa-optical-disc {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4bf.svg\"); }\n\n.twa-cd {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4bf.svg\"); }\n\n.twa-dvd {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c0.svg\"); }\n\n.twa-file-folder {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c1.svg\"); }\n\n.twa-open-file-folder {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c2.svg\"); }\n\n.twa-page-with-curl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c3.svg\"); }\n\n.twa-page-facing-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c4.svg\"); }\n\n.twa-calendar {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c5.svg\"); }\n\n.twa-date {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c5.svg\"); }\n\n.twa-tear-off-calendar {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c6.svg\"); }\n\n.twa-card-index {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c7.svg\"); }\n\n.twa-chart-increasing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c8.svg\"); }\n\n.twa-chart-with-upwards-trend {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c8.svg\"); }\n\n.twa-chart-decreasing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c9.svg\"); }\n\n.twa-chart-with-downwards-trend {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4c9.svg\"); }\n\n.twa-bar-chart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ca.svg\"); }\n\n.twa-clipboard {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4cb.svg\"); }\n\n.twa-pushpin {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4cc.svg\"); }\n\n.twa-round-pushpin {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4cd.svg\"); }\n\n.twa-paperclip {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ce.svg\"); }\n\n.twa-straight-ruler {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4cf.svg\"); }\n\n.twa-triangular-ruler {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d0.svg\"); }\n\n.twa-bookmark-tabs {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d1.svg\"); }\n\n.twa-ledger {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d2.svg\"); }\n\n.twa-notebook {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d3.svg\"); }\n\n.twa-notebook-with-decorative-cover {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d4.svg\"); }\n\n.twa-closed-book {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d5.svg\"); }\n\n.twa-open-book {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d6.svg\"); }\n\n.twa-green-book {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d7.svg\"); }\n\n.twa-blue-book {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d8.svg\"); }\n\n.twa-orange-book {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4d9.svg\"); }\n\n.twa-books {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4da.svg\"); }\n\n.twa-name-badge {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4db.svg\"); }\n\n.twa-scroll {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4dc.svg\"); }\n\n.twa-memo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4dd.svg\"); }\n\n.twa-telephone-receiver {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4de.svg\"); }\n\n.twa-pager {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4df.svg\"); }\n\n.twa-fax-machine {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e0.svg\"); }\n\n.twa-fax {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e0.svg\"); }\n\n.twa-satellite-antenna {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e1.svg\"); }\n\n.twa-loudspeaker {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e2.svg\"); }\n\n.twa-megaphone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e3.svg\"); }\n\n.twa-mega {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e3.svg\"); }\n\n.twa-outbox-tray {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e4.svg\"); }\n\n.twa-inbox-tray {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e5.svg\"); }\n\n.twa-package {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e6.svg\"); }\n\n.twa-e-mail {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e7.svg\"); }\n\n.twa-incoming-envelope {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e8.svg\"); }\n\n.twa-envelope-with-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4e9.svg\"); }\n\n.twa-closed-mailbox-with-lowered-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ea.svg\"); }\n\n.twa-mailbox-closed {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ea.svg\"); }\n\n.twa-closed-mailbox-with-raised-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4eb.svg\"); }\n\n.twa-mailbox {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4eb.svg\"); }\n\n.twa-open-mailbox-with-raised-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ec.svg\"); }\n\n.twa-mailbox-with-mail {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ec.svg\"); }\n\n.twa-open-mailbox-with-lowered-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ed.svg\"); }\n\n.twa-mailbox-with-no-mail {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ed.svg\"); }\n\n.twa-postbox {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ee.svg\"); }\n\n.twa-postal-horn {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ef.svg\"); }\n\n.twa-newspaper {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f0.svg\"); }\n\n.twa-mobile-phone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f1.svg\"); }\n\n.twa-iphone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f1.svg\"); }\n\n.twa-mobile-phone-with-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f2.svg\"); }\n\n.twa-calling {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f2.svg\"); }\n\n.twa-vibration-mode {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f3.svg\"); }\n\n.twa-mobile-phone-off {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f4.svg\"); }\n\n.twa-no-mobile-phones {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f5.svg\"); }\n\n.twa-antenna-bars {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f6.svg\"); }\n\n.twa-signal-strength {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f6.svg\"); }\n\n.twa-camera {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f7.svg\"); }\n\n.twa-camera-with-flash {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f8.svg\"); }\n\n.twa-video-camera {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4f9.svg\"); }\n\n.twa-television {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4fa.svg\"); }\n\n.twa-tv {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4fa.svg\"); }\n\n.twa-radio {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4fb.svg\"); }\n\n.twa-videocassette {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4fc.svg\"); }\n\n.twa-vhs {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4fc.svg\"); }\n\n.twa-film-projector {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4fd.svg\"); }\n\n.twa-prayer-beads {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f4ff.svg\"); }\n\n.twa-shuffle-tracks-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f500.svg\"); }\n\n.twa-twisted-rightwards-arrows {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f500.svg\"); }\n\n.twa-repeat-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f501.svg\"); }\n\n.twa-repeat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f501.svg\"); }\n\n.twa-repeat-single-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f502.svg\"); }\n\n.twa-repeat-one {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f502.svg\"); }\n\n.twa-clockwise-vertical-arrows {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f503.svg\"); }\n\n.twa-arrows-clockwise {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f503.svg\"); }\n\n.twa-anticlockwise-arrows-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f504.svg\"); }\n\n.twa-arrows-counterclockwise {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f504.svg\"); }\n\n.twa-dim-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f505.svg\"); }\n\n.twa-low-brightness {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f505.svg\"); }\n\n.twa-bright-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f506.svg\"); }\n\n.twa-high-brightness {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f506.svg\"); }\n\n.twa-speaker-off {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f507.svg\"); }\n\n.twa-mute {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f507.svg\"); }\n\n.twa-speaker {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f508.svg\"); }\n\n.twa-speaker-on {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f509.svg\"); }\n\n.twa-sound {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f509.svg\"); }\n\n.twa-speaker-loud {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f50a.svg\"); }\n\n.twa-battery {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f50b.svg\"); }\n\n.twa-electric-plug {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f50c.svg\"); }\n\n.twa-left-pointing-magnifying-glass {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f50d.svg\"); }\n\n.twa-mag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f50d.svg\"); }\n\n.twa-right-pointing-magnifying-glass {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f50e.svg\"); }\n\n.twa-mag-right {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f50e.svg\"); }\n\n.twa-lock-with-pen {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f50f.svg\"); }\n\n.twa-lock-with-ink-pen {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f50f.svg\"); }\n\n.twa-closed-lock-with-key {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f510.svg\"); }\n\n.twa-key {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f511.svg\"); }\n\n.twa-lock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f512.svg\"); }\n\n.twa-open-lock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f513.svg\"); }\n\n.twa-unlock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f513.svg\"); }\n\n.twa-bell {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f514.svg\"); }\n\n.twa-bell-with-slash {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f515.svg\"); }\n\n.twa-no-bell {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f515.svg\"); }\n\n.twa-bookmark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f516.svg\"); }\n\n.twa-link {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f517.svg\"); }\n\n.twa-radio-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f518.svg\"); }\n\n.twa-back-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f519.svg\"); }\n\n.twa-end-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51a.svg\"); }\n\n.twa-end {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51a.svg\"); }\n\n.twa-onexc-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51b.svg\"); }\n\n.twa-on {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51b.svg\"); }\n\n.twa-soon-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51c.svg\"); }\n\n.twa-soon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51c.svg\"); }\n\n.twa-top-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51d.svg\"); }\n\n.twa-top {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51d.svg\"); }\n\n.twa-no-one-under-eighteen {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51e.svg\"); }\n\n.twa-underage {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51e.svg\"); }\n\n.twa-keycap-ten {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f51f.svg\"); }\n\n.twa-input-latin-uppercase {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f520.svg\"); }\n\n.twa-capital-abcd {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f520.svg\"); }\n\n.twa-input-latin-lowercase {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f521.svg\"); }\n\n.twa-abcd {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f521.svg\"); }\n\n.twa-input-numbers {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f522.svg\"); }\n\n.twa-1234 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f522.svg\"); }\n\n.twa-input-symbols {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f523.svg\"); }\n\n.twa-symbols {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f523.svg\"); }\n\n.twa-input-latin-letters {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f524.svg\"); }\n\n.twa-abc {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f524.svg\"); }\n\n.twa-fire {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f525.svg\"); }\n\n.twa-flashlight {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f526.svg\"); }\n\n.twa-wrench {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f527.svg\"); }\n\n.twa-hammer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f528.svg\"); }\n\n.twa-nut-and-bolt {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f529.svg\"); }\n\n.twa-kitchen-knife {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f52a.svg\"); }\n\n.twa-hocho {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f52a.svg\"); }\n\n.twa-pistol {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f52b.svg\"); }\n\n.twa-gun {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f52b.svg\"); }\n\n.twa-microscope {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f52c.svg\"); }\n\n.twa-telescope {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f52d.svg\"); }\n\n.twa-crystal-ball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f52e.svg\"); }\n\n.twa-dotted-six-pointed-star {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f52f.svg\"); }\n\n.twa-six-pointed-star {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f52f.svg\"); }\n\n.twa-japanese-symbol-for-beginner {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f530.svg\"); }\n\n.twa-beginner {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f530.svg\"); }\n\n.twa-trident-emblem {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f531.svg\"); }\n\n.twa-trident {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f531.svg\"); }\n\n.twa-black-square-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f532.svg\"); }\n\n.twa-white-square-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f533.svg\"); }\n\n.twa-red-circle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f534.svg\"); }\n\n.twa-blue-circle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f535.svg\"); }\n\n.twa-large-blue-circle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f535.svg\"); }\n\n.twa-large-orange-diamond {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f536.svg\"); }\n\n.twa-large-blue-diamond {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f537.svg\"); }\n\n.twa-small-orange-diamond {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f538.svg\"); }\n\n.twa-small-blue-diamond {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f539.svg\"); }\n\n.twa-red-triangle-pointed-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f53a.svg\"); }\n\n.twa-small-red-triangle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f53a.svg\"); }\n\n.twa-red-triangle-pointed-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f53b.svg\"); }\n\n.twa-small-red-triangle-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f53b.svg\"); }\n\n.twa-up-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f53c.svg\"); }\n\n.twa-arrow-up-small {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f53c.svg\"); }\n\n.twa-down-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f53d.svg\"); }\n\n.twa-arrow-down-small {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f53d.svg\"); }\n\n.twa-om {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f549.svg\"); }\n\n.twa-dove {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f54a.svg\"); }\n\n.twa-kaaba {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f54b.svg\"); }\n\n.twa-mosque {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f54c.svg\"); }\n\n.twa-synagogue {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f54d.svg\"); }\n\n.twa-menorah {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f54e.svg\"); }\n\n.twa-one-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f550.svg\"); }\n\n.twa-clock1 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f550.svg\"); }\n\n.twa-two-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f551.svg\"); }\n\n.twa-clock2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f551.svg\"); }\n\n.twa-three-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f552.svg\"); }\n\n.twa-clock3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f552.svg\"); }\n\n.twa-four-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f553.svg\"); }\n\n.twa-clock4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f553.svg\"); }\n\n.twa-five-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f554.svg\"); }\n\n.twa-clock5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f554.svg\"); }\n\n.twa-six-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f555.svg\"); }\n\n.twa-clock6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f555.svg\"); }\n\n.twa-seven-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f556.svg\"); }\n\n.twa-clock7 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f556.svg\"); }\n\n.twa-eight-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f557.svg\"); }\n\n.twa-clock8 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f557.svg\"); }\n\n.twa-nine-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f558.svg\"); }\n\n.twa-clock9 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f558.svg\"); }\n\n.twa-ten-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f559.svg\"); }\n\n.twa-clock10 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f559.svg\"); }\n\n.twa-eleven-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55a.svg\"); }\n\n.twa-clock11 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55a.svg\"); }\n\n.twa-twelve-oclock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55b.svg\"); }\n\n.twa-clock12 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55b.svg\"); }\n\n.twa-one-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55c.svg\"); }\n\n.twa-clock130 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55c.svg\"); }\n\n.twa-two-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55d.svg\"); }\n\n.twa-clock230 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55d.svg\"); }\n\n.twa-three-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55e.svg\"); }\n\n.twa-clock330 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55e.svg\"); }\n\n.twa-four-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55f.svg\"); }\n\n.twa-clock430 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f55f.svg\"); }\n\n.twa-five-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f560.svg\"); }\n\n.twa-clock530 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f560.svg\"); }\n\n.twa-six-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f561.svg\"); }\n\n.twa-clock630 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f561.svg\"); }\n\n.twa-seven-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f562.svg\"); }\n\n.twa-clock730 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f562.svg\"); }\n\n.twa-eight-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f563.svg\"); }\n\n.twa-clock830 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f563.svg\"); }\n\n.twa-nine-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f564.svg\"); }\n\n.twa-clock930 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f564.svg\"); }\n\n.twa-ten-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f565.svg\"); }\n\n.twa-clock1030 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f565.svg\"); }\n\n.twa-eleven-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f566.svg\"); }\n\n.twa-clock1130 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f566.svg\"); }\n\n.twa-twelve-thirty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f567.svg\"); }\n\n.twa-clock1230 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f567.svg\"); }\n\n.twa-candle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f56f.svg\"); }\n\n.twa-mantelpiece-clock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f570.svg\"); }\n\n.twa-hole {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f573.svg\"); }\n\n.twa-man-in-business-suit-levitating {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f574.svg\"); }\n\n.twa-sleuth-or-spy-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f575-1f3fb.svg\"); }\n\n.twa-sleuth-or-spy-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f575-1f3fc.svg\"); }\n\n.twa-sleuth-or-spy-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f575-1f3fd.svg\"); }\n\n.twa-sleuth-or-spy-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f575-1f3fe.svg\"); }\n\n.twa-sleuth-or-spy-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f575-1f3ff.svg\"); }\n\n.twa-detective {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f575.svg\"); }\n\n.twa-sunglasses {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f576.svg\"); }\n\n.twa-spider {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f577.svg\"); }\n\n.twa-spider-web {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f578.svg\"); }\n\n.twa-joystick {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f579.svg\"); }\n\n.twa-man-dancing-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f57a-1f3fb.svg\"); }\n\n.twa-man-dancing-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f57a-1f3fc.svg\"); }\n\n.twa-man-dancing-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f57a-1f3fd.svg\"); }\n\n.twa-man-dancing-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f57a-1f3fe.svg\"); }\n\n.twa-man-dancing-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f57a-1f3ff.svg\"); }\n\n.twa-man-dancing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f57a.svg\"); }\n\n.twa-linked-paperclips {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f587.svg\"); }\n\n.twa-pen {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f58a.svg\"); }\n\n.twa-fountain-pen {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f58b.svg\"); }\n\n.twa-paintbrush {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f58c.svg\"); }\n\n.twa-crayon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f58d.svg\"); }\n\n.twa-raised-hand-with-fingers-splayed-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f590-1f3fb.svg\"); }\n\n.twa-raised-hand-with-fingers-splayed-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f590-1f3fc.svg\"); }\n\n.twa-raised-hand-with-fingers-splayed-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f590-1f3fd.svg\"); }\n\n.twa-raised-hand-with-fingers-splayed-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f590-1f3fe.svg\"); }\n\n.twa-raised-hand-with-fingers-splayed-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f590-1f3ff.svg\"); }\n\n.twa-raised-hand-with-fingers-splayed {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f590.svg\"); }\n\n.twa-reversed-hand-with-middle-finger-extended-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f595-1f3fb.svg\"); }\n\n.twa-reversed-hand-with-middle-finger-extended-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f595-1f3fc.svg\"); }\n\n.twa-reversed-hand-with-middle-finger-extended-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f595-1f3fd.svg\"); }\n\n.twa-reversed-hand-with-middle-finger-extended-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f595-1f3fe.svg\"); }\n\n.twa-reversed-hand-with-middle-finger-extended-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f595-1f3ff.svg\"); }\n\n.twa-middle-finger {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f595.svg\"); }\n\n.twa-raised-hand-with-part-between-middle-and-ring-fingers-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f596-1f3fb.svg\"); }\n\n.twa-raised-hand-with-part-between-middle-and-ring-fingers-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f596-1f3fc.svg\"); }\n\n.twa-raised-hand-with-part-between-middle-and-ring-fingers-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f596-1f3fd.svg\"); }\n\n.twa-raised-hand-with-part-between-middle-and-ring-fingers-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f596-1f3fe.svg\"); }\n\n.twa-raised-hand-with-part-between-middle-and-ring-fingers-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f596-1f3ff.svg\"); }\n\n.twa-vulcan-salute {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f596.svg\"); }\n\n.twa-black-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5a4.svg\"); }\n\n.twa-desktop-computer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5a5.svg\"); }\n\n.twa-printer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5a8.svg\"); }\n\n.twa-computer-mouse {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5b1.svg\"); }\n\n.twa-trackball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5b2.svg\"); }\n\n.twa-frame-with-picture {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5bc.svg\"); }\n\n.twa-card-index-dividers {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5c2.svg\"); }\n\n.twa-card-file-box {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5c3.svg\"); }\n\n.twa-file-cabinet {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5c4.svg\"); }\n\n.twa-wastebasket {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5d1.svg\"); }\n\n.twa-spiral-notepad {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5d2.svg\"); }\n\n.twa-spiral-calendar {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5d3.svg\"); }\n\n.twa-compression {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5dc.svg\"); }\n\n.twa-old-key {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5dd.svg\"); }\n\n.twa-rolled-up-newspaper {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5de.svg\"); }\n\n.twa-dagger {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5e1.svg\"); }\n\n.twa-speaking-head {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5e3.svg\"); }\n\n.twa-left-speech-bubble {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5e8.svg\"); }\n\n.twa-right-anger-bubble {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5ef.svg\"); }\n\n.twa-ballot-box-with-ballot {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5f3.svg\"); }\n\n.twa-world-map {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5fa.svg\"); }\n\n.twa-mount-fuji {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5fb.svg\"); }\n\n.twa-tokyo-tower {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5fc.svg\"); }\n\n.twa-statue-of-liberty {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5fd.svg\"); }\n\n.twa-map-of-japan {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5fe.svg\"); }\n\n.twa-japan {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5fe.svg\"); }\n\n.twa-moai {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5ff.svg\"); }\n\n.twa-moyai {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f5ff.svg\"); }\n\n.twa-grinning-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f600.svg\"); }\n\n.twa-grinning {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f600.svg\"); }\n\n.twa-grinning-face-with-smiling-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f601.svg\"); }\n\n.twa-grin {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f601.svg\"); }\n\n.twa-face-with-tears-of-joy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f602.svg\"); }\n\n.twa-joy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f602.svg\"); }\n\n.twa-smiling-face-with-open-mouth {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f603.svg\"); }\n\n.twa-smiley {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f603.svg\"); }\n\n.twa-smiling-face-with-open-mouth-and-smiling-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f604.svg\"); }\n\n.twa-smile {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f604.svg\"); }\n\n.twa-smiling-face-with-open-mouth-and-cold-sweat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f605.svg\"); }\n\n.twa-sweat-smile {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f605.svg\"); }\n\n.twa-smiling-face-with-open-mouth-and-tightly-closed-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f606.svg\"); }\n\n.twa-laughing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f606.svg\"); }\n\n.twa-smiling-face-with-halo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f607.svg\"); }\n\n.twa-innocent {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f607.svg\"); }\n\n.twa-smiling-face-with-horns {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f608.svg\"); }\n\n.twa-smiling-imp {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f608.svg\"); }\n\n.twa-winking-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f609.svg\"); }\n\n.twa-wink {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f609.svg\"); }\n\n.twa-smiling-face-with-smiling-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60a.svg\"); }\n\n.twa-blush {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60a.svg\"); }\n\n.twa-face-savouring-delicious-food {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60b.svg\"); }\n\n.twa-yum {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60b.svg\"); }\n\n.twa-relieved-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60c.svg\"); }\n\n.twa-satisfied {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60c.svg\"); }\n\n.twa-smiling-face-with-heart-shaped-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60d.svg\"); }\n\n.twa-heart-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60d.svg\"); }\n\n.twa-smiling-face-with-sunglasses {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60e.svg\"); }\n\n.twa-smirking-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60f.svg\"); }\n\n.twa-smirk {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f60f.svg\"); }\n\n.twa-neutral-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f610.svg\"); }\n\n.twa-expressionless-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f611.svg\"); }\n\n.twa-expressionless {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f611.svg\"); }\n\n.twa-unamused-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f612.svg\"); }\n\n.twa-unamused {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f612.svg\"); }\n\n.twa-face-with-cold-sweat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f613.svg\"); }\n\n.twa-sweat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f613.svg\"); }\n\n.twa-pensive-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f614.svg\"); }\n\n.twa-pensive {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f614.svg\"); }\n\n.twa-confused-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f615.svg\"); }\n\n.twa-confused {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f615.svg\"); }\n\n.twa-confounded-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f616.svg\"); }\n\n.twa-confounded {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f616.svg\"); }\n\n.twa-kissing-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f617.svg\"); }\n\n.twa-kissing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f617.svg\"); }\n\n.twa-face-throwing-a-kiss {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f618.svg\"); }\n\n.twa-kissing-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f618.svg\"); }\n\n.twa-kissing-face-with-smiling-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f619.svg\"); }\n\n.twa-kissing-smiling-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f619.svg\"); }\n\n.twa-kissing-face-with-closed-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61a.svg\"); }\n\n.twa-kissing-closed-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61a.svg\"); }\n\n.twa-face-with-stuck-out-tongue {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61b.svg\"); }\n\n.twa-stuck-out-tongue {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61b.svg\"); }\n\n.twa-face-with-stuck-out-tongue-and-winking-eye {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61c.svg\"); }\n\n.twa-stuck-out-tongue-winking-eye {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61c.svg\"); }\n\n.twa-face-with-stuck-out-tongue-and-tightly-closed-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61d.svg\"); }\n\n.twa-stuck-out-tongue-closed-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61d.svg\"); }\n\n.twa-disappointed-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61e.svg\"); }\n\n.twa-disappointed {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61e.svg\"); }\n\n.twa-worried-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61f.svg\"); }\n\n.twa-worried {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f61f.svg\"); }\n\n.twa-angry-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f620.svg\"); }\n\n.twa-angry {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f620.svg\"); }\n\n.twa-pouting-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f621.svg\"); }\n\n.twa-rage {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f621.svg\"); }\n\n.twa-crying-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f622.svg\"); }\n\n.twa-cry {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f622.svg\"); }\n\n.twa-persevering-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f623.svg\"); }\n\n.twa-persevere {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f623.svg\"); }\n\n.twa-face-with-steam-from-nose {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f624.svg\"); }\n\n.twa-triumph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f624.svg\"); }\n\n.twa-disappointed-but-relieved-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f625.svg\"); }\n\n.twa-relieved {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f625.svg\"); }\n\n.twa-frowning-face-with-open-mouth {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f626.svg\"); }\n\n.twa-frowning {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f626.svg\"); }\n\n.twa-anguished-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f627.svg\"); }\n\n.twa-anguished {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f627.svg\"); }\n\n.twa-fearful-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f628.svg\"); }\n\n.twa-fearful {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f628.svg\"); }\n\n.twa-weary-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f629.svg\"); }\n\n.twa-weary {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f629.svg\"); }\n\n.twa-sleepy-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62a.svg\"); }\n\n.twa-sleepy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62a.svg\"); }\n\n.twa-tired-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62b.svg\"); }\n\n.twa-grimacing-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62c.svg\"); }\n\n.twa-grimacing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62c.svg\"); }\n\n.twa-loudly-crying-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62d.svg\"); }\n\n.twa-sob {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62d.svg\"); }\n\n.twa-face-with-open-mouth {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62e.svg\"); }\n\n.twa-open-mouth {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62e.svg\"); }\n\n.twa-hushed-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62f.svg\"); }\n\n.twa-hushed {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f62f.svg\"); }\n\n.twa-face-with-open-mouth-and-cold-sweat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f630.svg\"); }\n\n.twa-cold-sweat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f630.svg\"); }\n\n.twa-face-screaming-in-fear {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f631.svg\"); }\n\n.twa-scream {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f631.svg\"); }\n\n.twa-astonished-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f632.svg\"); }\n\n.twa-astonished {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f632.svg\"); }\n\n.twa-flushed-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f633.svg\"); }\n\n.twa-flushed {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f633.svg\"); }\n\n.twa-sleeping-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f634.svg\"); }\n\n.twa-sleeping {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f634.svg\"); }\n\n.twa-dizzy-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f635.svg\"); }\n\n.twa-face-without-mouth {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f636.svg\"); }\n\n.twa-no-mouth {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f636.svg\"); }\n\n.twa-face-with-medical-mask {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f637.svg\"); }\n\n.twa-mask {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f637.svg\"); }\n\n.twa-grinning-cat-face-with-smiling-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f638.svg\"); }\n\n.twa-smile-cat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f638.svg\"); }\n\n.twa-cat-face-with-tears-of-joy {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f639.svg\"); }\n\n.twa-joy-cat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f639.svg\"); }\n\n.twa-smiling-cat-face-with-open-mouth {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63a.svg\"); }\n\n.twa-smiley-cat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63a.svg\"); }\n\n.twa-smiling-cat-face-with-heart-shaped-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63b.svg\"); }\n\n.twa-heart-eyes-cat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63b.svg\"); }\n\n.twa-cat-face-with-wry-smile {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63c.svg\"); }\n\n.twa-smirk-cat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63c.svg\"); }\n\n.twa-kissing-cat-face-with-closed-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63d.svg\"); }\n\n.twa-kissing-cat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63d.svg\"); }\n\n.twa-pouting-cat-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63e.svg\"); }\n\n.twa-pouting-cat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63e.svg\"); }\n\n.twa-crying-cat-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f63f.svg\"); }\n\n.twa-weary-cat-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f640.svg\"); }\n\n.twa-scream-cat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f640.svg\"); }\n\n.twa-slightly-frowning-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f641.svg\"); }\n\n.twa-slightly-smiling-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f642.svg\"); }\n\n.twa-upside-down-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f643.svg\"); }\n\n.twa-face-with-rolling-eyes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f644.svg\"); }\n\n.twa-face-with-no-good-gesture-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f645-1f3fb.svg\"); }\n\n.twa-face-with-no-good-gesture-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f645-1f3fc.svg\"); }\n\n.twa-face-with-no-good-gesture-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f645-1f3fd.svg\"); }\n\n.twa-face-with-no-good-gesture-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f645-1f3fe.svg\"); }\n\n.twa-face-with-no-good-gesture-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f645-1f3ff.svg\"); }\n\n.twa-gesturing-no {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f645.svg\"); }\n\n.twa-no-good {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f645.svg\"); }\n\n.twa-face-with-ok-gesture-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f646-1f3fb.svg\"); }\n\n.twa-face-with-ok-gesture-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f646-1f3fc.svg\"); }\n\n.twa-face-with-ok-gesture-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f646-1f3fd.svg\"); }\n\n.twa-face-with-ok-gesture-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f646-1f3fe.svg\"); }\n\n.twa-face-with-ok-gesture-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f646-1f3ff.svg\"); }\n\n.twa-gesturing-ok {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f646.svg\"); }\n\n.twa-ok-woman {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f646.svg\"); }\n\n.twa-person-bowing-deeply-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f647-1f3fb.svg\"); }\n\n.twa-person-bowing-deeply-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f647-1f3fc.svg\"); }\n\n.twa-person-bowing-deeply-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f647-1f3fd.svg\"); }\n\n.twa-person-bowing-deeply-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f647-1f3fe.svg\"); }\n\n.twa-person-bowing-deeply-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f647-1f3ff.svg\"); }\n\n.twa-person-bowing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f647.svg\"); }\n\n.twa-bow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f647.svg\"); }\n\n.twa-see-no-evil {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f648.svg\"); }\n\n.twa-hear-no-evil {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f649.svg\"); }\n\n.twa-speak-no-evil {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64a.svg\"); }\n\n.twa-happy-person-raising-one-hand-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64b-1f3fb.svg\"); }\n\n.twa-happy-person-raising-one-hand-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64b-1f3fc.svg\"); }\n\n.twa-happy-person-raising-one-hand-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64b-1f3fd.svg\"); }\n\n.twa-happy-person-raising-one-hand-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64b-1f3fe.svg\"); }\n\n.twa-happy-person-raising-one-hand-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64b-1f3ff.svg\"); }\n\n.twa-happy-person-raising-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64b.svg\"); }\n\n.twa-happy-person-raised-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64b.svg\"); }\n\n.twa-person-raising-both-hands-in-celebration-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64c-1f3fb.svg\"); }\n\n.twa-person-raising-both-hands-in-celebration-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64c-1f3fc.svg\"); }\n\n.twa-person-raising-both-hands-in-celebration-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64c-1f3fd.svg\"); }\n\n.twa-person-raising-both-hands-in-celebration-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64c-1f3fe.svg\"); }\n\n.twa-person-raising-both-hands-in-celebration-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64c-1f3ff.svg\"); }\n\n.twa-person-raising-hands {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64c.svg\"); }\n\n.twa-raised-hands {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64c.svg\"); }\n\n.twa-person-frowning-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64d-1f3fb.svg\"); }\n\n.twa-person-frowning-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64d-1f3fc.svg\"); }\n\n.twa-person-frowning-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64d-1f3fd.svg\"); }\n\n.twa-person-frowning-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64d-1f3fe.svg\"); }\n\n.twa-person-frowning-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64d-1f3ff.svg\"); }\n\n.twa-person-frowning {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64d.svg\"); }\n\n.twa-person-with-pouting-face-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64e-1f3fb.svg\"); }\n\n.twa-person-with-pouting-face-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64e-1f3fc.svg\"); }\n\n.twa-person-with-pouting-face-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64e-1f3fd.svg\"); }\n\n.twa-person-with-pouting-face-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64e-1f3fe.svg\"); }\n\n.twa-person-with-pouting-face-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64e-1f3ff.svg\"); }\n\n.twa-person-pouting {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64e.svg\"); }\n\n.twa-person-with-pouting-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64e.svg\"); }\n\n.twa-person-with-folded-hands-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64f-1f3fb.svg\"); }\n\n.twa-person-with-folded-hands-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64f-1f3fc.svg\"); }\n\n.twa-person-with-folded-hands-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64f-1f3fd.svg\"); }\n\n.twa-person-with-folded-hands-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64f-1f3fe.svg\"); }\n\n.twa-person-with-folded-hands-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64f-1f3ff.svg\"); }\n\n.twa-folded-hands {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64f.svg\"); }\n\n.twa-pray {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f64f.svg\"); }\n\n.twa-rocket {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f680.svg\"); }\n\n.twa-helicopter {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f681.svg\"); }\n\n.twa-locomotive {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f682.svg\"); }\n\n.twa-steam-locomotive {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f682.svg\"); }\n\n.twa-railway-car {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f683.svg\"); }\n\n.twa-high-speed-train {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f684.svg\"); }\n\n.twa-bullettrain-side {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f684.svg\"); }\n\n.twa-high-speed-train-with-bullet-nose {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f685.svg\"); }\n\n.twa-bullettrain-front {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f685.svg\"); }\n\n.twa-train {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f686.svg\"); }\n\n.twa-train2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f686.svg\"); }\n\n.twa-metro {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f687.svg\"); }\n\n.twa-light-rail {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f688.svg\"); }\n\n.twa-station {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f689.svg\"); }\n\n.twa-tram {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f68a.svg\"); }\n\n.twa-tram-car {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f68b.svg\"); }\n\n.twa-bus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f68c.svg\"); }\n\n.twa-oncoming-bus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f68d.svg\"); }\n\n.twa-trolleybus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f68e.svg\"); }\n\n.twa-bus-stop {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f68f.svg\"); }\n\n.twa-busstop {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f68f.svg\"); }\n\n.twa-minibus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f690.svg\"); }\n\n.twa-ambulance {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f691.svg\"); }\n\n.twa-fire-engine {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f692.svg\"); }\n\n.twa-police-car {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f693.svg\"); }\n\n.twa-oncoming-police-car {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f694.svg\"); }\n\n.twa-taxi {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f695.svg\"); }\n\n.twa-oncoming-taxi {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f696.svg\"); }\n\n.twa-automobile {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f697.svg\"); }\n\n.twa-car {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f697.svg\"); }\n\n.twa-oncoming-automobile {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f698.svg\"); }\n\n.twa-recreational-vehicle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f699.svg\"); }\n\n.twa-blue-car {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f699.svg\"); }\n\n.twa-delivery-truck {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f69a.svg\"); }\n\n.twa-truck {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f69a.svg\"); }\n\n.twa-articulated-lorry {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f69b.svg\"); }\n\n.twa-tractor {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f69c.svg\"); }\n\n.twa-monorail {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f69d.svg\"); }\n\n.twa-mountain-railway {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f69e.svg\"); }\n\n.twa-suspension-railway {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f69f.svg\"); }\n\n.twa-mountain-cableway {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a0.svg\"); }\n\n.twa-aerial-tramway {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a1.svg\"); }\n\n.twa-ship {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a2.svg\"); }\n\n.twa-rowboat-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a3-1f3fb.svg\"); }\n\n.twa-rowboat-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a3-1f3fc.svg\"); }\n\n.twa-rowboat-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a3-1f3fd.svg\"); }\n\n.twa-rowboat-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a3-1f3fe.svg\"); }\n\n.twa-rowboat-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a3-1f3ff.svg\"); }\n\n.twa-rowboat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a3.svg\"); }\n\n.twa-speedboat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a4.svg\"); }\n\n.twa-horizontal-traffic-light {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a5.svg\"); }\n\n.twa-traffic-light {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a5.svg\"); }\n\n.twa-vertical-traffic-light {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a6.svg\"); }\n\n.twa-construction {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a7.svg\"); }\n\n.twa-police-cars-light {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a8.svg\"); }\n\n.twa-rotating-light {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a8.svg\"); }\n\n.twa-triangular-flag {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a9.svg\"); }\n\n.twa-triangular-flag-on-post {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6a9.svg\"); }\n\n.twa-door {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6aa.svg\"); }\n\n.twa-prohibited {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ab.svg\"); }\n\n.twa-no-entry-sign {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ab.svg\"); }\n\n.twa-smoking {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ac.svg\"); }\n\n.twa-no-smoking {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ad.svg\"); }\n\n.twa-litter-in-bin-sign {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ae.svg\"); }\n\n.twa-put-litter-in-its-place {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ae.svg\"); }\n\n.twa-no-littering {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6af.svg\"); }\n\n.twa-do-not-litter {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6af.svg\"); }\n\n.twa-potable-water {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b0.svg\"); }\n\n.twa-non-potable-water {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b1.svg\"); }\n\n.twa-bicycle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b2.svg\"); }\n\n.twa-bike {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b2.svg\"); }\n\n.twa-no-bicycles {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b3.svg\"); }\n\n.twa-bicyclist-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b4-1f3fb.svg\"); }\n\n.twa-bicyclist-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b4-1f3fc.svg\"); }\n\n.twa-bicyclist-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b4-1f3fd.svg\"); }\n\n.twa-bicyclist-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b4-1f3fe.svg\"); }\n\n.twa-bicyclist-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b4-1f3ff.svg\"); }\n\n.twa-bicyclist {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b4.svg\"); }\n\n.twa-mountain-bicyclist-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b5-1f3fb.svg\"); }\n\n.twa-mountain-bicyclist-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b5-1f3fc.svg\"); }\n\n.twa-mountain-bicyclist-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b5-1f3fd.svg\"); }\n\n.twa-mountain-bicyclist-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b5-1f3fe.svg\"); }\n\n.twa-mountain-bicyclist-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b5-1f3ff.svg\"); }\n\n.twa-mountain-biker {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b5.svg\"); }\n\n.twa-mountain-bicyclist {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b5.svg\"); }\n\n.twa-pedestrian-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b6-1f3fb.svg\"); }\n\n.twa-pedestrian-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b6-1f3fc.svg\"); }\n\n.twa-pedestrian-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b6-1f3fd.svg\"); }\n\n.twa-pedestrian-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b6-1f3fe.svg\"); }\n\n.twa-pedestrian-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b6-1f3ff.svg\"); }\n\n.twa-pedestrian {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b6.svg\"); }\n\n.twa-walking {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b6.svg\"); }\n\n.twa-no-pedestrians {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b7.svg\"); }\n\n.twa-children-crossing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b8.svg\"); }\n\n.twa-mens-room {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b9.svg\"); }\n\n.twa-mens {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6b9.svg\"); }\n\n.twa-womens-room {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ba.svg\"); }\n\n.twa-womens {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ba.svg\"); }\n\n.twa-restroom {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6bb.svg\"); }\n\n.twa-baby-symbol {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6bc.svg\"); }\n\n.twa-toilet {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6bd.svg\"); }\n\n.twa-water-closet {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6be.svg\"); }\n\n.twa-wc {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6be.svg\"); }\n\n.twa-shower {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6bf.svg\"); }\n\n.twa-bath-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c0-1f3fb.svg\"); }\n\n.twa-bath-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c0-1f3fc.svg\"); }\n\n.twa-bath-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c0-1f3fd.svg\"); }\n\n.twa-bath-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c0-1f3fe.svg\"); }\n\n.twa-bath-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c0-1f3ff.svg\"); }\n\n.twa-person-taking-bath {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c0.svg\"); }\n\n.twa-bath {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c0.svg\"); }\n\n.twa-bathtub {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c1.svg\"); }\n\n.twa-passport-control {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c2.svg\"); }\n\n.twa-customs {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c3.svg\"); }\n\n.twa-baggage-claim {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c4.svg\"); }\n\n.twa-left-luggage {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6c5.svg\"); }\n\n.twa-couch-and-lamp {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6cb.svg\"); }\n\n.twa-person-in-bed {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6cc.svg\"); }\n\n.twa-shopping-bags {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6cd.svg\"); }\n\n.twa-bellhop-bell {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ce.svg\"); }\n\n.twa-bed {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6cf.svg\"); }\n\n.twa-place-of-worship {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6d0.svg\"); }\n\n.twa-octagonal-sign {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6d1.svg\"); }\n\n.twa-shopping-trolley {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6d2.svg\"); }\n\n.twa-hammer-and-wrench {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6e0.svg\"); }\n\n.twa-shield {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6e1.svg\"); }\n\n.twa-oil-drum {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6e2.svg\"); }\n\n.twa-motorway {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6e3.svg\"); }\n\n.twa-railway-track {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6e4.svg\"); }\n\n.twa-motor-boat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6e5.svg\"); }\n\n.twa-small-airplane {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6e9.svg\"); }\n\n.twa-airplane-departure {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6eb.svg\"); }\n\n.twa-airplane-arrival {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6ec.svg\"); }\n\n.twa-satellite {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6f0.svg\"); }\n\n.twa-passenger-ship {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6f3.svg\"); }\n\n.twa-scooter {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6f4.svg\"); }\n\n.twa-motor-scooter {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6f5.svg\"); }\n\n.twa-canoe {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f6f6.svg\"); }\n\n.twa-zipper-mouth-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f910.svg\"); }\n\n.twa-money-mouth-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f911.svg\"); }\n\n.twa-face-with-thermometer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f912.svg\"); }\n\n.twa-nerd-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f913.svg\"); }\n\n.twa-thinking-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f914.svg\"); }\n\n.twa-face-with-head-bandage {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f915.svg\"); }\n\n.twa-robot-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f916.svg\"); }\n\n.twa-hugging-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f917.svg\"); }\n\n.twa-sign-of-the-horns-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f918-1f3fb.svg\"); }\n\n.twa-sign-of-the-horns-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f918-1f3fc.svg\"); }\n\n.twa-sign-of-the-horns-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f918-1f3fd.svg\"); }\n\n.twa-sign-of-the-horns-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f918-1f3fe.svg\"); }\n\n.twa-sign-of-the-horns-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f918-1f3ff.svg\"); }\n\n.twa-sign-of-the-horns {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f918.svg\"); }\n\n.twa-call-me-hand-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f919-1f3fb.svg\"); }\n\n.twa-call-me-hand-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f919-1f3fc.svg\"); }\n\n.twa-call-me-hand-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f919-1f3fd.svg\"); }\n\n.twa-call-me-hand-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f919-1f3fe.svg\"); }\n\n.twa-call-me-hand-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f919-1f3ff.svg\"); }\n\n.twa-call-me-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f919.svg\"); }\n\n.twa-raised-back-of-hand-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91a-1f3fb.svg\"); }\n\n.twa-raised-back-of-hand-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91a-1f3fc.svg\"); }\n\n.twa-raised-back-of-hand-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91a-1f3fd.svg\"); }\n\n.twa-raised-back-of-hand-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91a-1f3fe.svg\"); }\n\n.twa-raised-back-of-hand-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91a-1f3ff.svg\"); }\n\n.twa-raised-back-of-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91a.svg\"); }\n\n.twa-left-facing-fist-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91b-1f3fb.svg\"); }\n\n.twa-left-facing-fist-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91b-1f3fc.svg\"); }\n\n.twa-left-facing-fist-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91b-1f3fd.svg\"); }\n\n.twa-left-facing-fist-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91b-1f3fe.svg\"); }\n\n.twa-left-facing-fist-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91b-1f3ff.svg\"); }\n\n.twa-left-facing-fist {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91b.svg\"); }\n\n.twa-right-facing-fist-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91c-1f3fb.svg\"); }\n\n.twa-right-facing-fist-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91c-1f3fc.svg\"); }\n\n.twa-right-facing-fist-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91c-1f3fd.svg\"); }\n\n.twa-right-facing-fist-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91c-1f3fe.svg\"); }\n\n.twa-right-facing-fist-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91c-1f3ff.svg\"); }\n\n.twa-right-facing-fist {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91c.svg\"); }\n\n.twa-handshake-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91d-1f3fb.svg\"); }\n\n.twa-handshake-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91d-1f3fc.svg\"); }\n\n.twa-handshake-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91d-1f3fd.svg\"); }\n\n.twa-handshake-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91d-1f3fe.svg\"); }\n\n.twa-handshake-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91d-1f3ff.svg\"); }\n\n.twa-handshake {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91d.svg\"); }\n\n.twa-hand-with-index-and-middle-fingers-crossed-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91e-1f3fb.svg\"); }\n\n.twa-hand-with-index-and-middle-fingers-crossed-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91e-1f3fc.svg\"); }\n\n.twa-hand-with-index-and-middle-fingers-crossed-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91e-1f3fd.svg\"); }\n\n.twa-hand-with-index-and-middle-fingers-crossed-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91e-1f3fe.svg\"); }\n\n.twa-hand-with-index-and-middle-fingers-crossed-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91e-1f3ff.svg\"); }\n\n.twa-hand-with-index-and-middle-fingers-crossed {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f91e.svg\"); }\n\n.twa-face-with-cowboy-hat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f920.svg\"); }\n\n.twa-clown-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f921.svg\"); }\n\n.twa-nauseated-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f922.svg\"); }\n\n.twa-rolling-on-the-floor-laughing {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f923.svg\"); }\n\n.twa-drooling-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f924.svg\"); }\n\n.twa-lying-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f925.svg\"); }\n\n.twa-face-palm-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f926-1f3fb.svg\"); }\n\n.twa-face-palm-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f926-1f3fc.svg\"); }\n\n.twa-face-palm-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f926-1f3fd.svg\"); }\n\n.twa-face-palm-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f926-1f3fe.svg\"); }\n\n.twa-face-palm-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f926-1f3ff.svg\"); }\n\n.twa-face-palm {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f926.svg\"); }\n\n.twa-sneezing-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f927.svg\"); }\n\n.twa-pregnant-woman-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f930-1f3fb.svg\"); }\n\n.twa-pregnant-woman-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f930-1f3fc.svg\"); }\n\n.twa-pregnant-woman-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f930-1f3fd.svg\"); }\n\n.twa-pregnant-woman-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f930-1f3fe.svg\"); }\n\n.twa-pregnant-woman-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f930-1f3ff.svg\"); }\n\n.twa-pregnant-woman {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f930.svg\"); }\n\n.twa-selfie-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f933-1f3fb.svg\"); }\n\n.twa-selfie-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f933-1f3fc.svg\"); }\n\n.twa-selfie-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f933-1f3fd.svg\"); }\n\n.twa-selfie-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f933-1f3fe.svg\"); }\n\n.twa-selfie-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f933-1f3ff.svg\"); }\n\n.twa-selfie {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f933.svg\"); }\n\n.twa-prince-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f934-1f3fb.svg\"); }\n\n.twa-prince-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f934-1f3fc.svg\"); }\n\n.twa-prince-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f934-1f3fd.svg\"); }\n\n.twa-prince-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f934-1f3fe.svg\"); }\n\n.twa-prince-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f934-1f3ff.svg\"); }\n\n.twa-prince {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f934.svg\"); }\n\n.twa-man-in-tuxedo-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f935-1f3fb.svg\"); }\n\n.twa-man-in-tuxedo-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f935-1f3fc.svg\"); }\n\n.twa-man-in-tuxedo-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f935-1f3fd.svg\"); }\n\n.twa-man-in-tuxedo-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f935-1f3fe.svg\"); }\n\n.twa-man-in-tuxedo-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f935-1f3ff.svg\"); }\n\n.twa-man-in-tuxedo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f935.svg\"); }\n\n.twa-mother-christmas-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f936-1f3fb.svg\"); }\n\n.twa-mother-christmas-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f936-1f3fc.svg\"); }\n\n.twa-mother-christmas-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f936-1f3fd.svg\"); }\n\n.twa-mother-christmas-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f936-1f3fe.svg\"); }\n\n.twa-mother-christmas-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f936-1f3ff.svg\"); }\n\n.twa-mother-christmas {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f936.svg\"); }\n\n.twa-shrug-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f937-1f3fb.svg\"); }\n\n.twa-shrug-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f937-1f3fc.svg\"); }\n\n.twa-shrug-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f937-1f3fd.svg\"); }\n\n.twa-shrug-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f937-1f3fe.svg\"); }\n\n.twa-shrug-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f937-1f3ff.svg\"); }\n\n.twa-shrug {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f937.svg\"); }\n\n.twa-person-doing-cartwheel-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f938-1f3fb.svg\"); }\n\n.twa-person-doing-cartwheel-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f938-1f3fc.svg\"); }\n\n.twa-person-doing-cartwheel-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f938-1f3fd.svg\"); }\n\n.twa-person-doing-cartwheel-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f938-1f3fe.svg\"); }\n\n.twa-person-doing-cartwheel-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f938-1f3ff.svg\"); }\n\n.twa-person-doing-cartwheel {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f938.svg\"); }\n\n.twa-juggling-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f939-1f3fb.svg\"); }\n\n.twa-juggling-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f939-1f3fc.svg\"); }\n\n.twa-juggling-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f939-1f3fd.svg\"); }\n\n.twa-juggling-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f939-1f3fe.svg\"); }\n\n.twa-juggling-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f939-1f3ff.svg\"); }\n\n.twa-juggling {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f939.svg\"); }\n\n.twa-fencer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93a.svg\"); }\n\n.twa-wrestlers-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93c-1f3fb.svg\"); }\n\n.twa-wrestlers-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93c-1f3fc.svg\"); }\n\n.twa-wrestlers-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93c-1f3fd.svg\"); }\n\n.twa-wrestlers-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93c-1f3fe.svg\"); }\n\n.twa-wrestlers-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93c-1f3ff.svg\"); }\n\n.twa-wrestlers {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93c.svg\"); }\n\n.twa-water-polo-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93d-1f3fb.svg\"); }\n\n.twa-water-polo-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93d-1f3fc.svg\"); }\n\n.twa-water-polo-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93d-1f3fd.svg\"); }\n\n.twa-water-polo-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93d-1f3fe.svg\"); }\n\n.twa-water-polo-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93d-1f3ff.svg\"); }\n\n.twa-water-polo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93d.svg\"); }\n\n.twa-handball-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93e-1f3fb.svg\"); }\n\n.twa-handball-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93e-1f3fc.svg\"); }\n\n.twa-handball-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93e-1f3fd.svg\"); }\n\n.twa-handball-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93e-1f3fe.svg\"); }\n\n.twa-handball-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93e-1f3ff.svg\"); }\n\n.twa-handball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f93e.svg\"); }\n\n.twa-wilted-flower {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f940.svg\"); }\n\n.twa-drum-with-drumsticks {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f941.svg\"); }\n\n.twa-clinking-glasses {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f942.svg\"); }\n\n.twa-tumbler-glass {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f943.svg\"); }\n\n.twa-spoon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f944.svg\"); }\n\n.twa-goal-net {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f945.svg\"); }\n\n.twa-first-place-medal {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f947.svg\"); }\n\n.twa-second-place-medal {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f948.svg\"); }\n\n.twa-third-place-medal {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f949.svg\"); }\n\n.twa-boxing-glove {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f94a.svg\"); }\n\n.twa-martial-arts-uniform {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f94b.svg\"); }\n\n.twa-croissant {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f950.svg\"); }\n\n.twa-avocado {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f951.svg\"); }\n\n.twa-cucumber {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f952.svg\"); }\n\n.twa-bacon {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f953.svg\"); }\n\n.twa-potato {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f954.svg\"); }\n\n.twa-carrot {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f955.svg\"); }\n\n.twa-baguette-bread {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f956.svg\"); }\n\n.twa-green-salad {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f957.svg\"); }\n\n.twa-shallow-pan-of-food {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f958.svg\"); }\n\n.twa-stuffed-flatbread {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f959.svg\"); }\n\n.twa-egg {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f95a.svg\"); }\n\n.twa-glass-of-milk {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f95b.svg\"); }\n\n.twa-peanuts {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f95c.svg\"); }\n\n.twa-kiwifruit {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f95d.svg\"); }\n\n.twa-pancakes {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f95e.svg\"); }\n\n.twa-crab {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f980.svg\"); }\n\n.twa-lion-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f981.svg\"); }\n\n.twa-scorpion {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f982.svg\"); }\n\n.twa-turkey {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f983.svg\"); }\n\n.twa-unicorn-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f984.svg\"); }\n\n.twa-eagle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f985.svg\"); }\n\n.twa-duck {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f986.svg\"); }\n\n.twa-bat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f987.svg\"); }\n\n.twa-shark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f988.svg\"); }\n\n.twa-owl {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f989.svg\"); }\n\n.twa-fox-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f98a.svg\"); }\n\n.twa-butterfly {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f98b.svg\"); }\n\n.twa-deer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f98c.svg\"); }\n\n.twa-gorilla {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f98d.svg\"); }\n\n.twa-lizard {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f98e.svg\"); }\n\n.twa-rhinoceros {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f98f.svg\"); }\n\n.twa-shrimp {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f990.svg\"); }\n\n.twa-squid {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f991.svg\"); }\n\n.twa-cheese-wedge {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/1f9c0.svg\"); }\n\n.twa-double-exclamation-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/203c.svg\"); }\n\n.twa-bangbang {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/203c.svg\"); }\n\n.twa-exclamation-question-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2049.svg\"); }\n\n.twa-interrobang {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2049.svg\"); }\n\n.twa-trade-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2122.svg\"); }\n\n.twa-tm {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2122.svg\"); }\n\n.twa-information-source {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2139.svg\"); }\n\n.twa-left-right-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2194.svg\"); }\n\n.twa-up-down-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2195.svg\"); }\n\n.twa-arrow-up-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2195.svg\"); }\n\n.twa-up-left-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2196.svg\"); }\n\n.twa-arrow-upper-left {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2196.svg\"); }\n\n.twa-up-right-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2197.svg\"); }\n\n.twa-arrow-upper-right {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2197.svg\"); }\n\n.twa-down-right-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2198.svg\"); }\n\n.twa-arrow-lower-right {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2198.svg\"); }\n\n.twa-down-left-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2199.svg\"); }\n\n.twa-arrow-lower-left {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2199.svg\"); }\n\n.twa-right-arrow-curving-left {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/21a9.svg\"); }\n\n.twa-leftwards-arrow-with-hook {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/21a9.svg\"); }\n\n.twa-left-arrow-curving-right {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/21aa.svg\"); }\n\n.twa-arrow-right-hook {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/21aa.svg\"); }\n\n.twa-hash {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23-20e3.svg\"); }\n\n.twa-watch {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/231a.svg\"); }\n\n.twa-hourglass {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/231b.svg\"); }\n\n.twa-keyboard {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2328.svg\"); }\n\n.twa-eject-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23cf.svg\"); }\n\n.twa-fast-forword-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23e9.svg\"); }\n\n.twa-fast-forward {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23e9.svg\"); }\n\n.twa-fast-reverse-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23ea.svg\"); }\n\n.twa-rewind {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23ea.svg\"); }\n\n.twa-fast-up-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23eb.svg\"); }\n\n.twa-arrow-double-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23eb.svg\"); }\n\n.twa-fast-down-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23ec.svg\"); }\n\n.twa-arrow-double-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23ec.svg\"); }\n\n.twa-next-track-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23ed.svg\"); }\n\n.twa-last-track-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23ee.svg\"); }\n\n.twa-play-or-pause-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23ef.svg\"); }\n\n.twa-alarm-clock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23f0.svg\"); }\n\n.twa-stopwatch {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23f1.svg\"); }\n\n.twa-timer-clock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23f2.svg\"); }\n\n.twa-hourglass-with-flowing-sand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23f3.svg\"); }\n\n.twa-hourglass-flowing-sand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23f3.svg\"); }\n\n.twa-pause-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23f8.svg\"); }\n\n.twa-stop-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23f9.svg\"); }\n\n.twa-record-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/23fa.svg\"); }\n\n.twa-circled-letter-m {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/24c2.svg\"); }\n\n.twa-m {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/24c2.svg\"); }\n\n.twa-black-small-square {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25aa.svg\"); }\n\n.twa-white-small-square {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25ab.svg\"); }\n\n.twa-play-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25b6.svg\"); }\n\n.twa-arrow-forward {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25b6.svg\"); }\n\n.twa-reverse-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25c0.svg\"); }\n\n.twa-arrow-backward {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25c0.svg\"); }\n\n.twa-white-medium-square {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25fb.svg\"); }\n\n.twa-black-medium-square {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25fc.svg\"); }\n\n.twa-white-medium-small-square {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25fd.svg\"); }\n\n.twa-black-medium-small-square {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/25fe.svg\"); }\n\n.twa-sun {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2600.svg\"); }\n\n.twa-sunny {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2600.svg\"); }\n\n.twa-cloud {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2601.svg\"); }\n\n.twa-umbrella {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2602.svg\"); }\n\n.twa-snowman {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2603.svg\"); }\n\n.twa-comet {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2604.svg\"); }\n\n.twa-telephone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/260e.svg\"); }\n\n.twa-phone {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/260e.svg\"); }\n\n.twa-ballot-box-with-check {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2611.svg\"); }\n\n.twa-umbrella-with-rain-drops {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2614.svg\"); }\n\n.twa-hot-beverage {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2615.svg\"); }\n\n.twa-coffee {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2615.svg\"); }\n\n.twa-shamrock {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2618.svg\"); }\n\n.twa-white-up-pointing-index-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/261d-1f3fb.svg\"); }\n\n.twa-white-up-pointing-index-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/261d-1f3fc.svg\"); }\n\n.twa-white-up-pointing-index-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/261d-1f3fd.svg\"); }\n\n.twa-white-up-pointing-index-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/261d-1f3fe.svg\"); }\n\n.twa-white-up-pointing-index-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/261d-1f3ff.svg\"); }\n\n.twa-index-pointing-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/261d.svg\"); }\n\n.twa-point-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/261d.svg\"); }\n\n.twa-skull-and-crossbones {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2620.svg\"); }\n\n.twa-radioactive {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2622.svg\"); }\n\n.twa-biohazard {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2623.svg\"); }\n\n.twa-orthodox-cross {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2626.svg\"); }\n\n.twa-star-and-crescent {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/262a.svg\"); }\n\n.twa-peace-symbol {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/262e.svg\"); }\n\n.twa-yin-yang {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/262f.svg\"); }\n\n.twa-wheel-of-dharma {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2638.svg\"); }\n\n.twa-frowning-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2639.svg\"); }\n\n.twa-smiling-face {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/263a.svg\"); }\n\n.twa-relaxed {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/263a.svg\"); }\n\n.twa-aries {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2648.svg\"); }\n\n.twa-taurus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2649.svg\"); }\n\n.twa-gemini {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/264a.svg\"); }\n\n.twa-cancer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/264b.svg\"); }\n\n.twa-leo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/264c.svg\"); }\n\n.twa-virgo {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/264d.svg\"); }\n\n.twa-libra {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/264e.svg\"); }\n\n.twa-scorpius {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/264f.svg\"); }\n\n.twa-sagittarius {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2650.svg\"); }\n\n.twa-capricorn {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2651.svg\"); }\n\n.twa-aquarius {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2652.svg\"); }\n\n.twa-pisces {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2653.svg\"); }\n\n.twa-spade-suit {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2660.svg\"); }\n\n.twa-spades {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2660.svg\"); }\n\n.twa-club-suit {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2663.svg\"); }\n\n.twa-clubs {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2663.svg\"); }\n\n.twa-heart-suit {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2665.svg\"); }\n\n.twa-hearts {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2665.svg\"); }\n\n.twa-diamond-suit {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2666.svg\"); }\n\n.twa-diamonds {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2666.svg\"); }\n\n.twa-hot-springs {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2668.svg\"); }\n\n.twa-hotsprings {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2668.svg\"); }\n\n.twa-recycling-symbol {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/267b.svg\"); }\n\n.twa-recycle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/267b.svg\"); }\n\n.twa-wheelchair {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/267f.svg\"); }\n\n.twa-hammer-and-pick {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2692.svg\"); }\n\n.twa-anchor {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2693.svg\"); }\n\n.twa-crossed-swords {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2694.svg\"); }\n\n.twa-balance-scale {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2696.svg\"); }\n\n.twa-alembic {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2697.svg\"); }\n\n.twa-gear {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2699.svg\"); }\n\n.twa-atom-symbol {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/269b.svg\"); }\n\n.twa-fleur-de-lis {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/269c.svg\"); }\n\n.twa-warning {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26a0.svg\"); }\n\n.twa-high-voltage {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26a1.svg\"); }\n\n.twa-zap {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26a1.svg\"); }\n\n.twa-white-circle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26aa.svg\"); }\n\n.twa-black-circle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26ab.svg\"); }\n\n.twa-coffin {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26b0.svg\"); }\n\n.twa-funeral-urn {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26b1.svg\"); }\n\n.twa-soccer-ball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26bd.svg\"); }\n\n.twa-soccer {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26bd.svg\"); }\n\n.twa-baseball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26be.svg\"); }\n\n.twa-snowman-without-snow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26c4.svg\"); }\n\n.twa-sun-behind-cloud {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26c5.svg\"); }\n\n.twa-partly-sunny {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26c5.svg\"); }\n\n.twa-cloud-with-lightning-and-rain {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26c8.svg\"); }\n\n.twa-ophiuchus {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26ce.svg\"); }\n\n.twa-pick {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26cf.svg\"); }\n\n.twa-helmet-with-white-cross {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26d1.svg\"); }\n\n.twa-chains {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26d3.svg\"); }\n\n.twa-no-entry {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26d4.svg\"); }\n\n.twa-shinto-shrine {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26e9.svg\"); }\n\n.twa-church {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26ea.svg\"); }\n\n.twa-mountain {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f0.svg\"); }\n\n.twa-umbrella-on-ground {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f1.svg\"); }\n\n.twa-fountain {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f2.svg\"); }\n\n.twa-flag-in-hole {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f3.svg\"); }\n\n.twa-golf {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f3.svg\"); }\n\n.twa-ferry {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f4.svg\"); }\n\n.twa-sailboat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f5.svg\"); }\n\n.twa-boat {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f5.svg\"); }\n\n.twa-skier {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f7.svg\"); }\n\n.twa-ice-skate {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f8.svg\"); }\n\n.twa-person-with-ball-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f9-1f3fb.svg\"); }\n\n.twa-person-with-ball-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f9-1f3fc.svg\"); }\n\n.twa-person-with-ball-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f9-1f3fd.svg\"); }\n\n.twa-person-with-ball-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f9-1f3fe.svg\"); }\n\n.twa-person-with-ball-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f9-1f3ff.svg\"); }\n\n.twa-person-with-ball {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26f9.svg\"); }\n\n.twa-tent {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26fa.svg\"); }\n\n.twa-fuel-pump {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26fd.svg\"); }\n\n.twa-fuelpump {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/26fd.svg\"); }\n\n.twa-scissors {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2702.svg\"); }\n\n.twa-white-heavy-check-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2705.svg\"); }\n\n.twa-white-check-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2705.svg\"); }\n\n.twa-airplane {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2708.svg\"); }\n\n.twa-envelope {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2709.svg\"); }\n\n.twa-email {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2709.svg\"); }\n\n.twa-raised-fist-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270a-1f3fb.svg\"); }\n\n.twa-raised-fist-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270a-1f3fc.svg\"); }\n\n.twa-raised-fist-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270a-1f3fd.svg\"); }\n\n.twa-raised-fist-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270a-1f3fe.svg\"); }\n\n.twa-raised-fist-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270a-1f3ff.svg\"); }\n\n.twa-raised-fist {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270a.svg\"); }\n\n.twa-fist {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270a.svg\"); }\n\n.twa-raised-hand-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270b-1f3fb.svg\"); }\n\n.twa-raised-hand-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270b-1f3fc.svg\"); }\n\n.twa-raised-hand-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270b-1f3fd.svg\"); }\n\n.twa-raised-hand-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270b-1f3fe.svg\"); }\n\n.twa-raised-hand-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270b-1f3ff.svg\"); }\n\n.twa-raised-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270b.svg\"); }\n\n.twa-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270b.svg\"); }\n\n.twa-victory-hand-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270c-1f3fb.svg\"); }\n\n.twa-victory-hand-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270c-1f3fc.svg\"); }\n\n.twa-victory-hand-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270c-1f3fd.svg\"); }\n\n.twa-victory-hand-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270c-1f3fe.svg\"); }\n\n.twa-victory-hand-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270c-1f3ff.svg\"); }\n\n.twa-victory-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270c.svg\"); }\n\n.twa-v {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270c.svg\"); }\n\n.twa-writing-hand-type-1-2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270d-1f3fb.svg\"); }\n\n.twa-writing-hand-type-3 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270d-1f3fc.svg\"); }\n\n.twa-writing-hand-type-4 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270d-1f3fd.svg\"); }\n\n.twa-writing-hand-type-5 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270d-1f3fe.svg\"); }\n\n.twa-writing-hand-type-6 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270d-1f3ff.svg\"); }\n\n.twa-writing-hand {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270d.svg\"); }\n\n.twa-pencil {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270f.svg\"); }\n\n.twa-pencil2 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/270f.svg\"); }\n\n.twa-black-nib {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2712.svg\"); }\n\n.twa-heavy-check-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2714.svg\"); }\n\n.twa-heavy-multiplication-x {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2716.svg\"); }\n\n.twa-latin-cross {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/271d.svg\"); }\n\n.twa-star-of-david {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2721.svg\"); }\n\n.twa-sparkles {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2728.svg\"); }\n\n.twa-eight-spoked-asterisk {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2733.svg\"); }\n\n.twa-eight-pointed-star {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2734.svg\"); }\n\n.twa-eight-pointed-black-star {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2734.svg\"); }\n\n.twa-snowflake {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2744.svg\"); }\n\n.twa-sparkle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2747.svg\"); }\n\n.twa-cross-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/274c.svg\"); }\n\n.twa-x {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/274c.svg\"); }\n\n.twa-cross-mark-button {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/274e.svg\"); }\n\n.twa-negative-squared-cross-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/274e.svg\"); }\n\n.twa-question-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2753.svg\"); }\n\n.twa-question {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2753.svg\"); }\n\n.twa-white-question-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2754.svg\"); }\n\n.twa-grey-question {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2754.svg\"); }\n\n.twa-white-exclamation-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2755.svg\"); }\n\n.twa-grey-exclamation {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2755.svg\"); }\n\n.twa-exclamation-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2757.svg\"); }\n\n.twa-exclamation {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2757.svg\"); }\n\n.twa-heavy-heart-exclamation-mark-ornament {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2763.svg\"); }\n\n.twa-red-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2764.svg\"); }\n\n.twa-heart {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2764.svg\"); }\n\n.twa-heavy-plus-sign {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2795.svg\"); }\n\n.twa-heavy-minus-sign {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2796.svg\"); }\n\n.twa-heavy-division-sign {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2797.svg\"); }\n\n.twa-right-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/27a1.svg\"); }\n\n.twa-arrow-right {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/27a1.svg\"); }\n\n.twa-curly-loop {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/27b0.svg\"); }\n\n.twa-double-curly-loop {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/27bf.svg\"); }\n\n.twa-loop {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/27bf.svg\"); }\n\n.twa-right-arrow-curving-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2934.svg\"); }\n\n.twa-arrow-heading-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2934.svg\"); }\n\n.twa-right-arrow-curving-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2935.svg\"); }\n\n.twa-arrow-heading-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2935.svg\"); }\n\n.twa-asterisk {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2a-20e3.svg\"); }\n\n.twa-left-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b05.svg\"); }\n\n.twa-arrow-left {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b05.svg\"); }\n\n.twa-up-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b06.svg\"); }\n\n.twa-arrow-up {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b06.svg\"); }\n\n.twa-down-arrow {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b07.svg\"); }\n\n.twa-arrow-down {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b07.svg\"); }\n\n.twa-black-large-square {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b1b.svg\"); }\n\n.twa-white-large-square {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b1c.svg\"); }\n\n.twa-white-medium-star {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b50.svg\"); }\n\n.twa-star {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b50.svg\"); }\n\n.twa-heavy-large-circle {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b55.svg\"); }\n\n.twa-o {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/2b55.svg\"); }\n\n.twa-zero {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/30-20e3.svg\"); }\n\n.twa-wavy-dash {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/3030.svg\"); }\n\n.twa-part-alternation-mark {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/303d.svg\"); }\n\n.twa-one {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/31-20e3.svg\"); }\n\n.twa-two {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/32-20e3.svg\"); }\n\n.twa-circled-congratulate-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/3297.svg\"); }\n\n.twa-congratulations {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/3297.svg\"); }\n\n.twa-circled-secret-ideograph {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/3299.svg\"); }\n\n.twa-secret {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/3299.svg\"); }\n\n.twa-three {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/33-20e3.svg\"); }\n\n.twa-four {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/34-20e3.svg\"); }\n\n.twa-five {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/35-20e3.svg\"); }\n\n.twa-six {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/36-20e3.svg\"); }\n\n.twa-seven {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/37-20e3.svg\"); }\n\n.twa-eight {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/38-20e3.svg\"); }\n\n.twa-nine {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/39-20e3.svg\"); }\n\n.twa-copyright {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/a9.svg\"); }\n\n.twa-registered {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/ae.svg\"); }\n\n.twa-shibuya {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/e50a.svg\"); }\n\n.twa-shibuya-109 {\n  background-image: url(\"https://twemoji.maxcdn.com/2/svg/e50a.svg\"); }\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 256 */
+/* 255 */,
+/* 256 */,
+/* 257 */
 /***/ (function(module, exports) {
 
 /*
@@ -50901,365 +51050,6 @@ function toComment(sourceMap) {
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
 	return '/*# ' + data + ' */';
-}
-
-
-/***/ }),
-/* 257 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-
-var stylesInDom = {};
-
-var	memoize = function (fn) {
-	var memo;
-
-	return function () {
-		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
-		return memo;
-	};
-};
-
-var isOldIE = memoize(function () {
-	// Test for IE <= 9 as proposed by Browserhacks
-	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
-	// Tests for existence of standard globals is to allow style-loader
-	// to operate correctly into non-standard environments
-	// @see https://github.com/webpack-contrib/style-loader/issues/177
-	return window && document && document.all && !window.atob;
-});
-
-var getElement = (function (fn) {
-	var memo = {};
-
-	return function(selector) {
-		if (typeof memo[selector] === "undefined") {
-			memo[selector] = fn.call(this, selector);
-		}
-
-		return memo[selector]
-	};
-})(function (target) {
-	return document.querySelector(target)
-});
-
-var singleton = null;
-var	singletonCounter = 0;
-var	stylesInsertedAtTop = [];
-
-var	fixUrls = __webpack_require__(258);
-
-module.exports = function(list, options) {
-	if (typeof DEBUG !== "undefined" && DEBUG) {
-		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
-	}
-
-	options = options || {};
-
-	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
-
-	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-	// tags it will allow on a page
-	if (!options.singleton) options.singleton = isOldIE();
-
-	// By default, add <style> tags to the <head> element
-	if (!options.insertInto) options.insertInto = "head";
-
-	// By default, add <style> tags to the bottom of the target
-	if (!options.insertAt) options.insertAt = "bottom";
-
-	var styles = listToStyles(list, options);
-
-	addStylesToDom(styles, options);
-
-	return function update (newList) {
-		var mayRemove = [];
-
-		for (var i = 0; i < styles.length; i++) {
-			var item = styles[i];
-			var domStyle = stylesInDom[item.id];
-
-			domStyle.refs--;
-			mayRemove.push(domStyle);
-		}
-
-		if(newList) {
-			var newStyles = listToStyles(newList, options);
-			addStylesToDom(newStyles, options);
-		}
-
-		for (var i = 0; i < mayRemove.length; i++) {
-			var domStyle = mayRemove[i];
-
-			if(domStyle.refs === 0) {
-				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
-
-				delete stylesInDom[domStyle.id];
-			}
-		}
-	};
-};
-
-function addStylesToDom (styles, options) {
-	for (var i = 0; i < styles.length; i++) {
-		var item = styles[i];
-		var domStyle = stylesInDom[item.id];
-
-		if(domStyle) {
-			domStyle.refs++;
-
-			for(var j = 0; j < domStyle.parts.length; j++) {
-				domStyle.parts[j](item.parts[j]);
-			}
-
-			for(; j < item.parts.length; j++) {
-				domStyle.parts.push(addStyle(item.parts[j], options));
-			}
-		} else {
-			var parts = [];
-
-			for(var j = 0; j < item.parts.length; j++) {
-				parts.push(addStyle(item.parts[j], options));
-			}
-
-			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
-		}
-	}
-}
-
-function listToStyles (list, options) {
-	var styles = [];
-	var newStyles = {};
-
-	for (var i = 0; i < list.length; i++) {
-		var item = list[i];
-		var id = options.base ? item[0] + options.base : item[0];
-		var css = item[1];
-		var media = item[2];
-		var sourceMap = item[3];
-		var part = {css: css, media: media, sourceMap: sourceMap};
-
-		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
-		else newStyles[id].parts.push(part);
-	}
-
-	return styles;
-}
-
-function insertStyleElement (options, style) {
-	var target = getElement(options.insertInto)
-
-	if (!target) {
-		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
-	}
-
-	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
-
-	if (options.insertAt === "top") {
-		if (!lastStyleElementInsertedAtTop) {
-			target.insertBefore(style, target.firstChild);
-		} else if (lastStyleElementInsertedAtTop.nextSibling) {
-			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
-		} else {
-			target.appendChild(style);
-		}
-		stylesInsertedAtTop.push(style);
-	} else if (options.insertAt === "bottom") {
-		target.appendChild(style);
-	} else {
-		throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
-	}
-}
-
-function removeStyleElement (style) {
-	if (style.parentNode === null) return false;
-	style.parentNode.removeChild(style);
-
-	var idx = stylesInsertedAtTop.indexOf(style);
-	if(idx >= 0) {
-		stylesInsertedAtTop.splice(idx, 1);
-	}
-}
-
-function createStyleElement (options) {
-	var style = document.createElement("style");
-
-	options.attrs.type = "text/css";
-
-	addAttrs(style, options.attrs);
-	insertStyleElement(options, style);
-
-	return style;
-}
-
-function createLinkElement (options) {
-	var link = document.createElement("link");
-
-	options.attrs.type = "text/css";
-	options.attrs.rel = "stylesheet";
-
-	addAttrs(link, options.attrs);
-	insertStyleElement(options, link);
-
-	return link;
-}
-
-function addAttrs (el, attrs) {
-	Object.keys(attrs).forEach(function (key) {
-		el.setAttribute(key, attrs[key]);
-	});
-}
-
-function addStyle (obj, options) {
-	var style, update, remove, result;
-
-	// If a transform function was defined, run it on the css
-	if (options.transform && obj.css) {
-	    result = options.transform(obj.css);
-
-	    if (result) {
-	    	// If transform returns a value, use that instead of the original css.
-	    	// This allows running runtime transformations on the css.
-	    	obj.css = result;
-	    } else {
-	    	// If the transform function returns a falsy value, don't add this css.
-	    	// This allows conditional loading of css
-	    	return function() {
-	    		// noop
-	    	};
-	    }
-	}
-
-	if (options.singleton) {
-		var styleIndex = singletonCounter++;
-
-		style = singleton || (singleton = createStyleElement(options));
-
-		update = applyToSingletonTag.bind(null, style, styleIndex, false);
-		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
-
-	} else if (
-		obj.sourceMap &&
-		typeof URL === "function" &&
-		typeof URL.createObjectURL === "function" &&
-		typeof URL.revokeObjectURL === "function" &&
-		typeof Blob === "function" &&
-		typeof btoa === "function"
-	) {
-		style = createLinkElement(options);
-		update = updateLink.bind(null, style, options);
-		remove = function () {
-			removeStyleElement(style);
-
-			if(style.href) URL.revokeObjectURL(style.href);
-		};
-	} else {
-		style = createStyleElement(options);
-		update = applyToTag.bind(null, style);
-		remove = function () {
-			removeStyleElement(style);
-		};
-	}
-
-	update(obj);
-
-	return function updateStyle (newObj) {
-		if (newObj) {
-			if (
-				newObj.css === obj.css &&
-				newObj.media === obj.media &&
-				newObj.sourceMap === obj.sourceMap
-			) {
-				return;
-			}
-
-			update(obj = newObj);
-		} else {
-			remove();
-		}
-	};
-}
-
-var replaceText = (function () {
-	var textStore = [];
-
-	return function (index, replacement) {
-		textStore[index] = replacement;
-
-		return textStore.filter(Boolean).join('\n');
-	};
-})();
-
-function applyToSingletonTag (style, index, remove, obj) {
-	var css = remove ? "" : obj.css;
-
-	if (style.styleSheet) {
-		style.styleSheet.cssText = replaceText(index, css);
-	} else {
-		var cssNode = document.createTextNode(css);
-		var childNodes = style.childNodes;
-
-		if (childNodes[index]) style.removeChild(childNodes[index]);
-
-		if (childNodes.length) {
-			style.insertBefore(cssNode, childNodes[index]);
-		} else {
-			style.appendChild(cssNode);
-		}
-	}
-}
-
-function applyToTag (style, obj) {
-	var css = obj.css;
-	var media = obj.media;
-
-	if(media) {
-		style.setAttribute("media", media)
-	}
-
-	if(style.styleSheet) {
-		style.styleSheet.cssText = css;
-	} else {
-		while(style.firstChild) {
-			style.removeChild(style.firstChild);
-		}
-
-		style.appendChild(document.createTextNode(css));
-	}
-}
-
-function updateLink (link, options, obj) {
-	var css = obj.css;
-	var sourceMap = obj.sourceMap;
-
-	/*
-		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
-		and there is no publicPath defined then lets turn convertToAbsoluteUrls
-		on by default.  Otherwise default to the convertToAbsoluteUrls option
-		directly
-	*/
-	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
-
-	if (options.convertToAbsoluteUrls || autoFixUrls) {
-		css = fixUrls(css);
-	}
-
-	if (sourceMap) {
-		// http://stackoverflow.com/a/26603875
-		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
-	}
-
-	var blob = new Blob([css], { type: "text/css" });
-
-	var oldSrc = link.href;
-
-	link.href = URL.createObjectURL(blob);
-
-	if(oldSrc) URL.revokeObjectURL(oldSrc);
 }
 
 
@@ -51359,18 +51149,8 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 259 */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFNTE3OEEyRTk5QTAxMUUyOUExNUJDMTA0NkE4OTA0RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFNTE3OEEyRjk5QTAxMUUyOUExNUJDMTA0NkE4OTA0RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU1MTc4QTJDOTlBMDExRTI5QTE1QkMxMDQ2QTg5MDREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU1MTc4QTJEOTlBMDExRTI5QTE1QkMxMDQ2QTg5MDREIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+FYrpWAAABrNJREFUeNrkW2lsVFUUvjMWirYUkS5BXApUa2vd6gL+wAWjoP5RiW2EUBajAiqSuPADQ0w1UUQTrcFAUUSJEKriEuMWFKuJIElFSS24YNpQK6WoBbuAktbva880M8O8vnfevJm+CSf5cme599xzvnfffffce17AJFjycnLzUVwDXAgUAucBY4BMIEOqdQIdwJ/Az4J64OvWtoONibQvkACHgyiuBe4CbgLOjVNlE/AZsAmoBSE9viQAjueieBCYC5yVoAvWDKwHqkBEmy8IgON09lHgXmCESY4cBaqBlSCieUgIgOPDUCwBngBOM0MjXdL/CyDiv6QRAOcvR7EBKDL+kD3AbJBQl1AC4DjrLwaeBYYbf8m/ciu+BCJ6PScAzp+K4nXgTuNveQuYAxK6PSMAzo9C8TFwtUkN2Q7cDBIOx02AOP8FUGpSSzgf3GBHQsDGec7unwOTTWrKDiGhS02ATHjvALeb1JZ3gRlWE+MpVq0yMzIekRk/1YWP6o7Ors5vHI8AXH1Odl8BaTbKrwd4j10MTAduS8JqkKvA94BPgN0A56htNm2OMyDDKNhuSwCcT5dIrMBG6S4oLI1qezqKBcBjwGiPHW8HVgCr0W97VL/fobjMpv2vQAnaHgv/MdYVXurAeSNPhggRw56BQatRVgL3A0H5+xDwI8Dw9g/5Hlq+clmdDYwF8iV0zpb/GP2tApZHOx4m2xwQUCC+VVqOABg+AUUDkO6AgHkwaL2DJXORxPVNylUnw+gpXObaLXFRlxHoaw7U8uoXQ99vViNgqUPnKQfsKojhdW7GuxDW5JUtIuni432hH4JhLJ7Dq6qwcZiPZnpNXDJPfI0kQEJbjVM5PiIgW3nhlkQQILH9LGWnV/iIAK0ts8TngREwDchVKrnKRwRobckVnwcIKFcq4ONrkY8IWBT2SHUq5eEE3Khs/CRm6Z1+8V5sqVQ26/M5gHuhSJ79TqUFmIhOj/ppwQ8/Rshqb5yiWXFQFhsaWeU352UU0KaXlc2mBI1+Y3OzjyO/Gm2kSAIKFQ2awfQ+v3oP23gL/K5oUhh0GPiEZG8KxP97FHULgsqwtTUFCDioqHsGCRipaHA8BQjQrAcyg4roj5KVAgSMUtRNDyqVj0wBAlQ2koBuRf3xKUBAvqJuN1eCrYpAiHNAltNjpyFYDfL47oix38wdmDA5AvYr+kjzWRgcLVcqnKfsJwGNyk5u9TEBtyjrNwaVgRClTPKA/Db8aVOZslkDG2nD2vEuOkqGlLmYpHcGJLlJu8LjtvJFgx06Jvnq8xC33gUBeUE4waWjduua5wdVPrr6VS6cr6PvoXv5Ixed3g3mH/fB1V9OW1w07fM5IEouUEZR4bIWWJzsTRJ55r8I3ONSRRFs3hsIU8hkgkkulf0CPAx8qElQcuk4beYp9Epgoks138LOvqSPgfyAzIwMZlnFSobgIegc4H3gH6AkxmKDub9Mjb0DeoYDrZ1dne0eO14AvfPx8RXgAYaycahbBvt+GLgFpIM0md3PjqrMTMxpYKxB6p1v+s/n7bbSuMCqldmZyc+fRh9ND+IsAxrmG3C3qtj0J1uP84hLrnwnwJbjEQRIxzw0XB2jER93C9Bog9TjsRgzLpzuJr0BzHV6e8gwf9XoziqdCv1YE/oSTQBHwfem/3w+5syPxuukLtfdO0zk+WIs+YuPKLQ7ohzyWTIix3joPPMTLg1d/Yg5gIL7ogf32U/4WGGhYDr+34J6bUALPpPA62w6XYMOP9BaCv3HoD/PeJubODN6U/eEq4cKTIurttpBAZ4L+87TmKdtOt0ah8FbPXS+WnyLEKskqUy5FaweM5dA2e6w+pNkZuajhfMD3/zYBfDKb3Y6+cWwgytOL7bh98nQ73BEgHReIvd4Roy/a6Cs3CRYJOnq7zjV8HWcybC33mpLLKZIA84FPRYhcSokUNL2Civnjd0MjoZbUCy0+PtNkDDD5wQsFB8sxWm2+GJZd8eSt4HnZXnZ66Nb4CHYYxuxat4XmI1inbHeczskq77DMrK4z8AgK3+Q/L5EEMBn/PzQos0zAsQgvg5XY3TpNKOTSAD3NsrQX63TBqq9PVHM9NgvfXi/06ZSjfNqAoQEHj9Pled+pw8cpw2co6aKbSoJxDlJnYniKdP/sqSVrrEw7IBL/TnG+rSXEy7fYVoG/S1uffDkzVEYypB1qewJRCdb5rp9yxN6mQDZFmOS2wisCIXo8Yin7w7LiKiQEcFYfhOMnBmnzo1CLIO09Qyt47niJxDQ29trTmY56Qn4X4ABAFR7IoDmVT5NAAAAAElFTkSuQmCC"
-
-/***/ }),
-/* 260 */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAABCCAYAAAASX1tlAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDMTAyMEM1NzFDN0IxMUUyQjkxNEY3RUNEMkY1ODRBRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDMTAyMEM1ODFDN0IxMUUyQjkxNEY3RUNEMkY1ODRBRCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkMxMDIwQzU1MUM3QjExRTJCOTE0RjdFQ0QyRjU4NEFEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkMxMDIwQzU2MUM3QjExRTJCOTE0RjdFQ0QyRjU4NEFEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+qJT2JAAAAvtJREFUeNrsnD9oE1Ecx38XKliHtNWhtAqehS4KWsigYMUOnYpDF0dJpoyazW7WrePNWUxmBztcOzlEsIND8A+og9BGkEoHNXEwgsL5ftc7uIRr8t61Z6/vfb/wSPLu9wL58Pv93u/9LpzleR5ZK5vjROSIUSSzVBej4q0ttVUWWfRwg4G1xBgjM9URw1YBlws8zFRgFPx2R2VBzsCQjFNRFRqkKEADNEADNJ00omI8PnqKKjdtqsxforHT+0s7v/+S83KHnK0Wtbt/AK0fWKN8na5N5XuLHAHv0eIsLV+ZpIXqKyPA5Q4DLCq+xjZsC2h8OBMhOQhYFBzbAhpDEzlMViq2WkMLk76sre4hmkrJoftmIAWNywpZqdhqDY3rMFmp2OoNTRSub7/+HGrHNmwLaEGO4sJ1EDi+huL2AHCPn3/qyVv8nudMAcbiewQejuBE3tqShS7HSavT0OU4Zi3MnKNS4TzZE2fo9sxZf+7zjy61/PGLGtvfaf3D3n/Np9I5TcS83BeubCZeH107N52n2t2rUo0CVr35hVbFhsQwjcxppcIFen1/XhoYqyjWvHlwy+/rGZfTGNgT4WFJxM2CZ/cKvpcaA43zV1JgUTXKN1LttGQKWu0IgIUel2YzNFPQLk6MHtl3pdkM1bZOY29La1PQurjlHGlUcftCFK3O1g6tv9/zP3NiX748SauLs9JhPDeVNwcaF6qlp+965rjir4n5xvY3vx6TuW+RVumRufDkI1LF/Xjgda74GZ5sXjMCmsw5MgxZdDnCwlSEX9aVOWjt7vC7WdzdADRFJe1kaAvtuL3ohELrApqOAjRAAzRAAzRAg1Q1AgTxsixrWrzc6Zt2Pc/bBbQBwASgat98WQwX0OLlA2NIkblmOIecNkQMKvC4AnKafKiG3tbE7nkITwO0eLnsYdGNIJLjXPx9NITS91crlBzJwnJXvFRxIsAxCtAADdCgWGh1YFBjwNAqtP84LFPVCRjIQwueG2Yb6nH8m23Vh879E2AA7+kdCDfg98gAAAAASUVORK5CYII="
-
-/***/ }),
+/* 259 */,
+/* 260 */,
 /* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -51389,8 +51169,6 @@ var _react2 = _interopRequireDefault(_react);
 
 var _cloudinaryReact = __webpack_require__(99);
 
-var _modules = __webpack_require__(39);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -51399,147 +51177,205 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Portfolio = function (_Component) {
-    _inherits(Portfolio, _Component);
+var Resume = function (_Component) {
+    _inherits(Resume, _Component);
 
-    function Portfolio() {
-        _classCallCheck(this, Portfolio);
+    function Resume() {
+        _classCallCheck(this, Resume);
 
-        return _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).apply(this, arguments));
+        var _this = _possibleConstructorReturn(this, (Resume.__proto__ || Object.getPrototypeOf(Resume)).call(this));
+
+        _this.state = {};
+        return _this;
     }
 
-    _createClass(Portfolio, [{
+    _createClass(Resume, [{
         key: 'render',
         value: function render() {
 
             return _react2.default.createElement(
                 'div',
-                null,
-                _react2.default.createElement(
-                    'h1',
-                    { id: 'portfolio', className: 'pageHeader' },
-                    'Portfolio'
-                ),
+                { id: 'portfolio' },
                 _react2.default.createElement(
                     'div',
-                    { className: 'portfolioBody' },
+                    { className: 'project' },
                     _react2.default.createElement(
-                        'div',
-                        { className: 'portfolioText' },
+                        'h1',
+                        { className: 'projectName' },
+                        'Socialight'
+                    ),
+                    _react2.default.createElement(
+                        _cloudinaryReact.CloudinaryContext,
+                        { cloudName: 'djswgrool', fetchFormat: 'auto' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'portfolioInner' },
+                            null,
                             _react2.default.createElement(
-                                'h2',
-                                null,
-                                'Wetter.Weather'
-                            ),
-                            _react2.default.createElement(
-                                'p',
-                                null,
-                                'Wetter.Weather was my first project made using a variety of new tools including React, Redux, Express and Webpack. This project uses React lifecycle methods and Redux components to fetch data from OpenWeatherMaps weather forecast API. The background image changes based on current weather conditions of the selected location. The radar component fetches imagery tiles from real-time NASA satellite imagery. The marker is interactive and can be clicked to zoom in closer into the map. The app uses the native Leaflet geolocation method to automatically update the loaction and weather data'
+                                'a',
+                                { href: 'http://socialight.online' },
+                                _react2.default.createElement(_cloudinaryReact.Image, { publicId: 'Screen_Shot_2017-11-15_at_8.41.59_PM_dv7wic', className: 'screenshotImg', responsive: true })
                             )
                         )
                     ),
                     _react2.default.createElement(
+                        'p',
+                        { className: 'projectInfo' },
+                        'Socialight is a geographically aware photo album sharing platform. Images uploaded by users are automatically geotagged based on iPhone metadata. Viewers can then follow on a map where images in the album were taken. Socialight solves a personal problem of wanting to share photos from my travels with the corresponding image location.'
+                    ),
+                    _react2.default.createElement(
                         'div',
-                        { className: 'portfolioImg' },
+                        { className: 'projectTech' },
                         _react2.default.createElement(
-                            _cloudinaryReact.CloudinaryContext,
-                            { cloudName: 'djswgrool', fetchFormat: 'auto' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'ipadBody' },
-                                _react2.default.createElement('div', { className: 'cameraCircle' }),
-                                _react2.default.createElement(
-                                    'a',
-                                    { href: 'https://nolanpdavis.github.io/WetterWeather/' },
-                                    _react2.default.createElement(_cloudinaryReact.Image, { publicId: 'Screen_Shot_2017-10-25_at_12.00.12_PM_k6fasf', className: 'screenshotImg', responsive: true })
-                                ),
-                                _react2.default.createElement('div', { className: 'clickCircle' })
-                            )
+                            'p',
+                            null,
+                            'React'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Express.js'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'MongoDB'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Node.js'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Redux'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Leaflet'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Cloudinary API'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'React Router'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Webpack'
                         )
                     )
                 ),
                 _react2.default.createElement(
                     'div',
-                    { className: 'portfolioBody' },
+                    { className: 'project' },
                     _react2.default.createElement(
-                        'div',
-                        { className: 'portfolioImg' },
+                        'h1',
+                        { className: 'projectName' },
+                        'Wetter.Weather'
+                    ),
+                    _react2.default.createElement(
+                        _cloudinaryReact.CloudinaryContext,
+                        { cloudName: 'djswgrool', fetchFormat: 'auto' },
                         _react2.default.createElement(
-                            _cloudinaryReact.CloudinaryContext,
-                            { cloudName: 'djswgrool', fetchFormat: 'auto' },
+                            'div',
+                            null,
                             _react2.default.createElement(
-                                'div',
-                                { className: 'ipadBody' },
-                                _react2.default.createElement('div', { className: 'cameraCircle' }),
-                                _react2.default.createElement(
-                                    'a',
-                                    { href: 'http://aparavidemo.surge.sh/' },
-                                    _react2.default.createElement(_cloudinaryReact.Image, { publicId: 'Screen_Shot_2017-10-25_at_12.03.20_PM_vfgik9', className: 'screenshotImg', responsive: true })
-                                ),
-                                _react2.default.createElement('div', { className: 'clickCircle' })
+                                'a',
+                                { href: 'https://nolanpdavis.github.io/WetterWeather/' },
+                                _react2.default.createElement(_cloudinaryReact.Image, { publicId: 'Screen_Shot_2017-11-15_at_8.42.46_PM_afv0gt', className: 'screenshotImg', responsive: true })
                             )
                         )
                     ),
                     _react2.default.createElement(
+                        'p',
+                        { className: 'projectInfo' },
+                        'Wetter.Weather is a real time weather radar tracking application. Weather data is pulled from the OpenWeatherMap API. Satellite imagery is from NASA. The application can find weather information by city name, zip code or automatically using geolocation.'
+                    ),
+                    _react2.default.createElement(
                         'div',
-                        { className: 'portfolioText' },
+                        { className: 'projectTech' },
                         _react2.default.createElement(
-                            'div',
-                            { className: 'portfolioInner' },
-                            _react2.default.createElement(
-                                'h2',
-                                null,
-                                'Aparavi Demo'
-                            ),
-                            _react2.default.createElement(
-                                'p',
-                                null,
-                                'The Aparavi Demo site was a design proposal for a startup in Santa Monica. The site was built using React and Webpack. For this site, I wanted to use a very soft light color palette to make a very technical site with lots of information appear more user friendly and approachable. Custom background graphics and colorful gradients and textures add personality and visual interest to a fairly minimal site layout.'
-                            )
+                            'p',
+                            null,
+                            'React'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Redux'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Leaflet'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'OpenWeatherMap API'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'NASA GIBS Data'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Webpack'
                         )
                     )
                 ),
                 _react2.default.createElement(
                     'div',
-                    { className: 'portfolioBody' },
+                    { className: 'project' },
                     _react2.default.createElement(
-                        'div',
-                        { className: 'portfolioText' },
+                        'h1',
+                        { className: 'projectName' },
+                        'Aparavi'
+                    ),
+                    _react2.default.createElement(
+                        _cloudinaryReact.CloudinaryContext,
+                        { cloudName: 'djswgrool', fetchFormat: 'auto' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'portfolioInner' },
+                            null,
                             _react2.default.createElement(
-                                'h2',
-                                null,
-                                'Socialight'
-                            ),
-                            _react2.default.createElement(
-                                'p',
-                                null,
-                                'Socialight is my most in-depth web development project built to date. I built it to solve a specific problem that I had; not being a heavy user of social media, I wanted a way to share photos from my travels. Viewers can see the photo album next to a map with the corresponding location metadata from the image. Users can sign up and upload their own images. Image location data currently only works automatically with pictures taken with an iPhone. It uses MongoDB for the database, Node and Express to serve the website and React for the visual and interactive components. React Router (v4) is used to provide routes for the website. Google Maps is used to display image locations. Images served responsively using the Cloudinary Api. The app uses React Waypoint to progressively load images as needed as users scroll further down the photo album.'
+                                'a',
+                                { href: 'https://aparavidemo.surge.sh' },
+                                _react2.default.createElement(_cloudinaryReact.Image, { publicId: 'Screen_Shot_2017-11-15_at_8.42.12_PM_cixe9c', className: 'screenshotImg', responsive: true })
                             )
                         )
                     ),
                     _react2.default.createElement(
+                        'p',
+                        { className: 'projectInfo' },
+                        'Aparavi was a UI/UX redesign for a local startup. For this site, I wanted to use a very soft light color palette to make a very technical site with lots of information appear more user friendly and approachable. Custom background graphics and colorful gradients and textures add personality and visual interest to a fairly minimal site layout.'
+                    ),
+                    _react2.default.createElement(
                         'div',
-                        { className: 'portfolioImg' },
+                        { className: 'projectTech' },
                         _react2.default.createElement(
-                            _cloudinaryReact.CloudinaryContext,
-                            { cloudName: 'djswgrool', fetchFormat: 'auto' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'ipadBody' },
-                                _react2.default.createElement('div', { className: 'cameraCircle' }),
-                                _react2.default.createElement(
-                                    'a',
-                                    { href: 'http://socialight.online/' },
-                                    _react2.default.createElement(_cloudinaryReact.Image, { publicId: 'Screen_Shot_2017-10-25_at_12.02.54_PM_fsxgi3', className: 'screenshotImg', responsive: true })
-                                ),
-                                _react2.default.createElement('div', { className: 'clickCircle' })
-                            )
+                            'p',
+                            null,
+                            'React'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'React Router'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Webpack'
                         )
                     )
                 )
@@ -51547,10 +51383,10 @@ var Portfolio = function (_Component) {
         }
     }]);
 
-    return Portfolio;
+    return Resume;
 }(_react.Component);
 
-exports.default = Portfolio;
+exports.default = Resume;
 
 /***/ }),
 /* 262 */
@@ -51616,11 +51452,7 @@ var Contact = function (_Component) {
             return _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement(
-                    'h1',
-                    { id: 'contact', className: 'pageHeader' },
-                    'Contact'
-                ),
+                _react2.default.createElement('div', { id: 'contact' }),
                 _react2.default.createElement('div', { className: 'typeform-widget', 'data-url': 'https://nolanpdavis.typeform.com/to/UcyIhK', style: { width: "100%", height: "100vh" } }),
                 _react2.default.createElement(
                     'div',
@@ -51656,7 +51488,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(257)(content, options);
+var update = __webpack_require__(108)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -51676,12 +51508,12 @@ if(false) {
 /* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(256)(undefined);
+exports = module.exports = __webpack_require__(257)(undefined);
 // imports
 
 
 // module
-exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n    -webkit-margin-before: 0;\n    -webkit-margin-after: 0;\n}\n\n.headerBox {\n    display: flex;\n    min-height: 100px;\n    height: 200px;\n    align-items: center;\n    justify-content: space-between;\n    border-top: 8px solid pink;\n}\n\n.headerText {\n    font-family: 'Archivo Black', sans-serif;\n    font-size: 36px;\n    margin-left: 5vw;\n\n}\n\n.navbarBox {\n    display: flex;\n    justify-content: flex-end;\n}\n\n.navbarBox a {\n    font-family: 'Georgia', serif;\n    text-decoration: none;\n    color: rgba(0, 0, 0, .5);\n    font-size: 22px;\n    margin-right: 7.5vw;\n    cursor: pointer;\n}\n\nimg {\n    width: 100%;\n}\n\n.faceImg {\n    width: 50vw;\n    margin: 0 auto;\n}\n\n.homeBox {\n    /*display: flex;\n    flex-direction: column;*/\n    align-items: center;\n    justify-content: center;\n    min-height: 400px;\n    height: 80vh;\n    max-height: 1000px;\n}\n\n.aboutBox {\n    \n    /*display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    min-height: 200px;*/\n}\n\n.bio {\n    padding: 20px 40px;\n}\n\np.bio {\n    line-height: 1.5\n}\n\nh1.aboutText {\n    margin-top: 40px;\n    font-family: 'Archivo', sans-serif;\n    font-size: 24px;\n\n}\n\n.typedText {\n    font-family: 'Georgia', serif;\n    color: rgba(0, 0, 0, .5);\n}\n\n.typed-cursor {\n        opacity: 0 !important;\n}\n\n.pageHeader {\n    padding: 60px;\n    margin: 0 auto;\n    text-align: center;\n    font-size: 60px;\n    font-family: 'Archivo', sans-serif;\n\n}\n\n.portfolioBody {\n    margin: 20px auto 100px auto;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.portfolioInner {\n    background-color: rgba(0, 0, 0, .025);\n    padding: 15px;\n}\n\n.portfolioText{\n    width: 50%;\n}\n\n.portfolioImg {\n    width: 45%;\n    padding: 0 2.5% 0 2.5%;\n}\n\n.portfolioImg img {\n    width: 100%;\n    -ms-transform: rotate(-90deg); /* IE 9 */\n    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */\n    transform: rotate(-90deg);\n}\n\nimg.screenshotImg {\n    -ms-transform: rotate(0deg); /* IE 9 */\n    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */\n    transform: rotate(0deg);\n    border-radius: 2px;\n}\n\n.cameraCircle {\n    width: 10px;\n\theight: 10px;\n\tbackground: black;\n\t-moz-border-radius: 5px;\n\t-webkit-border-radius: 5px;\n\tborder-radius: 5px;\n    margin-bottom: 20px;\n}\n\n.ipadBody {\n    border: 1px solid rgba(0, 0, 0, .2);\n    border-radius: 10px;\n    padding: 25px 12.5px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    align-items: center;\n    box-shadow: 10px 10px 50px 20px rgba(0, 0, 0, .1)\n}\n\n.clickCircle {\n    width: 30px;\n\theight: 30px;\n\tbackground: white;\n\t-moz-border-radius: 15px;\n\t-webkit-border-radius: 15px;\n\tborder-radius: 15px;\n    border: 1px solid rgba(0, 0, 0, .2);\n    margin-top: 20px;\n}\n\n.portfolioInner h2 {\n    font-family: 'Archivo Black', sans-serif;\n    font-size: 28px;\n    padding: 10px 0;\n}\n\n.portfolioInner p {\n    font-family: 'Georgia', serif;\n    font-size: 20px;\n    line-height: 1.5;\n}\n\nh2.sectionHeader {\n    font-family: 'Archivo', sans-serif;\n    /*padding: 0 30px;*/\n    margin: 60px 0 10px 10%\n}\n\np {\n    font-family: 'Georgia', serif;\n    font-size: 18px;\n}\n\na {\n    font-size: 18px;\n}\n\n.greyBox {\n    width: 80%;\n    margin: 0 auto;\n    background-color: rgba(0, 0, 0, .05);\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    align-items: center;\n    padding: 20px 0;\n}\n\n.iconItems {\n    display: flex;\n    flex-direction: column;\n    height: 80px;\n    align-items: flex-end;\n    justify-content: space-around;\n    flex: 2.25 1 110px;\n}\n\n.labelItems {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-end;\n    height: 80px;\n    justify-content: space-around;\n    margin-right: 10px;\n    flex: 0.25 1 80px;\n}\n\n.linkItems {\n    display: flex;\n    flex-direction: column;\n    height: 80px;\n    justify-content: space-around;\n    flex: 2 1 300px;\n}\n\n.iconItemsEdu {\n    display: flex;\n    flex-direction: column;\n    height: 70px;\n    align-items: flex-end;\n    justify-content: space-around;\n    flex: 1.5 5 30px;\n}\n\n.labelItemsEdu {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    height: 70px;\n    justify-content: space-around;\n    flex: 0 0 200px;\n}\n\n.statsItemsEdu {\n    display: flex;\n    flex-direction: column;\n    height: 70px;\n    justify-content: space-around;\n    flex: 1.5 0 100px;\n}\n\n.greyBoxWork {\n    width: 80%;\n    margin: 0 auto;\n    background-color: rgba(0, 0, 0, .05);\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 20px 0;\n}\n\n.titleItems {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 80%;\n}\n\n.titleItemsA {\n    flex: 2 1;\n}\n\n.titleItemsB {\n    flex: .5 0 200px;\n}\n\n.titleItemsC {\n    flex: 1 0 100px;\n}\n\n.workItems {\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    align-items: center;\n}\n\n.workItems i {\n    flex: 0 0 50px;\n}\n\n.workItems p {\n    flex: 1 1;\n}\n\n.pResume {\n    margin: 0px auto;\n    padding: 20px 0px;\n}\n\ni {\n    margin-right: 5px !important;\n}\n\nimg.github {\n    width: 19px;\n    margin-right: 5px !important;\n}\n\nimg.linkedin {\n    width: 20px;\n    margin-right: 5px !important;\n}\n\n@media screen and (min-width: 1000px) {\n\n    .homeBox {\n        flex-direction: row;\n        align-items: center;\n        justify-content: space-evenly;\n    }\n    \n    .faceImg {\n        margin: 0px;\n        float: left;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: calc(50vw)\n    }\n    \n    .faceImg img {\n        width: 60%;\n    }\n\n    .aboutBox {\n        width: 50vw;\n    }\n\n    .portfolioBody {\n        width: 90%;\n    }\n\n    .portfolioImg {\n        width: 40%;\n        padding: 0 5% 0 5%;\n    }\n\n    .portfolioImg img {\n        width: 100%;\n        -ms-transform: rotate(0deg); /* IE 9 */\n        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */\n        transform: rotate(0deg);\n    }\n\n    .resumeBody {\n        width: 90%;\n        padding: 0 5%;\n    }\n}\n\n@media screen and (max-width: 730px) {\n    .headerBox {\n        flex-direction: column;\n        justify-content: flex-start;\n    }\n    \n    .headerText {\n        margin: 20px 0px;\n    }\n    \n    .navbarBox {\n        justify-content: center;\n        flex-direction: column;\n    }\n    \n    .navbarBox a {\n        padding: 5px;\n        margin-right: 0;\n    }\n}\n", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n    -webkit-margin-before: 0;\n    -webkit-margin-after: 0;\n}\n\n.headerBox {\n    display: flex;\n    min-height: 100px;\n    height: 200px;\n    align-items: center;\n    justify-content: space-between;\n    border-top: 8px solid pink;\n}\n\n.headerText {\n    font-family: 'Archivo Black', sans-serif;\n    font-size: 36px;\n    margin-left: 5vw;\n\n}\n\n.navbarBox {\n    display: flex;\n    justify-content: flex-end;\n}\n\n.navbarBox a {\n    font-family: 'Georgia', serif;\n    text-decoration: none;\n    color: rgba(0, 0, 0, .5);\n    font-size: 22px;\n    margin-right: 7.5vw;\n    cursor: pointer;\n}\n\nimg {\n    width: 100%;\n}\n\n.faceImg {\n    width: 50vw;\n    margin: 0 auto;\n}\n\n.homeBox {\n\n}\n\n.aboutBox {\n    padding: 10px;\n}\n\n.aboutText {\n    text-align: center;\n    font-family: 'Archivo', sans-serif;\n    font-size: 28px;\n    margin-top: 5vw;\n}\n\n.typed {\n    display: flex;\n    justify-content: center;\n    margin-bottom: 5vw;\n}\n\n.typedText {\n    margin: 0 auto;\n    text-align: center;\n    font-family: 'Georgia', serif;\n    color: rgba(0, 0, 0, .5);\n}\n\n.typed-cursor {\n        opacity: 0 !important;\n}\n\np.bio {\n    font-family: 'Georgia', serif;\n    line-height: 1.5;\n    padding: 0px 50px;\n    font-size: 18px;\n}\n\n.project {\n    background-color: rgba(0, 0, 0, .1);\n    padding-bottom: 40px;\n    margin-top: 15vw;\n}\n\n.projectName {\n    padding: 30px;\n    font-family: 'Archivo Black', sans-serif;\n    \n}\n\n.projectInfo {\n    padding: 10px;\n    font-family: 'Georgia', serif;\n    line-height: 1.5;\n    font-size: 16px;\n}\n\n.projectTech {\n    padding: 0px 10px;\n}\n\n.projectTech p {\n    display: inline-block;\n    margin: 10px;\n    margin-bottom: 0px;\n    padding: 10px;\n    color: white;\n    background-color: rgba(0, 122, 204, .8);\n    border-radius: 10px;\n    font-family: 'Georgia', serif;\n}\n\n.resume {\n    padding: 50px;\n    background-color: rgba(0, 0, 0, .25);\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n/*.aboutBox {\n    \n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    min-height: 200px;\n}\n\n.bio {\n    padding: 20px 40px;\n}\n\np.bio {\n    line-height: 1.5\n}\n\nh1.aboutText {\n    margin-top: 40px;\n    font-family: 'Archivo', sans-serif;\n    font-size: 24px;\n\n}\n\n.typedText {\n    font-family: 'Georgia', serif;\n    color: rgba(0, 0, 0, .5);\n}\n\n.typed-cursor {\n        opacity: 0 !important;\n}\n\n.pageHeader {\n    padding: 60px;\n    margin: 0 auto;\n    text-align: center;\n    font-size: 60px;\n    font-family: 'Archivo', sans-serif;\n\n}\n\n.portfolioBody {\n    margin: 20px auto 100px auto;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.portfolioInner {\n    background-color: rgba(0, 0, 0, .025);\n    padding: 15px;\n}\n\n.portfolioText{\n    width: 50%;\n}\n\n.portfolioImg {\n    width: 45%;\n    padding: 0 2.5% 0 2.5%;\n}\n\n.portfolioImg img {\n    width: 100%;\n    -ms-transform: rotate(-90deg); \n    -webkit-transform: rotate(-90deg); \n    transform: rotate(-90deg);\n}\n\nimg.screenshotImg {\n    -ms-transform: rotate(0deg);\n    -webkit-transform: rotate(0deg); \n    transform: rotate(0deg);\n    border-radius: 2px;\n}\n\n.cameraCircle {\n    width: 10px;\n\theight: 10px;\n\tbackground: black;\n\t-moz-border-radius: 5px;\n\t-webkit-border-radius: 5px;\n\tborder-radius: 5px;\n    margin-bottom: 20px;\n}\n\n.ipadBody {\n    border: 1px solid rgba(0, 0, 0, .2);\n    border-radius: 10px;\n    padding: 25px 12.5px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    align-items: center;\n    box-shadow: 10px 10px 50px 20px rgba(0, 0, 0, .1)\n}\n\n.clickCircle {\n    width: 30px;\n\theight: 30px;\n\tbackground: white;\n\t-moz-border-radius: 15px;\n\t-webkit-border-radius: 15px;\n\tborder-radius: 15px;\n    border: 1px solid rgba(0, 0, 0, .2);\n    margin-top: 20px;\n}\n\n.portfolioInner h2 {\n    font-family: 'Archivo Black', sans-serif;\n    font-size: 28px;\n    padding: 10px 0;\n}\n\n.portfolioInner p {\n    font-family: 'Georgia', serif;\n    font-size: 20px;\n    line-height: 1.5;\n}\n\nh2.sectionHeader {\n    font-family: 'Archivo', sans-serif;\n    padding: 0 30px;\n    margin: 60px 0 10px 10%\n}\n\np {\n    font-family: 'Georgia', serif;\n    font-size: 18px;\n}\n\na {\n    font-size: 18px;\n}\n\n.greyBox {\n    width: 80%;\n    margin: 0 auto;\n    background-color: rgba(0, 0, 0, .05);\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    align-items: center;\n    padding: 20px 0;\n}\n\n.iconItems {\n    display: flex;\n    flex-direction: column;\n    height: 80px;\n    align-items: flex-end;\n    justify-content: space-around;\n    flex: 2.25 1 110px;\n}\n\n.labelItems {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-end;\n    height: 80px;\n    justify-content: space-around;\n    margin-right: 10px;\n    flex: 0.25 1 80px;\n}\n\n.linkItems {\n    display: flex;\n    flex-direction: column;\n    height: 80px;\n    justify-content: space-around;\n    flex: 2 1 300px;\n}\n\n.iconItemsEdu {\n    display: flex;\n    flex-direction: column;\n    height: 70px;\n    align-items: flex-end;\n    justify-content: space-around;\n    flex: 1.5 5 30px;\n}\n\n.labelItemsEdu {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    height: 70px;\n    justify-content: space-around;\n    flex: 0 0 200px;\n}\n\n.statsItemsEdu {\n    display: flex;\n    flex-direction: column;\n    height: 70px;\n    justify-content: space-around;\n    flex: 1.5 0 100px;\n}\n\n.greyBoxWork {\n    width: 80%;\n    margin: 0 auto;\n    background-color: rgba(0, 0, 0, .05);\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 20px 0;\n}\n\n.titleItems {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 80%;\n}\n\n.titleItemsA {\n    flex: 2 1;\n}\n\n.titleItemsB {\n    flex: .5 0 200px;\n}\n\n.titleItemsC {\n    flex: 1 0 100px;\n}\n\n.workItems {\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    align-items: center;\n}\n\n.workItems i {\n    flex: 0 0 50px;\n}\n\n.workItems p {\n    flex: 1 1;\n}\n\n.pResume {\n    margin: 0px auto;\n    padding: 20px 0px;\n}\n\ni {\n    margin-right: 5px !important;\n}\n\nimg.github {\n    width: 19px;\n    margin-right: 5px !important;\n}\n\nimg.linkedin {\n    width: 20px;\n    margin-right: 5px !important;\n}*/\n\n@media screen and (min-width: 1000px) {\n\n    .homeBox {\n        flex-direction: row;\n        align-items: center;\n        justify-content: space-evenly;\n    }\n    \n    .faceImg {\n        margin: 0px;\n        float: left;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: calc(50vw)\n    }\n    \n    .faceImg img {\n        width: 60%;\n    }\n\n    .aboutBox {\n        width: 50vw;\n    }\n\n    .portfolioBody {\n        width: 90%;\n    }\n\n    .portfolioImg {\n        width: 40%;\n        padding: 0 5% 0 5%;\n    }\n\n    .portfolioImg img {\n        width: 100%;\n        -ms-transform: rotate(0deg); /* IE 9 */\n        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */\n        transform: rotate(0deg);\n    }\n\n    .project {\n        width: 80%;\n        max-width: 1000px;\n        padding-left: 40px;\n        padding-right: 40px;\n        margin: 100px auto;\n    }\n    \n    .resume img {\n        max-width: 1000px;\n    }\n    \n}\n\n@media screen and (max-width: 730px) {\n    .headerBox {\n        flex-direction: column;\n        justify-content: flex-start;\n    }\n    \n    .headerText {\n        margin: 20px 0px;\n    }\n    \n    .navbarBox {\n        justify-content: center;\n        flex-direction: column;\n    }\n    \n    .navbarBox a {\n        padding: 5px;\n        margin-right: 0;\n    }\n}\n", ""]);
 
 // exports
 
