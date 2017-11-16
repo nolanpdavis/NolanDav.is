@@ -14,7 +14,7 @@ export default class Resume extends Component {
       return (
         <div className="resume" id="resume">
             <CloudinaryContext  cloudName="djswgrool" fetchFormat="auto" >
-                    <a href="~/documents/NolanDavisResume2017.pdf">
+                    <a href="/documents/NolanDavisResume2017.pdf" download>
                         <Image publicId="NolanDavisResume2017_v7dfuo" className="resumeImg" responsive>
                         </Image>
                     </a>
