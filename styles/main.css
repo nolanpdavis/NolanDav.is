@@ -8,14 +8,15 @@
 .headerBox {
     display: flex;
     min-height: 100px;
-    height: 20vh;
+    height: 200px;
     align-items: center;
     justify-content: space-between;
+    border-top: 8px solid pink;
 }
 
 .headerText {
     font-family: 'Archivo Black', sans-serif;
-    font-size: 44px;
+    font-size: 36px;
     margin-left: 5vw;
 
 }
@@ -39,13 +40,13 @@ img {
 }
 
 .faceImg {
-    width: 40vw;
+    width: 50vw;
     margin: 0 auto;
 }
 
 .homeBox {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     align-items: center;
     justify-content: center;
     min-height: 400px;
@@ -54,11 +55,12 @@ img {
 }
 
 .aboutBox {
-    display: flex;
+    
+    /*display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 200px;
+    min-height: 200px;*/
 }
 
 .bio {
@@ -72,6 +74,7 @@ p.bio {
 h1.aboutText {
     margin-top: 40px;
     font-family: 'Archivo', sans-serif;
+    font-size: 24px;
 
 }
 
@@ -322,6 +325,19 @@ img.linkedin {
         align-items: center;
         justify-content: space-evenly;
     }
+    
+    .faceImg {
+        margin: 0px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(50vw)
+    }
+    
+    .faceImg img {
+        width: 60%;
+    }
 
     .aboutBox {
         width: 50vw;
@@ -346,5 +362,26 @@ img.linkedin {
     .resumeBody {
         width: 90%;
         padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .headerBox {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .headerText {
+        margin: 20px 0px;
+    }
+    
+    .navbarBox {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .navbarBox a {
+        padding: 5px;
+        margin-right: 0;
     }
 }

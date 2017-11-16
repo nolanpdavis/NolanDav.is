@@ -10,6 +10,10 @@ export default class Navbar extends Component {
     scrollToResume(){
         document.getElementById('resume').scrollIntoView() 
     }
+    
+    scrollToContact(){
+        document.getElementById('contact').scrollIntoView() 
+    }
 
   render() {
 
@@ -19,6 +23,7 @@ export default class Navbar extends Component {
               <div className="navbarBox">
                 <a onClick={this.scrollToPortfolio.bind(this)}>Portfolio</a>
                 <a onClick={this.scrollToResume.bind(this)}>Resume</a>
+                <a onClick={this.scrollToContact.bind(this)}>Contact</a>
               </div>
           </div>
       )

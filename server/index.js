@@ -14,18 +14,6 @@ var index = require('../routes/index');
 var app = express();
 
 
-// Use connect method to connect to the Server
-
-mongoose.connect('mongodb://localhost/socialight', function(err, res){
-    if (err) {
-        console.log('DB CONNECTION FAILED: '+err)
-    }
-    else {
-        console.log('DB CONNECTION SUCCESSFUL')
-    }
-})
-
-
 // view engine setup
 app.set('views', path.join(__dirname, '../views'));
 app.set('view engine', 'hjs');

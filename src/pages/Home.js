@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import {Image, CloudinaryContext, Transformation} from 'cloudinary-react';
 import { Navbar } from '../modules'
-import { Portfolio, Resume } from '.'
+import { Portfolio, Resume, Contact } from '.'
 import Typed from 'typed.js'
 
 export default class Home extends Component {
     componentDidMount(){
         const typed = new Typed(this.el, {
-            strings: ["I'm a web developer", "I'm a React developer", "I'm a React Native developer", "I'm a GIS developer", "I'm a JavaScript developer."],
+            strings: ["I'm a web developer", "I'm a React developer", "I'm a GIS developer", "I'm a JavaScript developer."],
             typeSpeed: 40,
             backSpeed: 80,
             backDelay: 1200,
@@ -44,6 +44,7 @@ export default class Home extends Component {
           </div>
           <Portfolio/>
           <Resume/>
+          <Contact/>
         </div>
       )
   }
