@@ -39,7 +39,7 @@ export default class Home extends Component {
                   <div className="typed">
                       <span className="typedText" id="typed" ref={(el) => { this.el = el; }}></span>
                   </div>
-                  <p className="bio">After working as a GIS technician for a large corporation, I realized I wanted to take my career in a new direction. I am now pursuing a software design and development position because it allows me to combine two things I love into one career; problem solving and learning new things. As a self-taught developer, I have been focusing on building applications using React, Node, Express and MongoDB.I am a quick learner and look forward to being part of a team where I can build applications while learning new skills and technologies.</p>
+                  <p className="bio">After working as a GIS technician for a large corporation, I realized I wanted to take my career in a new direction. I am now pursuing a software design and development position because it allows me to combine two things I love into one career; problem solving and learning new things. As a self-taught developer, I have been focusing on building applications using React, Node, Express and MongoDB. I am a quick learner and look forward to being part of a team where I can build applications while learning new skills and technologies.</p>
               </div>
           </div>
           <Portfolio/>

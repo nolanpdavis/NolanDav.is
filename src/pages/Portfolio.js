@@ -12,7 +12,7 @@ export default class Resume extends Component {
   render() {
 
       return (
-        <div id="portfolio">
+        <div id="portfolio" className="portfolio">
             <div className="project">
                 <h1 className="projectName">Socialight</h1>
                 <CloudinaryContext  cloudName="djswgrool" fetchFormat="auto" >
